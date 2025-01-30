@@ -1,0 +1,2964 @@
+{
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+  "yes": "Yes",
+  "no": "No",
+  "applyForJobModal": {
+    "confirmModalOptions": {
+      "continueApplication": "Continue application",
+      "yesCancel": "Yes, cancel"
+    }
+  },
+  "cg": {
+    "detailsJob": {
+      "anyOtherWishes": "Any other wishes for the caregiver?",
+      "likeJob": "Like",
+      "thankYou": "Thank you",
+      "title": "Open jobs"
+    },
+    "filter": {
+      "Latest-possible-return": "Latest possible return ?",
+      "acceptedDementia": "Accepted dementia up to max",
+      "acceptedIncontinence": "Accepted Incontinence",
+      "acceptedLift": "Accepted lift and store",
+      "acceptedMobility": "Accepted mobility",
+      "acceptedNight": "Accepted night operations up to max",
+      "animalsInHousehold": "Animals in household",
+      "apply": "Apply filter",
+      "arivalDate": "Arrival date from",
+      "clear": "Clear",
+      "familiyNear": "Familiy near by",
+      "gender": "Gender of patients",
+      "jobLocation": "Job location  near by",
+      "latestDepartureDate": "Latest departure date",
+      "livingConditions": "Living conditions",
+      "livingSituation": "Living situation",
+      "minSalary": "What is your minimum salary wish?",
+      "otherPerson": "Other person in household up to max",
+      "patientNumber": "Number of patients",
+      "smokingHousehold": "Smoking household",
+      "sortBy": "Sort by",
+      "title": "Filter",
+      "urbanisation": "Urbanisation",
+      "whenWork": "When do you want to work?",
+      "work-from": "I can work from"
+    },
+    "jobDetails": {
+      "aboutTitle": "About description",
+      "careFacility": "Does the patient attend a day care facility? (If yes, how often)",
+      "careLevel": "Level of care",
+      "caregiverSupport": "Relief / Support for the Caregiver",
+      "customerWantsFromYou": "What the customer wants from you.",
+      "dailySchedule": "What exact tasks should the caregiver take on (based on the daily schedule)?",
+      "dementia": "Dementia",
+      "equipment": "Equipment of the accommodation",
+      "famlyNear": "Family near by",
+      "furtherAccomodationComments": "Further comments on the accommodation",
+      "furtherInformation": "Further information",
+      "haveToShopping": "Does the caregiver have to do the shopping?",
+      "houseHold": "Other people living in the household?",
+      "howLiveTitle": "How you will live",
+      "id": "Job ID",
+      "incontinence": "Incontinence",
+      "liftingNecessary": "Lifting necessary?",
+      "mobility": "Mobility",
+      "needHelp": "Need help?",
+      "nightOperations": "Night operations?",
+      "petsPresent": "Are pets present?",
+      "shopingDetails": "How will the shopping be done (means of transportation, distance)?",
+      "taskTakenByFamily": "Are there any tasks that are taken over by the family, care service, home help etc?",
+      "toolsUsed": "What tools are used?",
+      "whoCareTitle": "Who you will care for in detail",
+      "yourTasks": "Your tasks at the job"
+    },
+    "jobItem": {
+      "customerLikesYou": "Customer likes you",
+      "in": "in",
+      "jobFits": " Job fits you",
+      "moreDetails": "More details",
+      "patients": "patients",
+      "verified": "verified",
+      "youMatch": "You match"
+    },
+    "jobWishes": {
+      "Requirements": "Requirements and wishes for the job",
+      "acceptedDementia": "What highest degree of dementia do you accept?'",
+      "acceptedIncontinence": "Do you accept incontinence?",
+      "acceptedLift": "Would you lift for additional remuneration?",
+      "acceptedMobility": "What mobility are patients allowed to have?",
+      "acceptedNight": "Do you supervise night shifts?",
+      "animalsInHousehold": "Is it okay if there are animals in the household?",
+      "availability": "Is your availability still up to date?",
+      "doYouWantToWorkInHolidays": "Do you want to work in holidays?",
+      "doYouWantToWorkInSummer": "Do you want to work in summer?",
+      "familiyNear": "Is it okay if the familiy is near by?",
+      "gender": "What gender do you accept?",
+      "jobLocation": "Do you prefer a job near by a specific city?",
+      "livingConditions": "Do you prefer a living condition?",
+      "minSalary": "What would you like to earn at least?",
+      "otherPerson": "Other person in household up to max?",
+      "otherWishes": "Any other wishes for the job?",
+      "patientNumber": "What is the maximum number of patients you would like to care for?",
+      "requirementsHouseSituation": "",
+      "smokingHousehold": "Is a smoking household okay for you?",
+      "tellUsWhenYouGenerallyWantToWorkAndWhenYouDont": "Tell us when you generally want to work and when you don't.",
+      "urbanisation": "Do you like every urbanisation?"
+    },
+    "jobs": {
+      "empty": "No job offers found. Try modifying your filters to expand your search.",
+      "tab": "Jobs",
+      "title": "Jobs"
+    },
+    "likedJobs": {
+      "title": "Jobs that i like"
+    },
+    "needHelp": {
+      "call": "Call",
+      "support": "Support and service",
+      "whatsapp": "Whatsapp"
+    },
+    "patients": "patients",
+    "personalInfo": {
+      "LastVaccination": "Last vaccination",
+      "MobilphoneNumber": "Mobilphone Number",
+      "MoreLanguage": "More language skills?",
+      "NursingProfession": "Nursing profession learned?",
+      "PESEL-ID": "PESEL ID",
+      "PersonalCharacteristics": "Personal characteristics",
+      "UploadedFiles": "Uploaded files",
+      "VaccinationStatus": "Vaccination status",
+      "WeightRange": "Weight range (in Kg)",
+      "about": "Describe yourself in a few sentences",
+      "drivingLicence": "Do you have a driving licence with experience?",
+      "expirenceInGerman": "How many years of experience as a caregiver in Germany do you have?",
+      "firstName": "First name",
+      "genderLabel": "What is your gender?",
+      "heightRanges": "Height range (in cm)",
+      "hobbies": "Hobbies",
+      "lastName": "Last name",
+      "morePictures": "More pictures",
+      "nationality": "Nationality",
+      "publicPicture": "Public profile picture",
+      "schoolDegrees": "What is you highest school degree?",
+      "smoking": "Are you smoking?",
+      "tellAboutQualifications": "Tell us about your qualifications",
+      "yourGerman": "How good is your german?"
+    },
+    "personalInformation": {
+      "profile": "Profile",
+      "title": "Personal information",
+      "saveChanges": "Save changes"
+    },
+    "profile": {
+      "jobWishes": "Job wishes",
+      "personalInfo": "Personal info"
+    },
+    "requesta": {
+      "title": "Requests"
+    },
+    "requests": {
+      "description": "Here you will find jobs in which a customer has expressed direct interest in you. The chances of getting one of these jobs are very high if you like one of them.",
+      "likedJobs": "Liked jobs",
+      "tab": "Requests"
+    },
+    "userMenu": {
+      "logout": "Logout",
+      "profile": "Profile"
+    }
+  },
+  "components": {
+    "JobCardCGAActiveJobDetailsContractInfo": {
+      "patient": "Patient (Contractual partner)"
+    },
+    "customerAccount": {
+      "userAccount": "User account",
+      "login": "Login",
+      "email": "E-mail",
+      "phoneNumber": "Phone number",
+      "changeEmail": "Change email",
+      "password": "Password",
+      "changeYourPassword": "Change your password",
+      "account": "Account",
+      "deleteAccount": "Delete account",
+      "cannotBeUndone": "cannot be undone",
+      "delete": "Delete",
+      "userHasBeenDeleted": "User has been deleted",
+      "deleteUser": "Delete user"
+    },
+    "customerChangeEmailModal": {
+      "changeEmail": "Change email",
+      "information": "We will send you a confirmation link to your new email to verify your email address.",
+      "email": "E-mail",
+      "sendVerificationLink": "Send verification link"
+    },
+    "customerChangePasswordModal": {
+      "changePassword": "Change password",
+      "pleaseEnterYourCurrentPassword": "Please enter your current password",
+      "currentPassword": "Current password",
+      "forgotYourPassword": "Forgot your password?",
+      "setNewPassword": "Set new password",
+      "newPassword": "New password",
+      "repeatNewPassword": "Repeat new password",
+      "saveNewPassword": "Save new password",
+      "thePasswordHasBeenChanged": "The password has been changed"
+    },
+    "accountDetails": {
+      "enterFirstName": "Enter first name",
+      "enterLastName": "Enter last name",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "next": "Next",
+      "salutation": "Salutation",
+      "title": "Title"
+    },
+    "applicationJobModal": {
+      "toasts": {
+        "counterOfferStored": "Counter offer stored!"
+      }
+    },
+    "applicationJobModalOffer": {
+      "accept": "Accept",
+      "counterOffer": "Counter offer",
+      "decline": "Decline",
+      "rejectApplication": "Reject Application",
+      "toasts": {
+        "acceptApplicationStored": "Counter offer is accepted! Wait for booking!"
+      }
+    },
+    "applicationOfferForm": {
+      "arrival": "Arrival",
+      "arrivalFee": "Arrival fee",
+      "calculationArrival": "Calculation of arrival/ departure days",
+      "calculationPerMonth": "Calculation preview per month",
+      "careBudget": "Care Budget ",
+      "christmasNewYear": "Christmas, New Year",
+      "confirmCheckbox": "I confirm that I have read the general terms and conditions.",
+      "contractInfo": "Your general contract Information",
+      "customerBudget": "Customer budget",
+      "departure": "Departure",
+      "departureFee": "Departure fee",
+      "documentsDesc": "If you have, you can add documents such as your CV, references or other documents to your application",
+      "holidaySurcharge": "Holiday surcharge",
+      "invoicePreview": "Invoice preview",
+      "jobDetails": "Job details",
+      "juliAugust": "July, August",
+      "mamamiaFee": "mamamia fee",
+      "messageToAgency": "Message to Agency",
+      "noticePeriod": "Notice period (in days)",
+      "serviceFee": "Service fee",
+      "summerCharge": "Summer charge",
+      "visibleCaregiverSalary": "Visible caregiver salary",
+      "visibleCaregiverSalaryTooltip": "The caregiver only sees this price for a job. All other prices are not visible. If you send the job to a caregiver, she will see this price as her salary.",
+      "yourGeneralInfo": "Your general information",
+      "yourOffer": "Your application offer"
+    },
+    "applicationOfferJobModal": {
+      "buttons": {
+        "sendNewApplication": "Send new application"
+      },
+      "changeOffer": "Change offer",
+      "header": "Details to application"
+    },
+    "applicationReject": {
+      "label": {
+        "comments": "Comments",
+        "optional": "Optional",
+        "reason": "Reason"
+      },
+      "rejectSuccess": "Your application has been rejected successfully.",
+      "submit": "Reject application",
+      "success": "Success",
+      "title": "Reject application "
+    },
+    "applicationRejectButton": {
+      "description": "No longer interested in the job or the caregiver is no longer available? Simply end the negotiation.",
+      "subtitle": "Reject Application",
+      "title": "Offer options"
+    },
+    "applyForJobModal": {
+      "addNewCaregiver": "Add new caregiver",
+      "applicationSent": "Application sent!",
+      "applicationSentDescription": "Your application has been sent successfully. You will find all the details of your application in the profile of the nurse, which was created automatically. Take a look at it here.",
+      "applyForJob": "Apply for job",
+      "checkProfileData": "Check profile data ",
+      "choseOrAdd": "Choose or add a caregiver",
+      "createApplication": "Create application",
+      "myCaregivers": "My caregivers",
+      "sendNewApplication": "Send new application ",
+      "toTheCaregiver": "Go to the caregiver",
+      "toTheJob": "Go to the job"
+    },
+    "applyForJobModalNoResults": {
+      "button": "Create a caregiver now",
+      "description": "You have to create caregivers to be able to apply for a job. Either via API/import or manually via the next step. In manual mode you can also use our PDF profile reader.",
+      "header": "You don't have a matching caregiver yet, create one now!"
+    },
+    "arrivalDataModal": {
+      "arrivalData": "Arrival data",
+      "arrivalInformation": "Arrival Information",
+      "contractTransportCompany": "Contact transport company",
+      "date": "Date",
+      "jobInformation": "Job Information",
+      "messageToAgency": "Message to Agency",
+      "periodOfTime": "Period of time",
+      "sendArrivalData": "Send Arrival data"
+    },
+    "authLayout": {
+      "dontHaveAccount": "Don't have an account yet?",
+      "signup": "Sign up"
+    },
+    "badgeLevel": {
+      "1": "Level 1",
+      "2": "Level 2",
+      "3": "Level 3",
+      "demo": "Demo"
+    },
+    "badgeReturnWish": {
+      "return": "Return"
+    },
+    "buttonRate": {
+      "rateNow": "Rate now"
+    },
+    "buttonRequest": {
+      "success": "Requested succesfully!"
+    },
+    "buttonWithdrawRequest": {
+      "success": "Withdraw succesfully!",
+      "text": "Withdraw request"
+    },
+    "caregiverAvailability": {
+      "duration": "Duration",
+      "from": "From",
+      "nextAvailability": "Next availability",
+      "systemCalculated": "System calculated last confirmed",
+      "to": "To"
+    },
+    "caregiverBooking": {
+      "confirm": "I confirm that my confirmation of the application is binding. The agency will draw up a contract and inform the caregiver for the journey.",
+      "confirmAndAccept": "Confirm and accept binding",
+      "confirmContractDataDesc": "In order for the agency to draw up the contract, you must fill in and confirm the following contract details for the job.",
+      "confirmContractDataHeader": "Confirm contract data",
+      "message": "Message about your confirmation"
+    },
+    "caregiverCard": {
+      "badges": {
+        "applied": "Applied",
+        "matching": "Matching",
+        "requested": "Requested"
+      },
+      "buttons": {
+        "addNote": "Add note",
+        "hideLogEntries": "Hide log entries",
+        "rejectApplication": "Reject application",
+        "sendJobToCaregiver": "Send job to caregiver",
+        "showLogEntries": "Show log entries"
+      },
+      "jobActivities": "Job Activities",
+      "lastContact": "Last contact",
+      "lastUpdate": "Last Profil Update",
+      "matching": "Matching",
+      "options": {
+        "adjustOffer": "Adjust offer",
+        "applyDirectlyForJob": "Apply directly for job",
+        "jobDoesntFitCaregiver": "Job doesn't fit caregiver",
+        "rejectApplication": "Reject application"
+      }
+    },
+    "caregiverCardLastUpdate": {
+      "lastProfileUpdate": "Last profile update"
+    },
+    "caregiverCardLogger": {
+      "availability": {
+        "updateAvailability": "Update Availability"
+      },
+      "errors": {
+        "datesOverlaps": "Dates overlaps with confirmed job"
+      },
+      "note": {
+        "message": "Message",
+        "options": {
+          "contactNotSuccessfully": "Contact not successfully",
+          "contactSuccessfully": "Contact successfully",
+          "noteOnly": "Note only"
+        }
+      }
+    },
+    "caregiverCardLogs": {
+      "header": "Logs",
+      "titles": {
+        "application": "New application for job",
+        "application_reject": "Application rejected for job",
+        "confirmation": "{cg} was accepted for job",
+        "confirmationDates": "from {arrival_date} - {departure_date}",
+        "counter_offer": "New change request from {sa} for job",
+        "interest": "{cg} is interessted in the job",
+        "request": "New request from {sa} for job"
+      }
+    },
+    "caregiverCardSimple": {
+      "badges": {
+        "applications": "Applications",
+        "confirmations": "Confirmations",
+        "matchingJobs": "Matching Jobs",
+        "requests": "Requests"
+      },
+      "buttons": {
+        "openCaregiver": "Open caregiver"
+      },
+      "tooltips": {
+        "arrival": "Arrival",
+        "contract": "Contract",
+        "departure": "Departure",
+        "documents": "Documents",
+        "invoice": "Invoice"
+      }
+    },
+    "caregiverDetails": {
+      "AcceptedGenders": "Accepted Genders of Patient",
+      "AcceptedMobility": "Accepted Mobility",
+      "Accepteddementia": "Accepted dementia",
+      "Acceptedlift": "Accepted lift or store",
+      "Acceptednightoperations": "Accepted night operations",
+      "Animalsinhousehold": "Animals in household",
+      "DrivingLicense": "Driving License",
+      "Familynear": "Family near by",
+      "Gender": "Gender",
+      "Height": "Height",
+      "Hobbies": "Hobbies",
+      "Housing": "Housing",
+      "Jobrequirements": "Job requirements",
+      "Jobsdone": "Jobs done",
+      "LanguageSkills": "Language Skills",
+      "LastUpdate": "Last update",
+      "Nationality": "Nationality",
+      "NumberofPatients": "Number of Patients",
+      "Nursingexperienceyears": "Nursing experience in years",
+      "Nursingprofessionlearned": "Nursing profession learned?",
+      "OtherPerson": "Other Person in household",
+      "Otherlanguage": "Other language skills",
+      "Personality": "Personality characteristics",
+      "Preferencefor": "Preference for nearest city",
+      "Profile": "Profile",
+      "Skills": "Skills",
+      "Smoker": "Smoker",
+      "Smokinghousehold": "Smoking household",
+      "Urbanisation": "Urbanisation",
+      "Weight": "Weight",
+      "YearofBirth": "Year of birth",
+      "aboutme": "About me",
+      "availability": "Availability",
+      "customerReviews": "customer reviews",
+      "from": "from",
+      "information": {
+        "availabilityInformation": "Availability information",
+        "availabilityIsEstimated": "Availability is estimated by the system to be one day after the active job.",
+        "confirmed7daysUp": "The availability information is older than 7 days.",
+        "hasOtherActiveApplications": "This caregiver has other active application(s). Availability may therefore change.",
+        "outdated": "The stated availability is more than 30 days in the past."
+      },
+      "jobsDone": "jobs done",
+      "lastUpdate": "Last update",
+      "matching": "Matching to job",
+      "notgood": "Not good",
+      "other": "other",
+      "pdf": "PDF Profile",
+      "profile": "Profile",
+      "tooltips": {
+        "olderThan7Days": "Tha availability information is older than 7 days",
+        "updatedTheirAvailability": "The caregiver updated their availability {days}"
+      },
+      "yearsExperience": "years experience"
+    },
+    "caregiverDetailsAlerts": {
+      "acceptedForJob": "Accepted for job",
+      "applicationFor": "Application for job",
+      "exclusiveApplicationFor": "Exclusive application for job"
+    },
+    "caregiverDetailsFullProfile": {
+      "profileCompleteness": "Profile completeness"
+    },
+    "caregiverDetailsSidebar": {
+      "application": "Application",
+      "applicationDetails": "Application details",
+      "changeRequest": "Change request",
+      "rejestApplication": "Reject application",
+      "requestForJob": "Request for job",
+      "requestForJobDescription": "Your request is not yet binding. The agency can send you an application in response to your request, only then is the acceptance binding.",
+      "requested": "Requested"
+    },
+    "caregiverDetailsSidebarApplicationDetails": {
+      "arrivalCosts": "Arrival costs",
+      "arrivalDate": "Arrival date",
+      "calculationOfTravelDays": "Calc. of travel days",
+      "careCost": "Monthly care costs",
+      "departureCosts": "Departure costs",
+      "departureDate": "Departure date",
+      "holidaySurcharge": "Holiday Surcharge",
+      "message": "Message from agency",
+      "noticePeriod": "Notice period",
+      "sampleContract": "Sample contract"
+    },
+    "caregiverDetailsSidebarButtons": {
+      "changeRequestRejected": "Change request rejected succesfully!",
+      "continueToBooking": "Continue to booking",
+      "rejectChangeRequest": "Reject change request"
+    },
+    "caregiverFormAlert": {
+      "checkCaregiverProfile": "Check caregiver profile",
+      "requiredForApplication": "Required for an application",
+      "toCreateCaregiverProfile": "To create a caregiver profile, you must complete the fields marked in",
+      "toSendAnApplication": "To send an application, you must complete the fields marked in"
+    },
+    "caregiverFormAvailability": {
+      "header": "Availability",
+      "labels": {
+        "nextAvailability": "Next availability",
+        "workInHoliday": "Work in holidays",
+        "workInSummer": "Work in Summer"
+      }
+    },
+    "caregiverFormBasicProfileData": {
+      "header": "Basic profile data",
+      "labels": {
+        "aboutThePerson": "About the person",
+        "firstName": "First name",
+        "gender": "Gender",
+        "heightRange": "Height range (in cm)",
+        "hobbies": "Hobbies",
+        "lastName": "Last name",
+        "lastVaccination": "Last vaccination",
+        "nationality": "Nationality",
+        "personalityCharacteristics": "Personality characteristics",
+        "vaccinationStatus": "Vaccination status",
+        "weightRange": "Weight range (in Kg)",
+        "yearOfBirth": "Year of birth"
+      }
+    },
+    "caregiverFormCareCertificates": {
+      "header": "Care certificates"
+    },
+    "caregiverFormCareSituation": {
+      "header": "Care situation",
+      "labels": {
+        "acceptedDementia": "Accepted dementia (highest degree)",
+        "acceptedGender": "Accepted gender",
+        "acceptedIncontinence": "Accepted incontinence",
+        "acceptedLiftAndStore": "Accepted lift and store",
+        "acceptedMobility": "Accepted mobility",
+        "acceptedNightOperations": "Accepted night operations (maximum)",
+        "minimumCustomerBudget": "Minimum customer budget",
+        "numberOfPatients": "Number of patients"
+      }
+    },
+    "caregiverFormHousingSituation": {
+      "header": "Housing situation",
+      "labels": {
+        "animalsInHousehold": "Animals in household",
+        "familyNearBy": "Family near by",
+        "livingConditions": "Living conditions",
+        "otherPersonsInHousehold": "Other person in household?",
+        "otherWishes": "Other wishes",
+        "preferencesForNearestCity": "Preference for nearest city (Radius 30km)",
+        "smokingHousehold": "Smoking household",
+        "urbanisation": "Urbanisation"
+      }
+    },
+    "caregiverFormOptionalInformation": {
+      "header": "Optional informations",
+      "labels": {
+        "furtherInformations": "Further Informations",
+        "id": "ID (Internal ID/ PESEL)",
+        "mobilePhoneNumber": "Mobile Phone Number",
+        "notification_type": "Notification type",
+        "otherPhoneNumber": "Other Phone Number"
+      },
+      "verificationDocument": "Verification document"
+    },
+    "caregiverFormPictures": {
+      "morePictures": "More Pictures",
+      "publicProfilePicture": "Public Profile Picture"
+    },
+    "caregiverFormQualifications": {
+      "header": "Qualifications",
+      "labels": {
+        "drivingLicense": "Driving license",
+        "highestSchoolDegree": "Highest school degree",
+        "languageSkillsGerman": "Language skills (german)",
+        "moreLanguageSkills": "More language skills",
+        "nursingExperienceInYears": "Nursing experience in years",
+        "nursingProfessionLearned": "Nursing profession learned?",
+        "smoker": "Smoker"
+      }
+    },
+    "caregiverFormSystem": {
+      "toasts": {
+        "invitationSent": "Invitation sent!"
+      }
+    },
+    "caregiverFormSystemSettings": {
+      "buttons": {
+        "sendInvitation": "Send invitation"
+      },
+      "header": "System settings",
+      "labels": {
+        "activityStatus": "Activity status",
+        "choseEmployee": "Choose employee",
+        "mayApplyForAJob": "May apply for a job yourself",
+        "numberOfJobsDone": "Number of jobs done",
+        "systemAccess": "System access",
+        "systemLanguageForUser": "System language for user"
+      },
+      "responsibleEmployee": "Responsible employee"
+    },
+    "caregiverMatching": {
+      "header": "Matching to job",
+      "notGood": "Not good",
+      "perfect": "Perfect"
+    },
+    "caregiverPreviewModal": {
+      "header": "Profile preview"
+    },
+    "caregiversList": {
+      "createCaregiverAlert": {
+        "caregiversAll": {
+          "description": "For a better understanding, we have created an example of a caregiver. Take a look at the profile to understand what a full-time caregiver looks like. When you are ready, create your first caregiver yourself. All information about mass import and the API can be found here.",
+          "header": "Find your caregivers here!"
+        },
+        "caregiversCGInterest": {
+          "description": "Here you can see all the jobs that your caregivers have liked themselves. Quickly turn them into an application, because your caregiver is very interested.",
+          "header": "Job that your caregivers have liked"
+        },
+        "caregiversNoActivity": {
+          "description": "No activity means for this caregivers, you have not received any requests, no applications are in progress, and the caregiver has not liked any jobs.",
+          "header": "Caregivers with no activity!"
+        }
+      }
+    },
+    "changeApplicationRequestGrid": {
+      "comments": "Comments"
+    },
+    "changeApplicationRequestModal": {
+      "applicationOffer": "Application offer",
+      "created": "Change request created!",
+      "formHeader": "Change request",
+      "yourChangeRequest": "Your change request"
+    },
+    "companyDetails": {
+      "city": "City",
+      "company": "Company",
+      "companyName": "Company Name",
+      "country": "Country",
+      "dataCompleted": "The data has been completed",
+      "enterFirstName": "Enter first name",
+      "enterLastName": "Enter last name",
+      "finish": "Finish",
+      "firstName": "First name",
+      "lastName": "Last name",
+      "managingDirector": "Managing Director",
+      "officialCompanyAdress": "Official Company Adress",
+      "phoneNumber": "Phone Number",
+      "pleaseEnter": "Please enter",
+      "postalCode": "Postal Code",
+      "saluation": "Saluation",
+      "street": "Street",
+      "success": "Success"
+    },
+    "contactCaregiverViaSMSModal": {
+      "attention": "When you click send, the SMS is sent directly to the nurse and cannot be recalled.",
+      "header": "Contact Caregiver via SMS",
+      "labels": {
+        "message": "Message",
+        "template": "Template"
+      },
+      "placeholders": {
+        "message": "Please insert your message here."
+      },
+      "send": "Send SMS"
+    },
+    "contractInformationCard": {
+      "contactPerson": "Contact Person",
+      "contractInformation": "Contract Information",
+      "costs": "Costs",
+      "header": "Contract Informations",
+      "patientInformation": "Patient Information"
+    },
+    "createCaregiverAlert": {
+      "button": "Start creating a caregiver"
+    },
+    "createNewJobModal": {
+      "chooseYourCustomer": "Choose your customer",
+      "createNewCustomer": "Create new customer",
+      "header": "Add new job",
+      "ifYouWant": "If you want to create a job for a new customer, you must first create the customer.",
+      "startFromExistingCustomer": "Start from existing customer"
+    },
+    "createNewJobModalForm": {
+      "allCustomerJobs": "All customer jobs",
+      "labels": {
+        "arrivalFrom": "Arrival from",
+        "departure": "Departure",
+        "visibility": "Visibility",
+        "visibleAgencies": "List of providers for limited visibility"
+      },
+      "mainSearchParameters": "Main search parameters"
+    },
+    "customFileButton": {
+      "fileDestroyed": "File destroyed successfully!"
+    },
+    "customFormFiles": {
+      "warningAttachment": "No attachment uploaded yet",
+      "warningImages": "No photo uploaded yet"
+    },
+    "customInputFile": {
+      "placeholder": {
+        "first": "Click to upload",
+        "second": "or drag and drop"
+      }
+    },
+    "customerAddNew": {
+      "steps": {
+        "careSituation": "Care Situation",
+        "locationOfCare": "Location of care",
+        "patients": "Patients"
+      }
+    },
+    "customerAddNewFinalize": {
+      "createJob": "Create job",
+      "customerCreated": "Customer created. Publish job now!",
+      "jobDetails": "Job details",
+      "labels": {
+        "arrivalFrom": "Arrival from",
+        "bonus": "Bonus",
+        "customerCareBudget": "Customer care budget (per month)",
+        "jobTitleForPublicJobLists": "Job title for public job lists (automatically generated from the job/customer description, but editable)",
+        "specificJobDescriptionOrWishes": "Specific job description or wishes?",
+        "yourCommission": "Your commission (additional)"
+      },
+      "placeholders": {
+        "jobTitleForPublicJobLists": "Is there a specific description or wishes only for this job? Otherwise the main description is taken from the profile.",
+        "specificJobDescriptionOrWishes": "Is there a specific description or wishes only for this job? Otherwise the main description is taken from the profile."
+      },
+      "publishJobNow": "Publish job now",
+      "specificJobDescription": "Job title"
+    },
+    "customerAddNewFirst": {
+      "buttons": {
+        "discard": "Discard",
+        "removeCustomer": "Remove customer"
+      },
+      "header": "Add a new customer",
+      "labels": {
+        "arrival_at": "From",
+        "commisionForAgents": "Commission for agents",
+        "departure_at": "To",
+        "firstName": "First name",
+        "lastName": "Internal ID",
+        "location": "Location of care",
+        "monthlyBudget": "Monthly budget",
+        "numberOfPatients": "Number of patients",
+        "pesel": "Your internal ID",
+        "responsibility": "Responsibility",
+        "yourCareBudget": "Your Care budget (Budget-Commission)"
+      },
+      "locationOfCare": {
+        "description": "Enter the location including the main patient/contract partner here.",
+        "header": "Location of care"
+      },
+      "placeholders": {
+        "location": "Please enter ZIP Code or town to search"
+      },
+      "whenIsCustomer": {
+        "description": "What is the maximum the customer wants to pay, including the commission for agents.",
+        "header": "What is the customer's maximum budget?"
+      },
+      "whenIsSupport": {
+        "description": "When should the first deployment start? Your first job search for the customer will be created on this date.",
+        "header": "When is support initially required?"
+      },
+      "whoIsResponsible": {
+        "description": "Here you can make the assignment to yourself or one of your partners.",
+        "header": "Who is responsible for the customer?"
+      }
+    },
+    "customerAddNewPatient": {
+      "description": "To post a job publicly, the marked fields must be completed.",
+      "header": "Main Patient (Contract partner)",
+      "headerPatient": "Patient",
+      "labels": {
+        "dementia": "Dementia?",
+        "furtherInformation": "Further information and special features of the patient's condition",
+        "gender": "Gender",
+        "height": "Height",
+        "incontinence": "Incontinence?",
+        "liftingNecessary": "Lifting necessary?",
+        "mobility": "Mobility",
+        "nightOperationsNecessary": "Night operations necessary?",
+        "shortJobSummary": "Short job summary",
+        "weight": "Weight",
+        "whatLevelOfCareIsAvailable": "What level of care is available (available or applied for)?",
+        "whatToolsAreUsed": "What tools are used?",
+        "yearOfBirth": "Year of birth"
+      }
+    },
+    "customerAddNewSecond": {
+      "labels": {
+        "accommodationOfTheCaregiver": "Accommodation of the caregiver",
+        "arePetsPresent": "Are pets present (which ones)?",
+        "areThereAnyTasks": "Are there any tasks that are taken over by the family, care service, home help etc?",
+        "areThereOtherPeople": "Are there other people living in the household?",
+        "descriptionOfPets": "Are pets present (which ones)?",
+        "desiredGender": "Desired gender?",
+        "doYouHaveAnyOtherWishes": "Do you have any other wishes for the caregiver?",
+        "doesTheCaregiverHaveToDoShopping": "Does the caregiver have to do the shopping?",
+        "doesThePatient": "Does the patient attend a day care facility? (If yes, how often)",
+        "equipmentOfTheAccommodation": "Equipment of the accommodation",
+        "familyNearby": "Family nearby (to 20km)",
+        "furtherCommentsOnTheAccommodation": "Further comments on the accommodation:",
+        "howWillTheShoppingBeDone": "How will the shopping be done (means of transportation, distance)?",
+        "internetConnectionAvailable": "Internet connection available",
+        "isTheCaregiverAllowedToSmoke": "Is the caregiver allowed to smoke?",
+        "languageSkills": "Language skills (German)",
+        "nightOperationsWhatTasksAreInvolved": "Night operations: What tasks are involved and how often per night?",
+        "numberOfPets": "Number of pets",
+        "salutation": "Salutation",
+        "shouldTheCaregiver": "Should the caregiver have a driver's license (often at additional cost)?",
+        "title": "Title",
+        "urbanization": "Urbanization",
+        "whatExactTasks": "What exact tasks should the caregiver take on (based on the daily schedule)?"
+      }
+    },
+    "customerAddNewStepSecond": {
+      "describeYourJob": {
+        "header": "Describe your job in a meaningful way"
+      },
+      "numberOfPatients": {
+        "description": "Please choose the number of patients here",
+        "header": "Number of patients"
+      }
+    },
+    "customerAddNewStepThird": {
+      "labels": {
+        "email": "Email",
+        "lastName": "Last name",
+        "phone": "Phone",
+        "streetNumber": "Street and Number",
+        "town": "Town",
+        "zipCode": "Zip Code"
+      }
+    },
+    "customerDetailsContractAndSystem": {
+      "modal": {
+        "delete": "Remove customer",
+        "message": "Are you sure you want to remove customer?"
+      },
+      "toasts": {
+        "deleted": "Customer removed successfullly"
+      }
+    },
+    "customerFormContactPersons": {
+      "addAnotherContactPerson": "Add another contact person"
+    },
+    "customerFormGeneralJobSearchSettings": {
+      "dueToTheVat": "Due to the VAT exemption on care services in some countries (Poland), VAT is not regarded as a transitory item but as a cost and can therefore reduce the budget.",
+      "labels": {
+        "customerBudget": "Customer budget",
+        "generalVisibility": "General visibility of a new job",
+        "listOfProviders": "List of providers for limited visibility",
+        "yourCommision": "Your commission"
+      }
+    },
+    "customerFormImportPDF": {
+      "button": "Upload PDF",
+      "text": "Import customer details from PDF or fill out details manual."
+    },
+    "customerFormNumberOfPatients": {
+      "addPatient": "Add patient",
+      "description": "If you have created more than one patient, you can delete them directly in the patient data.",
+      "labels": {
+        "numberOfPatients": "Number of patients"
+      }
+    },
+    "customerFormSettings": {
+      "labels": {
+        "caregiverAReview": "Shoud the customer can give a caregiver a review?",
+        "deleteCustomer": "Delete Customer",
+        "pesel": "Your internal ID",
+        "requestACaregiver": "Should the customer can request a caregiver?",
+        "systemLanguageForCustomer": "System language for customer",
+        "whoIsInvoiceParty": "Who is the invoice party?"
+      }
+    },
+    "customersList": {
+      "header": "customers",
+      "headers": {
+        "activeJob": "Active job",
+        "customer": "Customer",
+        "followUpJob": "Follow-up job",
+        "id": "ID",
+        "partner": "Partner",
+        "status": "Status"
+      },
+      "table": {
+        "statuses": {
+          "active": "Active",
+          "draft": "Draft"
+        }
+      }
+    },
+    "details": {
+      "step1": {
+        "description": "To create your account we need a few more details from you.",
+        "label": "Account details",
+        "title": "Welcome to mamamia"
+      },
+      "step2": {
+        "description": "Finally, we need to assign your account to a company.Which company do you represent?",
+        "label": "Company details",
+        "title": "Welcome to mamamia"
+      },
+      "step3": {
+        "label": "Finish"
+      }
+    },
+    "employeesAddNewModal": {
+      "alert": "After you have created the Employee, an email will be sent for verification and password creation.",
+      "buttons": {
+        "sendInvitation": "Send invitation",
+        "updateEmployee": "Update employee"
+      },
+      "header": "Add new Employee",
+      "headerEdit": "Edit employee",
+      "labels": {
+        "email": "Email address",
+        "firstName": "First name",
+        "lastName": "Last name",
+        "phone": "Phone number"
+      }
+    },
+    "fileModal": {
+      "header": "Add file"
+    },
+    "jobActivitiesCard": {
+      "headers": {
+        "application": "Applied for job",
+        "confirmation": "Confirmation",
+        "request": "New Request"
+      },
+      "newRequest": "New Request",
+      "receivedMessage": "Received Message",
+      "requestRejected": "Request rejected",
+      "smsSend": "SMS Send"
+    },
+    "jobCard": {
+      "caregiversWantsBack": "Caregiver wants back",
+      "options": {
+        "goToJob": "Go to job",
+        "jobDoesntFit": "Job doesn't fit",
+        "rejectApplication": "Reject Application",
+        "showJobSummary": "Show Job Summary"
+      },
+      "requestReturnTrip": "Request a return trip",
+      "tooltips": {
+        "agencyRequests": "Agency Request",
+        "caregiverInterest": "Caregiver Interest",
+        "myApplications": "My Applications"
+      }
+    },
+    "jobCardBottomMarket": {
+      "activeApplicationsTooltip": "Active applications for this job",
+      "myCaregiversTooltip": "Number of your carers that fit the job"
+    },
+    "jobCardButtonsLikeDislike": {
+      "tooltips": {
+        "dislike": "Hide for now",
+        "like": "Add to watch list"
+      }
+    },
+    "jobCardButtonsMatched": {
+      "badges": {
+        "agencyRequest": "Agency Request"
+      }
+    },
+    "jobCardButtonsSubmitted": {
+      "badges": {
+        "accepted": "Accepted"
+      },
+      "buttons": {
+        "applyFinal": "Apply final"
+      }
+    },
+    "jobCardCGAActiveJobDetails": {
+      "fullJobProfile": "Full job profile"
+    },
+    "jobCardCGAActiveJobDetailsArrivalInformation": {
+      "arrival": {
+        "date": "Arrival date",
+        "expected": "Expected time period",
+        "note": "Notes about the arrival",
+        "type": "Type of arrival"
+      },
+      "created": "Arrival information are saved!",
+      "labels": {
+        "arrival_at": "Arrival date",
+        "arrival_type_id": "Type of arrival",
+        "expectedTime": "Expected time period",
+        "note": "Optional notes about the arrival",
+        "saveAndSendToAgency": "Save and send to agency"
+      }
+    },
+    "jobCardCGAActiveJobDetailsContractInfo": {
+      "agreedCost": {
+        "arrCosts": "Arrival costs",
+        "depCosts": "Departure costs",
+        "holidaySurcharge": "Holiday surcharge",
+        "noticePeriod": "Notice period",
+        "otherSurcharge": "Other surcharge",
+        "rate": "Daily/monthly rate"
+      },
+      "agreedCosts": "Agreed costs",
+      "contactPerson": "Contact Person (In case of emergency)",
+      "contractInformation": "Contract information",
+      "serviceAgency": "Service Agency"
+    },
+    "jobCardCGAActiveJobDetailsDepartureInfoShow": {
+      "date": "Departure date",
+      "expected": "Expected time period",
+      "note": "Notes about the arrival"
+    },
+    "jobCardCGAActiveJobDetailsDepartureInformation": {
+      "created": "Departure information successfully saved and sent to the agency.",
+      "labels": {
+        "departure_at": "Departure date"
+      }
+    },
+    "jobCardCGAActiveJobDetailsTasks": {
+      "alert": {
+        "description": "There are a few things you need to do to complete your order. Upload the contract so that the other party can sign it and send it back to you. Enter the arrival and later departure dates and upload all invoices.",
+        "header": "Congratulations {name} was accepted!"
+      },
+      "empty": {
+        "noStatus": "No status",
+        "notYetEntered": "Not yet entered",
+        "notYetUploaded": "Not yet uploaded"
+      },
+      "headers": {
+        "enterArrival": "Enter the arrival information",
+        "enterDeparture": "Enter the departure information",
+        "upload": "Upload your contract for the job",
+        "uploadInvoices": "Upload your invoices here continuously"
+      },
+      "signedSigned": "Contract has been signed and uploaded by the agency.",
+      "signedWaiting": "Waiting for signed contract",
+      "toasts": {
+        "contractUploaded": "Contract has been successfully uploaded and submitted to the agency."
+      },
+      "yourJobTasks": "Your job tasks"
+    },
+    "jobCardSATopJobDetails": {
+      "visibilityChanged": "Visibility changed succesfully"
+    },
+    "jobCardSATopJobDetailsConfirmed": {
+      "reportChange": "Report change"
+    },
+    "jobCardTopCaregiverActive": {
+      "reportProblem": "Report Problem",
+      "sendMessageToAgency": "Send message to agency"
+    },
+    "jobCardTopCaregiverHistory": {
+      "details": "Details"
+    },
+    "jobDetailsData": {
+      "caregiverWishes": "Caregiver wishes",
+      "driverLicense": "Driver license",
+      "gender": "Gender",
+      "generalJobHistory": "General job history",
+      "germanSkill": "German skill",
+      "jobPublishedOnMamamia": "Job published on mamamia",
+      "keyData": "Key data",
+      "otherWishes": "Other wishes",
+      "patients": "Patients",
+      "smoking": "Smoking"
+    },
+    "jobDetailsDataLivingSituation": {
+      "header": "Information about the living situation",
+      "labels": {
+        "equipmentOfAccommodation": "Equipment of the accommodation",
+        "familyNearBy": "Family near by",
+        "furtherNotes": "Further notes about the accommodation",
+        "internetAvailable": "Internet connection available",
+        "otherPersonInHousehold": "Other person in household",
+        "petsInHouse": "Are pets present (which ones)?",
+        "typeOfHousing": "Type of housing",
+        "urbanization": "Urbanization"
+      }
+    },
+    "jobDetailsDataPatients": {
+      "headers": {
+        "patientOne": "Patient 1",
+        "patientTwo": "Patient 2"
+      },
+      "labels": {
+        "aboutThePatient": "About the Patient",
+        "dementia": "Dementia",
+        "further": "Further information and special features of the patient's condition",
+        "incontinence": "Incontinence",
+        "liftingNecessary": "Lifting necessary",
+        "mobility": "Mobility",
+        "nightOperations": "Night operations",
+        "whatLevelCare": "What level of care is available ",
+        "whatTools": "What tools are used"
+      }
+    },
+    "jobDetailsDataSupportForCaregiver": {
+      "header": "Relief/ Support for the caregiver",
+      "labels": {
+        "first": "Are there any tasks that are taken over by the family?",
+        "fourth": "Does the patient attend a day care facility? (If yes, how often)",
+        "second": "Are there any tasks that are taken over by the care service?",
+        "third": "Are there any tasks that are performed by the home help?"
+      }
+    },
+    "jobDetailsDataTasksForCaregiver": {
+      "header": "Tasks for the caregiver",
+      "labels": {
+        "first": "What exact tasks should the caregiver take on (based on the daily schedule)?",
+        "fourth": "How will the shopping be done (means of transportation, distance)?",
+        "second": "Night operations: What tasks are involved and how often per night?",
+        "third": "Does the caregiver have to do the shopping?"
+      }
+    },
+    "jobDetailsList": {
+      "filters": {
+        "isRequested": "Is requested"
+      },
+      "history": "History",
+      "historyEmptyAlert": "You don't have any activities yet.",
+      "matchings": "Matchings"
+    },
+    "jobDetailsListApplications": {
+      "applications": "Applications",
+      "jobFullyOccupied": {
+        "contentLineOne": "The job is full with {count} applications. You can apply again from {date} or as soon as an application is rejected.",
+        "contentLineTwo": "If you want, create a reminder and we will send you an email as soon as the job is open.",
+        "header": "Job fully occupied"
+      },
+      "tipDescription": "Everyone can see your job and apply for it. To initiate things, it is advisable to request for matching caregivers from your point of view. Just take a look at the list below to see which one matches your job.",
+      "tipHeader": "Tipp",
+      "youDontHaveAnyActivitiesYet": "You don't have any activities yet. Here you will see the applications you have received for the job.",
+      "youDontHaveAnyActivitiesYetCg": "You don't have any activities on the job yet. Here you will see the applications you have made and requests you have received for a caregiver."
+    },
+    "jobDetailsPriceCalculationModal": {
+      "careBudget": "Care Budget",
+      "customerBudget": "Customer budget",
+      "header": "Price calculation",
+      "serviceAgencyFee": "Service agency fee excl. VAT",
+      "visibleSalary": "Visible salary price for your app caregivers",
+      "yourCommission": "Your commission (excl. VAT)",
+      "yourTotalFee": "Your total fee"
+    },
+    "jobDetailsSAConfirmed": {
+      "alertJobFilled": {
+        "description": "On this page you will find all the necessary information about your job. You will be notified immediately by email when there is something new. If you have any questions, please contact the agency via chat.",
+        "header": "Job successfully filled"
+      },
+      "arrivalInformation": "Arrival Informations",
+      "contractDataTransmitted": "Contract data transmitted to agency. Waiting for contract...",
+      "departureInformation": "Departure informations",
+      "invoices": "Invoices",
+      "jobsDone": "Jobs done",
+      "memberSince": "Member since",
+      "noDataAvailable": "No data available yet",
+      "noInvoice": "No invoice yet. All invoices for your job will be filed here on an ongoing basis.",
+      "noStatus": "No status",
+      "rateTheCaregiver": "Rate the caregiver",
+      "serviceContract": "Service contract",
+      "serviceContractTitle": "Service contract from agency",
+      "signedContractTitle": "Upload the signed contract here",
+      "signedContractToast": "Signed contract has been successfully uploaded and submitted to the agency.",
+      "status": "Status",
+      "travelDates": "Travel dates"
+    },
+    "jobDetailsSATop": {
+      "alerts": {
+        "confirmationWithdrawn": "Attention. Your confirmation has been withdrawn. Your job has been automatically reopened and released for the search. You currently have no applications.",
+        "editJobDetails": "Edit job details",
+        "endsTomorrow": "Your job ends tomorrow! Please select an option on how to proceed."
+      }
+    },
+    "jobDetailsWelcome": {
+      "description": "At the top right you can apply for a job with a suitable caregiver. As soon as you have applied, you will see them listed here. If you have a request for a caregiver, it will also appear here.",
+      "header": "Welcome to a Job detail page!"
+    },
+    "jobInformation": {
+      "arrival": "Arrival",
+      "caregiver": "Caregiver",
+      "departure": "Departure",
+      "jobDetails": "Job Details",
+      "name": "Name"
+    },
+    "jobMarketFilters": {
+      "animalsInHousehold": "Animals in household",
+      "arrivalDate": "Arrival date",
+      "arrivalPeriod": "Arrival period",
+      "budget": "Budget",
+      "caregiverWishes": "Caregiver wishes",
+      "dementia": "Dementia",
+      "departureDate": "Departure date",
+      "desiredGender": "Desired gender",
+      "familyNearby": "Family nearby",
+      "genderOfPatients": "Gender of Patients",
+      "incontinence": "Incontinence",
+      "isTheCaregiverAllowedToSmoke": "Is the caregiver allowed to smoke?",
+      "languageSkills": "Language skills",
+      "liftAndStore": "Lift and store",
+      "livingSituation": "Living situation",
+      "locationOfTheJob": "Location of the job",
+      "mobility": "Mobility",
+      "nightOperations": "Night operations",
+      "numberOfPatients": "Number of Patients",
+      "otherPersonInHouseholdUpToMax": "Other person in household up to max",
+      "patientRelated": "Patient-related",
+      "shouldTheCaregiverHaveADriversLicense": "Should the caregiver have a driver's license?",
+      "urbanisation": "Urbanisation"
+    },
+    "jobMarketWelcome": {
+      "description": "On this page you can see all advertised jobs. You can filter and display jobs according to your wishes and view all the details of the job by clicking on it. To apply for a job, you need to import your caregivers, connect them via API or create them manually.",
+      "header": "Welcome to mamamia!"
+    },
+    "jobModalEdit": {
+      "info": {
+        "description": "If you adjust these matching search parameters, it will affect all available caregivers. Already requested and applied caregivers will be notified with the change in the chat.",
+        "title": "What will happen if i change things here?"
+      }
+    },
+    "jobModalForm": {
+      "addNewJob": "Add new job",
+      "confirm": {
+        "message": "Are you sure that you want to delete this job?",
+        "reject": "Delete job"
+      },
+      "deleteJob": "Delete job",
+      "resetChanges": "Reset changes",
+      "toasts": {
+        "deleted": "Job deleted succesfully!"
+      },
+      "updateJob": "Update job search"
+    },
+    "jobTasks": {
+      "arrival": "Arrival",
+      "contract": "Contract",
+      "departure": "Departure",
+      "documents": "Documents",
+      "header": "Job Tasks",
+      "invoice": "Invoice",
+      "send": "Send message",
+      "verifiedCustomer": "Verified Customer"
+    },
+    "listToolbarFiltersModal": {
+      "clearAllFilters": "Clear all filters",
+      "header": "Search filter",
+      "showJobs": "Show jobs"
+    },
+    "matchingPreviewFits": {
+      "fit": "Fits perfect",
+      "notFit": "Does not fit so well"
+    },
+    "matchingPreviewModal": {
+      "alertDescription": "These are just some of the factors that are taken for matching. To see all the factors, take a look at the complete job profile.",
+      "alertHeader": "Matching",
+      "header": "Matching",
+      "labels": {
+        "additional_persons": "Additional persons",
+        "dementia": "Dementia",
+        "driving_license": "Driving license",
+        "gender": "Gender",
+        "gender_of_patients": "Gender of patients",
+        "incontinence": "Incontinence",
+        "language": "Language",
+        "lift": "Lift",
+        "location": "Location",
+        "night_operations": "Night operations",
+        "number_of_patients": "Number of patients",
+        "salary": "Salary",
+        "smoking": "Smoking"
+      }
+    },
+    "priceAndContractSettingsVisibilityForCaregivers": {
+      "headers": {
+        "caregiverAccessAndSenderOptions": "Caregiver access",
+        "whatPrice": "What price should the CG see?"
+      },
+      "howIsJobStructure": "How is a job price structured and visible?",
+      "labels": {
+        "careBudget": "Care budget minus my costs in the amount of",
+        "doYouWant": "Do you want your caregiver to have access to the system and the jobs?",
+        "shouldOther": "Should other caregivers choose you as the sender?"
+      },
+      "sampleCalculation": "Sample calculation",
+      "theMamamiaFeeIs": "The mamamia fee is 5 euros per day of use.",
+      "whenMakingCalculation": "When making your calculation, take into account the possible costs of VAT on the agent's invoice and the mamamia fee of €5/day.",
+      "youCanGrant": " You can grant your supervisors access to the system and thus optimize         communication. The CG can then see and like the jobs and also retrieve         information such as contracts, address, arrival data, etc. directly.",
+      "yourAndAffiliated": "Your and affiliated caregivers can apply for jobs and select you as thesender. This is only possible if prices can be displayed to them. You can define your deductions here. Below you can see a sample calculation."
+    },
+    "primeVueMultiselect": {
+      "filterPlaceholder": "Type to search"
+    },
+    "rateModal": {
+      "header": "Review",
+      "sendCaregiverReview": "Revies is stored! Thank you!"
+    },
+    "rateModalCaregiverRating": {
+      "labels": {
+        "appearance": "Appearance",
+        "dealingWithThePatients": "Dealing with the patient",
+        "empathy": "Empathy",
+        "giveYourReviewDescription": "Give your review a description",
+        "householdActivities": "Household activities",
+        "nursingSkills": "Nursing skills",
+        "reliability": "Reliability"
+      },
+      "youReviewFor": "Your review for",
+      "yourRating": "Your rating"
+    },
+    "rateModalInformation": {
+      "agency": "Agency",
+      "caregiverReview": "Caregiver review",
+      "customer": "Customer",
+      "operatingTime": "Operating time"
+    },
+    "rateModalReturnWish": {
+      "returnWish": "Return wish",
+      "wouldYouLike": "Would you like the caregiver to visit this customer again?"
+    },
+    "rejectApplicationModal": {
+      "header": "Reject application modal"
+    },
+    "rejectRequestModal": {
+      "radios": {
+        "first": "This job doesnt fit at all",
+        "second": "This job dosnet fit at this moment"
+      },
+      "reasonForRejection": "Reason for rejection",
+      "reject": "Reject request",
+      "rejectRequest": "Reject Request for"
+    },
+    "reportChangeModal": {
+      "dangerAlertMessage": "If you end the job here, the agency will be notified directly.",
+      "dangerAlertTitle": " What will happen if I quit the job?",
+      "modals": {
+        "Otherissues": {
+          "description": "Other problems or questions about the job",
+          "otherissues": "Other issues",
+          "title": "Change arrival"
+        },
+        "Quitthejob": {
+          "Quitjob": "Quit the job",
+          "Sendquitrequest": "Send quit request",
+          "confirm": "I confirm that I wish to terminate the job irrevocably.",
+          "description": "The job should be terminated as quickly as possible due to hard facts?",
+          "requesteddeparturedate": "Requested departure date",
+          "title": "Quit the job"
+        },
+        "changeArrival": {
+          "Arrivalfrom": "Arrival from",
+          "Changearrival": "Change arrival",
+          "description": "The journey has changed, enter it here.",
+          "originallyplannedfor": "The arrival was originally planned for:",
+          "title": "Change arrival"
+        },
+        "comments": "Comments",
+        "financialAdjustments": {
+          "description": "The caregiver does not match the description or other problems with the service?",
+          "financialadjustments": "Financial adjustments",
+          "title": "Financial adjustments"
+        },
+        "optional": "(Optional)",
+        "shortenStay": {
+          "Departureon": "Departure on",
+          "description": "Do you want the caregiver to stay longer or change earlier?",
+          "originallyplannedfor": "The departure was originally planned for:",
+          "subtitle": "Shorten/ extend stay",
+          "title": "Shorten/extend stay"
+        }
+      },
+      "reason": "Reason",
+      "sendRequest": "Send change request",
+      "sendmessage": "Send message",
+      "warningAlertMessage": "The agency will be notified of your change immediately. Your data will be entered everywhere and changed as soon as the agency has accepted and confirmed your change.",
+      "warningAlertTitle": "What will happen if i change things here?"
+    },
+    "reportJobModal": {
+      "alert": {
+        "content": "Your message will be sent to the agency and they will get back to you.",
+        "header": "What will happen if I send an issue here?"
+      },
+      "sendMessage": "Send message"
+    },
+    "requestJobModal": {
+      "createNewCustomer": "Create new customer",
+      "header": "Request for job"
+    },
+    "resetPassword": {
+      "backToSignIn": "Back to sign in",
+      "description": "Enter your email address below and we will send you a link to set a new password.",
+      "passwordReset": "Password reset",
+      "resetLinkSend": "Password reset link has been sent",
+      "sendLink": "Send link",
+      "success": "Success",
+      "title": "Reset Password"
+    },
+    "reviewsCard": {
+      "count": "From {count} reviews",
+      "description": "Our reviews are from real missions booked through mamamia. All reviews are written directly by the families or relatives."
+    },
+    "sendJobModal": {
+      "alert": {
+        "content": "The caregiver receives a text message with a link to the job, where she can see all the job information, her salary and can LIKE the job. We inform you about every action.",
+        "header": "Info",
+        "messagePlaceholder": "Your message here..."
+      },
+      "jobDetails": "Job Details",
+      "messageToCaregiver": "Message to caregiver",
+      "sendJob": "Send job",
+      "sent": "Message sent!",
+      "table": {
+        "careBudget": "Care Budget ",
+        "caregiverSalary": "Caregiver Salary [salary]",
+        "customer": "Customer",
+        "jobPeriod": "Job Period [job period]",
+        "town": "Town [town]"
+      }
+    },
+    "setPassword": {
+      "backToSignIn": "Back to sign in",
+      "createNewPassword": "Create new password",
+      "description": "Create a new password for your account below, then you can log in again.",
+      "title": "Set new password"
+    },
+    "signIn": {
+      "error": {
+        "message": "Invalid email or password",
+        "title": "Error"
+      },
+      "frogotPassword": "Forgot your password?",
+      "or": "or"
+    },
+    "signUp": {
+      "alreadyHaveAccout": "Already have an account?",
+      "or": "or",
+      "signIn": "Sign in",
+      "signUp": "Sign up",
+      "success": "Success",
+      "successText": "Your account has been created"
+    },
+    "tickList": {
+      "description": "In just 2 minutes to the largest job marketplace for 24-hour care.",
+      "item1": {
+        "description": "after sign up you will see directly all open jobs that are on the marketplace.",
+        "title": "See jobs immediately"
+      },
+      "item2": {
+        "description": "Create or import your caregivers to see directly which jobs fit.",
+        "title": "Create caregivers"
+      },
+      "item3": {
+        "description": "After your verification, you can immediately apply to jobs and receive requests.",
+        "title": "Apply for jobs"
+      }
+    },
+    "verificationCode": {
+      "button": "Send",
+      "cancel": "Cancel registration",
+      "cancelSuccess": "Cancel registration, your account will be deleted",
+      "codeNotWorking": "Code not working?",
+      "codeSent": "Code sent",
+      "error": "Error",
+      "numberValid": "Paste text isn't a number",
+      "sendAgain": "Send again",
+      "somethingWrong": "Something went wrong. Please try again later.",
+      "succesVerification": "Your email address has been verified",
+      "success": "Success",
+      "successText": "Code has been sent to your email address",
+      "title": "Verify your email",
+      "verify": "Verify"
+    },
+    "extendedApplicationDetailsModal": {
+      "extendedOfferDescription": "Extended offer description",
+      "expectedInvoicePreview": "Expected invoice preview"
+    },
+    "acceptApplicationBlockerModal": {
+      "secureCaregiver": "Secure your caregiver now and give your agency the go-ahead to take all the necessary steps.",
+      "congratulationsOnYourSelection": "Congratulations on your selection",
+      "yesIWouldLikeToSelectThisCaregiverOnBindingBasis": "Yes, I would like to select this caregiver on a binding basis.",
+      "optionalMessage": "Optional message"
+    },
+    "moreInfosModal": {
+      "moreInfoInOurFAQ": "More info in our FAQ",
+      "welcomeToMamamia": "Welcome to mamamia"
+    },
+    "notCompleteProfileModal": {
+      "completeNow": "Complete now",
+      "pleaseCompleteYourJobDescription": "Please complete your Job description",
+      "pleaseCompleteYourProfile": "Please complete your profile to view profiles and request caregivers you like."
+    },
+    "customerApplications": {
+      "applicationMessage": "You have accepted an application",
+      "applicationDescription": " have applied for your job. Please accept an application so       that we can make a booking for you.",
+      "applicationTitle": "Applications for your job on",
+      "caregiver": "caregiver",
+      "caregivers": "caregivers",
+      "callAgency": "Call agency",
+      "goToChat": "Go to chat"
+    },
+    "customerCaregivers": {
+      "completeProfile": "Not public. Complete your profile.",
+      "youHaveActiveApplication": "You have active application.",
+      "selectedCaregiversForYourJobOn": "Selected caregivers for your job on",
+      "callAgency": "Call agency",
+      "goToChat": "Go to chat"
+    },
+    "applicationCard": {
+      "messageFromAgency": "Message from agency",
+      "applicationOffer": "Application offer",
+      "youJobId": "Your Job ID",
+      "arrivalDate": "Arrival date",
+      "monthlyCareCosts": "Monthly care costs",
+      "experience": "Experience",
+      "costs": "Costs",
+      "day": "day",
+      "days": "days",
+      "carePeriod": "Care period",
+      "travelCosts": "Travel costs",
+      "holidaySurcharge": "Holiday surcharge",
+      "summerSurcharge": "Summer surcharge",
+      "calcOfTravelDays": "Calc. of travel days",
+      "cancellingPeriod": "Cancelling period",
+      "sampleContract": "Sample contract",
+      "expectedInvoiceAndDetails": "Expected invoice and details",
+      "downloadAsPDF": "Download as PDF",
+      "download": "download",
+      "daily": "Daily",
+      "full": "Full",
+      "none": "None",
+      "declineApplication": "Decline application",
+      "year": "year",
+      "years": "years"
+    },
+    "germanyLevel": {
+      "languageSkillsInGerman": "Language skills in German"
+    },
+    "applicationsList": {
+      "match": "Exclusive application from",
+      "acceptApplication": "Accept application",
+      "declineApplication": "Decline application",
+      "applicationHasBeenAccepted": "Application has been accepted",
+      "applicationHasBeenDeclined": "Application has been declined"
+    },
+    "germanyLevelModal": {
+      "level": "Level",
+      "level_0_bold": "No knowledge",
+      "level_0_desc": "means that the caregiver             can communicate with the bare essentials.",
+      "level_1_bold": "Basic knowledge",
+      "level_1_desc": "means that the caregiver can communicate with the bare essentials.",
+      "level_2_bold": "Intermediate knowledge",
+      "level_2_desc": "means that the caregiver can communicate with the bare essentials.",
+      "level_3_desc": "means that the caregiver can communicate with the bare essentials.",
+      "level_3_bold": "Advanced knowledge",
+      "level_4_bold": "Good knowledge",
+      "level_4_desc": "means that the caregiver can communicate with the bare essentials."
+    },
+    "customerAccepted": {
+      "acceptedTitle": "Confirmed Application",
+      "acceptedDescription": "You have accepted an application. As soon as everything has been clarified, you will receive all the necessary contracts to sign.",
+      "acceptedOn": "Application accepted",
+      "withdrawConfirmation": "Withdraw confirmation"
+    },
+    "askedQuestions": {
+      "faqDescription": "The most frequently asked questions and answers summarised for you."
+    },
+    "helpDesk": {
+      "helpdesk": "Helpdesk",
+      "call": "Call",
+      "chat": "Chat"
+    },
+    "customerDetailsDescription": {
+      "what": "What",
+      "saysAboutHerself": "says about herself",
+      "saysAboutHimself": "says about himself"
+    },
+    "careProfile": {
+      "availableFrom": "Available from",
+      "languageSkillsInGerman": "Language skills in German",
+      "drivingLicense": "Driving License",
+      "smoker": "Smoker",
+      "nursingProfessionLearned": "Nursing profession learned?",
+      "nursingExperience": "Nursing experience",
+      "myRequirementsForAJob": "My requirements for a job",
+      "howManyPatientsToCareFor": "How many patients to care for?",
+      "whichGenderDoesSheAccept": "Which gender does she accept?",
+      "canSheLiftAndStore": "Can she lift and store?",
+      "isDementiaBehaviorOkay": "Is dementia behavior okay?",
+      "areNightShiftsOkay": "Are night shifts okay?",
+      "areOtherPeopleOnTheHouseAreOk": "Are other people in the house are ok?",
+      "isItOkIfTheFamilyLivesNearby": "Is it ok if the family lives nearby?",
+      "mySkillsAndExperience": "My Skills and experience",
+      "year": "Year",
+      "years": "Years",
+      "whatMobilityCanSheMaintain": "What mobility can she maintain?"
+    },
+    "caregiverJobsDone": {
+      "jobsDone": "Jobs done",
+      "loadMore": "Load more"
+    },
+    "caregiverRatings": {
+      "ratings": "Ratings",
+      "ourReviewsAreFromRealMissions": "Our reviews are from real missions booked through mamamia. All reviews are written directly by the families or relatives.",
+      "overallRating": "Overall rating",
+      "houseKeeping": "Housekeeping",
+      "dealingWithPatient": "Dealing with patient",
+      "nursingSkill": "Nursing skill",
+      "reliability": "Reliability",
+      "appearance": "Appearance",
+      "empathy": "Empathy",
+      "support": "Support",
+      "cooking": "Cooking",
+      "showAllRatingFactors": "Show all rating factors"
+    },
+    "customerProfile": {
+      "contractInformations": "Contract informations",
+      "userAccount": "User Account"
+    },
+    "careGiverCard": {
+      "doesntFit": " Doesn't fit"
+    },
+    "customerWishesForm": {
+      "saveChanges": "Save Changes"
+    },
+    "customerWishesFormRequirements": {
+      "whatRequirementsDoYouHaveOnYourCaregiver": "What requirements do you have on your caregiver?",
+      "whatGenderShouldTheCaregiverHave": "What gender should the caregiver have?",
+      "howWellMustTheCaregiverBeAbleToCommunicate": "How well must the caregiver be able to communicate?",
+      "shouldTheCaregiverHaveDriverLicense": "Should the caregiver have a driver's license (often at additional cost)?",
+      "isItOkIfCaregiverIsSmoker": "Is it ok if the caregiver is a smoker?",
+      "doYouHaveAnyOtherWishesForTheCaregiver": "Do you have any other wishes for the caregiver?"
+    },
+    "customerWishesFormTasks": {
+      "tasksForCaregiver": "Tasks for the careiver",
+      "whatExactTasksShouldTheCaregiverTake": "What exact tasks should the caregiver take on (based on the daily schedule)?",
+      "nightOperationsDescription": "Night operations: What tasks are involved and how often per night?",
+      "doesTheCaregiverHaveToDoTheShopping": "Does the caregiver have to do the shopping?"
+    },
+    "customerWishesFormReliefSupport": {
+      "areThereTasksTakenByTheFamily": "Are there any tasks that are taken over by the family, care service, home help etc?",
+      "reliefSupportForTheCaregiver": "Relief/ support for the caregiver",
+      "doesThePatientAttendDayCareFacility": "Does the patient attend a day care facility? (If yes, how often)"
+    },
+    "customerWishesFormNumberOfPatients": {
+      "allInformationOnTheLocalCareSituation": "All information on the local care situation",
+      "labels": {
+        "numberOfPatients": "Number of patients"
+      }
+    },
+    "customerWishesFormAddNewPatient": {
+      "detailsOfTheFirstPatient": "Details of the first patient",
+      "detailsOfTheSecondPatient": "Details of the second patient",
+      "gender": "Gender",
+      "yearOfBirth": "Year of birth",
+      "weight": "Weight",
+      "height": "Height",
+      "whatLevelOfCareIsAvailable": "What level of care is available (available or applied for)?",
+      "whichMobilityApplies": "Which mobility applies?",
+      "whatToolsAreUsed": "What tools are used?",
+      "doesThePatientNeedToBeLifted": "Does the patient need to be lifted?",
+      "doesThePatientHaveDementiaAndIfSoHowSevere": "Does the patient have dementia and if so, how severe?",
+      "areNightShiftsNecessary": "Are night shifts necessary?",
+      "isThePatientIncontinece": "Is the patient incontinece?",
+      "furtherInformationAndSpecialFeaturesOfThePatientsCondition": "Further information and special features of the patient's condition"
+    },
+    "customerWishesFormCareSituation": {
+      "generalInformationsAboutTheLivingSituation": "General informations about the living situation",
+      "areThereOtherPeopleLivingInTheHouseHold": "Are there other people living in the household?",
+      "doesTheFamilyLiveNearby": "Does the family live nearby? (20km)",
+      "urbanization": "Urbanization",
+      "accommodationOfTheCaregiver": "Accommodation of the caregiver",
+      "equipmentOfTheAccommodation": "Equipment of the accommodation",
+      "arePetsPresent": "Are pets present?",
+      "arePetsPresentWhichOnes": "Are pets present (which ones)?",
+      "internetConnectionAvailable": "Internet connection available",
+      "furtherCommentsOnTheAccommodation": "Further comments on the accommodation"
+    },
+    "customerContractInformationMainPatient": {
+      "mainPatientContractualPartner": "Main patient (contractual partner)"
+    },
+    "customerContractInformationContactPerson": {
+      "contactPersonInCaseOfEmergency": "Contact person (In case of emergency)"
+    }
+  },
+  "empty": "",
+  "form": {
+    "errors": {
+      "dateOverlapFree": "Job already created for this date",
+      "patternMismatch": "Pattern mismatch",
+      "somethingWrong": "Something went wrong. Please try again later.",
+      "title": "Error",
+      "tooLong": "Too long",
+      "tooShort": "Too short",
+      "typeMismatch": "Type mismatch",
+      "valueMissing": "Value missing"
+    }
+  },
+  "global": {
+    "accept": "Accept",
+    "accepted": "Accepted",
+    "accommodations": {
+      "apartment": "Apartment",
+      "multi_family_house": "Multi family house",
+      "other": "Other",
+      "single_family_house": "Single family house"
+    },
+    "active": "Active",
+    "activities": "Activities",
+    "add": "Add",
+    "addInvoice": "Add invoice",
+    "agency": "Agency",
+    "agencyRequest": "Agency request",
+    "all": "All",
+    "any": "Any",
+    "applied": "Applied",
+    "apply": "Apply",
+    "applyForTheJob": "Apply",
+    "arrival": "Arrival",
+    "arrivalTypeOptions": {
+      "airplane": "Airplane",
+      "bus": "Bus",
+      "large_bus": "Large bus",
+      "minibus": "Minibus"
+    },
+    "attention": "Attention",
+    "availabilityUnknown": "Availability unknown",
+    "back": "Back",
+    "bestPrice": "Best price",
+    "budget": "Budget",
+    "cancel": "Cancel",
+    "caregiver": "Caregiver",
+    "caregiverDetailsSidebarApplication": {
+      "showAllDetails": "Show all details"
+    },
+    "caregiverInterested": "Caregiver interested",
+    "caregivers": "Caregivers",
+    "change": "Change",
+    "changeApplicationRequestGrid": {
+      "arrival": "Arrival",
+      "careBudget": "Care budget",
+      "departure": "Departure",
+      "sendChangeRequest": "Send change request"
+    },
+    "changeOffer": "Change offer",
+    "choose": "Choose",
+    "chooseOption": "Choose option",
+    "clearAllFilters": "Clear all filters",
+    "completed": "Completed",
+    "components": {
+      "badgeMatchingJobs": {
+        "label": "Matching Jobs"
+      }
+    },
+    "confirmed": "Confirmed",
+    "copy": "Copy",
+    "countries": {
+      "albania": "Albania",
+      "andorra": "Andorra",
+      "armenia": "Armenia",
+      "austria": "Austria",
+      "azerbaijan": "Azerbaijan",
+      "belarus": "Belarus",
+      "belgium": "Belgium",
+      "bosnia_and_herzegovina": "Bosnia and Herzegovina",
+      "bulgaria": "Bulgaria",
+      "croatia": "Croatia",
+      "cyprus": "Cyprus",
+      "czech_republic": "Czech Republic",
+      "denmark": "Denmark",
+      "estonia": "Estonia",
+      "finland": "Finland",
+      "france": "France",
+      "georgia": "Georgia",
+      "germany": "Germany",
+      "greece": "Greece",
+      "hungary": "Hungary",
+      "iceland": "Iceland",
+      "ireland": "Ireland",
+      "italy": "Italy",
+      "kazakhstan": "Kazakhstan",
+      "kosovo": "Kosovo",
+      "latvia": "Latvia",
+      "liechtenstein": "Liechtenstein",
+      "lithuania": "Lithuania",
+      "luxembourg": "Luxembourg",
+      "malta": "Malta",
+      "moldova": "Moldova",
+      "monaco": "Monaco",
+      "montenegro": "Montenegro",
+      "netherlands": "Netherlands",
+      "north_macedonia": "North Macedonia",
+      "norway": "Norway",
+      "poland": "Poland",
+      "portugal": "Portugal",
+      "romania": "Romania",
+      "russia": "Russia",
+      "san_marino": "San Marino",
+      "serbia": "Serbia",
+      "slovakia": "Slovakia",
+      "slovenia": "Slovenia",
+      "spain": "Spain",
+      "sweden": "Sweden",
+      "switzerland": "Switzerland",
+      "turkey": "Turkey",
+      "ukraine": "Ukraine",
+      "united_kingdom": "United Kingdom",
+      "vatican_city": "Vatican City"
+    },
+    "customer": "Customer",
+    "customerAddNewStepThird": {
+      "contactPerson": "Contact person (In case of emergency)",
+      "informationAbout": "Informations about the living situation",
+      "mainPatient": "Main patient (Contractual partner)",
+      "optionalInformation": {
+        "description": "If you want, you can add the contract information now, or do it later in an application process",
+        "header": "Optional Information"
+      },
+      "pictures": "Pictures",
+      "reliefSupportForTheCaregiver": "Relief/ Support for the caregiver",
+      "tasksForTheCaregiver": "Tasks for the caregiver",
+      "wishesForTheCaregiver": "Wishes for the caregiver"
+    },
+    "customerDetailsProfile": {
+      "reviews": "Reviews",
+      "whatHaveSaid": "What caregivers have said about the job and the patients"
+    },
+    "customerFormGeneralJobSearchSettings": {
+      "header": "General job settings",
+      "whatIsTheDescription": "What is the maximum the customer wants to pay, including the commission for agents.",
+      "whatIsTheHeader": "What is the customer's maximum budget?"
+    },
+    "customerFormSettings": {
+      "header": "Settings"
+    },
+    "day": "Day",
+    "days": "Days",
+    "daysAgo": "Days ago",
+    "decline": "Decline",
+    "declined": "Declined",
+    "delete": "Delete",
+    "departure": "Departure",
+    "describe": "Describe",
+    "details": "Details",
+    "download": "Download",
+    "drivingLicense": {
+      "automatic": "Yes, automatic",
+      "manual": "Yes, manual transmission"
+    },
+    "drivingLicenseOptions": {
+      "no": "No",
+      "notImportant": "Not important",
+      "not_important": "Not important",
+      "yes_automatic": "Yes, automatic",
+      "yes_automatic_manual": "Yes, automatic + manual",
+      "yes_manual": "Yes, manual"
+    },
+    "duration": "Duration",
+    "edit": "Edit",
+    "educationOptions": {
+      "general": "General",
+      "high_school": "High school",
+      "professional": "Professional",
+      "studies": "Studies"
+    },
+    "email": "Email",
+    "enterInformation": "Enter information",
+    "enterText": "Enter text",
+    "equipments": {
+      "bathroom": "Bathroom",
+      "free_internet": "Free internet",
+      "furnished_room": "Furnished room",
+      "lockable": "Lockable",
+      "own_bathroom": "Own bathroom",
+      "own_kitchen": "Own kitchen",
+      "own_tv": "Own TV",
+      "own_wc": "Own WC",
+      "tv": "TV",
+      "others": "Others"
+    },
+    "estimated": "Estimated",
+    "everyOptionIsOk": "Every option is ok",
+    "exclusiveUntil": "Exclusive until",
+    "false": "No",
+    "female": "Female",
+    "filters": "Filters",
+    "from": "From",
+    "full": "Full",
+    "genders": {
+      "all": "All",
+      "female": "Female",
+      "male": "Male",
+      "notImportant": "Not important",
+      "not_important": "Not important"
+    },
+    "general": "general",
+    "group": "Group",
+    "half": "Half",
+    "hideAllJobDetails": "Hide job details",
+    "high_school": "high school",
+    "id": "ID",
+    "incontinenceOptions": {
+      "false": "No",
+      "true": "Yes"
+    },
+    "internetTypeOptions": {
+      "no": "No",
+      "not_possible": "Not possible",
+      "on_arrival": "On arrival",
+      "yes": "Yes"
+    },
+    "invoiceParties": {
+      "mainContract": "Main Contract Person",
+      "patient": "Patient"
+    },
+    "irrelevant": "Irrelevant",
+    "jobs": "Jobs",
+    "known": "Known",
+    "languageGermanOptions": {
+      "level_0": "Level 0 (no knowledge)",
+      "level_1": "Level 1 (basic knowledge)",
+      "level_2": "Level 2 (intermediate knowledge)",
+      "level_3": "Level 3 (advanced knowledge)",
+      "level_4": "Level 4 (good knowledge)"
+    },
+    "languageGermanOptionsShort": {
+      "level_0": "Level 0",
+      "level_1": "Level 1",
+      "level_2": "Level 2",
+      "level_3": "Level 3",
+      "level_4": "Level 4"
+    },
+    "languageOptions": {
+      "al": "Albanian",
+      "bg": "Bulgarian",
+      "by": "Belarusian",
+      "cz": "Czech",
+      "de": "Deutsch",
+      "dk": "Danish",
+      "ee": "Estonian",
+      "en": "English",
+      "es": "Spanish",
+      "fi": "Finnish",
+      "fr": "French",
+      "gr": "Greek",
+      "hr": "Croatian",
+      "hu": "Hungarian",
+      "is": "Icelandic",
+      "it": "Italian",
+      "lt": "Lithuanian",
+      "lv": "Latvian",
+      "md": "Moldovan",
+      "me": "Montenegrin",
+      "mk": "Macedonian",
+      "mt": "Maltese",
+      "nl": "Dutch",
+      "no": "Norwegian",
+      "pl": "Polish",
+      "pt": "Portuguese",
+      "ro": "Romanian",
+      "rs": "Serbian",
+      "ru": "Russian",
+      "se": "Swedish",
+      "si": "Slovenian",
+      "sk": "Slovak",
+      "ua": "Ukrainian"
+    },
+    "languages": {
+      "de": "German",
+      "en": "English",
+      "pl": "Polish"
+    },
+    "lastUpdate": "Last update",
+    "less": "Less",
+    "lifts": {
+      "no": "No",
+      "with_patient": "With patient",
+      "yes": "Yes",
+      "yes_with_patient_help": "Yes, with patient help"
+    },
+    "livingConditionOptions": {
+      "apartament": "Apartament",
+      "apartment": "Apartment",
+      "house": "House"
+    },
+    "loadMore": "Load more",
+    "male": "Male",
+    "match": "Match",
+    "matching": "Matching",
+    "max": "Max",
+    "message": "Message",
+    "min1": "Min 1",
+    "min2": "Min 2",
+    "min3": "Min 3",
+    "min4": "Min 4",
+    "min5": "Min 5",
+    "mobilities": {
+      "bed": "Bed",
+      "walk": "Walk"
+    },
+    "month": "Month",
+    "months": "Months",
+    "monthsOptions": {
+      "august": "August",
+      "july": "July"
+    },
+    "more": "More",
+    "moreInfo": "More info",
+    "nationalities": {
+      "albanian": "Albania",
+      "andorran": "Andorra",
+      "armenian": "Armenia",
+      "austrian": "Austria",
+      "azerbaijani": "Azerbaijan",
+      "belarusian": "Belarus",
+      "belgian": "Belgium",
+      "bosnian": "Bosnia and Herzegovina",
+      "bulgarian": "Bulgaria",
+      "croatian": "Croatia",
+      "cypriot": "Cyprus",
+      "czech": "Czech Republic",
+      "danish": "Denmark",
+      "dutch": "Netherlands",
+      "england": "England",
+      "english": "England",
+      "estonian": "Estonia",
+      "finnish": "Finland",
+      "french": "France",
+      "georgian": "Georgia",
+      "german": "Germany",
+      "greek": "Greece",
+      "hungarian": "Hungary",
+      "icelandic": "Iceland",
+      "irish": "Ireland",
+      "italian": "Italy",
+      "kazakhstani": "Kazakhstan",
+      "kosovar": "Kosovo",
+      "latvian": "Latvia",
+      "liechtensteiner": "Liechtenstein",
+      "lithuanian": "Lithuania",
+      "luxembourger": "Luxembourg",
+      "macedonian": "North Macedonia",
+      "maltese": "Malta",
+      "moldovan": "Moldova",
+      "monegasque": "Monaco",
+      "montenegrin": "Montenegro",
+      "norwegian": "Norway",
+      "polish": "Poland",
+      "portuguese": "Portugal",
+      "romanian": "Romania",
+      "russian": "Russia",
+      "sammarinese": "San Marino",
+      "scotish": "Scotland",
+      "scottish": "Scotland",
+      "serbian": "Serbia",
+      "slovak": "Slovakia",
+      "slovenian": "Slovenia",
+      "spanish": "Spain",
+      "swedish": "Sweden",
+      "swiss": "Switzerland",
+      "turkish": "Turkey",
+      "ukrainian": "Ukraine",
+      "vatican": "Vatican City",
+      "welsh": "Wales"
+    },
+    "new": "New",
+    "newest": "Newest",
+    "next": "Next",
+    "nightOperationsOptions": {
+      "1_2_times": "1-2 times",
+      "more_than_2": "More than 2",
+      "no": "No",
+      "up_to_1_time": "Up to 1 time",
+      "not_important": "Not important"
+    },
+    "no": "No",
+    "noActivities": "No activities",
+    "noResults": "No results",
+    "none": "None",
+    "notActive": "Not active",
+    "not_important": "Not important",
+    "openEnd": "Open end",
+    "openEnded": "Open ended",
+    "operationDate": "Operation date",
+    "optional": "Optional",
+    "or": "or",
+    "orange": "Orange",
+    "otherPeopleInHouse": {
+      "alone": "Alone",
+      "no": "No",
+      "with_family": "With family",
+      "with_spouse": "With spouse"
+    },
+    "otherPersonsInHouseholdOptions": {
+      "max_1": "Max 1",
+      "max_2": "Max 2",
+      "max_3": "Max 3",
+      "max_4": "Max 4",
+      "max_5": "Max 5",
+      "no": "No"
+    },
+    "outdated": "Outdated",
+    "patientsDementiaOptions": {
+      "hard": "Hard",
+      "low": "Low",
+      "medium": "Medium",
+      "no": "No"
+    },
+    "patientsMobilityOptions": {
+      "bed": "Bed",
+      "bedridden": "Bedridden",
+      "mobile": "Mobile",
+      "rollator": "Rollator",
+      "walk": "Walk",
+      "walker": "Walker",
+      "walking_stick": "Walking stick",
+      "wheelchair": "Wheelchair"
+    },
+    "pets": {
+      "cat": "Cat",
+      "dog": "Dog"
+    },
+    "petsPreferenceOptions": {
+      "noDogs": "No dogs",
+      "noCats": "No cats",
+      "noAll": "No all"
+    },
+    "petsOptions": {
+      "max_1": "Max 1",
+      "max_2": "Max 2",
+      "no": "No"
+    },
+    "phone": "Phone",
+    "pleaseChoose": "Please choose",
+    "pleaseEnter": "Please enter",
+    "premiumMember": "Premium member",
+    "preview": "Preview",
+    "previous": "Previous",
+    "professional": "professional",
+    "profile": "Profile",
+    "ranks": {
+      "no_level": "No level",
+      "trainee": "Trainee"
+    },
+    "red": "Red",
+    "refreshData": "Refresh data",
+    "rejected": "Rejected",
+    "remindMe": "Remind me",
+    "reply": "Reply",
+    "report": "Report",
+    "request": "Request",
+    "requested": "Requested",
+    "reviews": {
+      "caregiverTasks": "Caregiver tasks",
+      "livingSituation": "Living situation",
+      "patients": "Patients",
+      "residentialArea": "Residential area"
+    },
+    "salutations": {
+      "mr": "Mr.",
+      "mrs": "Mrs."
+    },
+    "save": "Save",
+    "saveAndCreate": "Save and create",
+    "saveAndNext": "Save and next",
+    "saveChanges": "Save changes",
+    "search": "Search",
+    "sendJobToCaregiver": "Send job to caregiver",
+    "sendMessage": "Send message",
+    "sendSms": "Send SMS",
+    "sended": "Sended",
+    "set": "Set",
+    "showAllJobDetails": "Show all job details",
+    "since": "Since",
+    "smoking": {
+      "no": "No",
+      "not_important": "Not important",
+      "yes": "Yes",
+      "yes_outside": "Yes, outside"
+    },
+    "sortBy": "Sort by",
+    "sortOptions": {
+      "bestMatching": "Best matching",
+      "bestPrice": "Best price",
+      "newest": "Newest",
+      "oldest": "Oldest",
+      "startJob": "Start job"
+    },
+    "studies": "studies",
+    "summer": "Summer",
+    "titles": {
+      "dr": "Dr",
+      "mgr": "Mgr"
+    },
+    "to": "To",
+    "today": "Today",
+    "toolsOptions": {
+      "care_bed": "Care bed",
+      "others": "Others",
+      "patient_hoist": "Patient hoist",
+      "rollator": "Rollator",
+      "stair_hoist": "Star hoist",
+      "walking_stick": "Walking stick",
+      "wheelchair": "Wheelchair"
+    },
+    "true": "Yes",
+    "typeAndHitEnter": "type and hit enter",
+    "typeToSearch": "Type to search",
+    "until": "Until",
+    "update": "Update",
+    "upload": "Upload",
+    "urbanizationOptions": {
+      "big_city": "Big city",
+      "city": "City",
+      "village": "Village"
+    },
+    "vaccinationStatuses": {
+      "min_1": "Min 1",
+      "min_2": "Min 2",
+      "min_3": "Min 3",
+      "min_4": "Min 4",
+      "no": "No"
+    },
+    "verified": "Verified",
+    "visibilities": {
+      "hide": "Hide",
+      "public": "Public",
+      "public_limited": "Public limited"
+    },
+    "week": "Week",
+    "weeks": "Weeks",
+    "with_patient": "With patient",
+    "workInHolidayOptions": {
+      "1_may": "1 may",
+      "ascension_of_christ": "Ascension of Christ",
+      "christmas": "Christmas",
+      "easter": "Easter",
+      "new_year": "New Year",
+      "pentecost": "Pentecost"
+    },
+    "years": "Years",
+    "yearsOld": "years old",
+    "yes": "Yes"
+  },
+  "glogal": {
+    "drivingLicenseOptions": {
+      "not_important": "Not important"
+    }
+  },
+  "languages": {
+    "codes": {
+      "de": "German",
+      "en": "English",
+      "pl": "Polish"
+    }
+  },
+  "layouts": {
+    "applicationLayout": {
+      "dropdown": {
+        "options": {
+          "accountSettings": "Account Settings",
+          "accounting": "Accounting",
+          "logout": "Logout"
+        }
+      }
+    }
+  },
+  "main": {
+    "title": "Hello!"
+  },
+  "options": {
+    "holidaysOptions": {
+      "all_saints_day_in_germany": "All Saints' Day in Germany",
+      "ascension_day_in_germany": "Ascension Day in Germany",
+      "christmas_in_germany(christmas_eve,_first_and_second_christmas_day)": "Christmas in Germany (Christmas Eve, first and second Christmas Day)",
+      "easter_in_germany(good_friday,_easter_sunday,_easter_monday)": "Easter in Germany (Good Friday, Easter Sunday, Easter Monday)",
+      "may_1": "May 1",
+      "new_year_in_germany": "New year in germany",
+      "pentecost_in_germany(whit_sunday,_whit_monday)": "Pentecost in Germany (With Sunday, With Monday)"
+    }
+  },
+  "personalInfo": {
+    "aboutPlaceholder": "What is great about you?"
+  },
+  "routes": {
+    "accountSettings": "Account",
+    "caregiverAddNew": "Add a new Caregiver",
+    "caregiverDetails": "Caregiver Details",
+    "caregivers": "Caregivers",
+    "caregiversAccepted": "Accepted",
+    "caregiversAgencyRequests": "Agency Requests",
+    "caregiversAll": "All",
+    "caregiversCGInterest": "CG Interest",
+    "caregiversMyApplications": "My Applications",
+    "caregiversNoActivity": "No Activity",
+    "caregiversOnTheJob": "On the Job",
+    "caregiversRequests": "Agency requests",
+    "companyInformation": "Company  Information",
+    "customerDetailsContractAndSystem": "Contract and system",
+    "customerDetailsJobs": "Jobs",
+    "customerDetailsProfile": "Profile",
+    "dashboard": "Dashboard",
+    "employees": "Employees",
+    "finalConfirmation": "Final Confirmation",
+    "fullProfile": "Full Profile",
+    "jobDetailsApplyForJob": "Job details",
+    "jobDetailsJobActivities": "Job activities",
+    "jobDetailsMyCaregivers": "My Caregivers",
+    "jobMarket": "Job market",
+    "jobs": "Jobs",
+    "matchingCaregivers": "Matching Caregivers",
+    "matchingJobs": "Matching Jobs",
+    "messages": "Messages",
+    "myApplications": "My Applications",
+    "myCustomers": "My customers",
+    "overview": "Overview",
+    "priceAndContractSettings": "Price & Contract",
+    "requestsReceived": "Requests Received",
+    "userAccount": "User Account"
+  },
+  "rules": {
+    "thisFieldIsRequired": "This field is required"
+  },
+  "view": {
+    "customerAddNewFinalize": {
+      "confirmDelete": "You sure you want to delete the job offer? This action cannot be undone!",
+      "toasts": {
+        "created": "Your job is successfully published!",
+        "updated": "Job offer updated succesfully!"
+      }
+    },
+    "customerAddNewStepFirst": {
+      "information": {
+        "first": "All fields marked in",
+        "second": "red",
+        "third": "are required to create a customer/ job."
+      },
+      "toasts": {
+        "created": "The customer {last_name} from {location} was successfully created. You find it from now on in you customer list in your account.",
+        "updated": "The customer {last_name} from {location} was successfully updated."
+      },
+      "wantToImport": "Want to import more customers at once?"
+    },
+    "customerAddNewStepSecond": {
+      "toasts": {
+        "created": "Patients are created"
+      }
+    },
+    "customerAddNewStepThird": {
+      "toasts": {
+        "created": "Care situation is created"
+      }
+    }
+  },
+  "views": {
+    "accountSettings": {
+      "metrics": {
+        "activeJobs": "Active Jobs",
+        "caregivers": "Caregivers",
+        "jobsDone": "Jobs done"
+      }
+    },
+    "caregiverAddNew": {
+      "buttons": {
+        "backToCaregivers": "Back to caregivers",
+        "orCreateManually": "Or create manually"
+      },
+      "pdfCard": {
+        "subtitle": "It´s Magic. Upload a PDF Profile, we will read it out and you only have to check the data.",
+        "title": "Upload a profile PDF and we will make the rest!"
+      }
+    },
+    "caregiverAgencyDashboard": {
+      "badges": {
+        "applicationAccepted": "Application accepted",
+        "applicationDeclined": "Application declined",
+        "confirmationArrival": "Arrival data added",
+        "confirmationDeparture": "Departure data added",
+        "file": "Contract added",
+        "newCounterOffer": "New counter offer"
+      },
+      "blocks": {
+        "allOpenJobs": {
+          "description": {
+            "linkOne": "{active} active requests",
+            "notYetProcessed": "not yet processed.",
+            "youHave": "You have"
+          },
+          "title": "All open jobs"
+        },
+        "inNegotiation": {
+          "description": {
+            "byCustomer": "by customer.",
+            "linkOne": "{applications} applications",
+            "linkTwo": "{confirmed} are confirmed",
+            "ofWhich": "of which",
+            "youHave": "You have made"
+          },
+          "title": "In negotiation"
+        },
+        "jobsFilled": {
+          "description": {
+            "and": "and",
+            "linkOne": "({arrival}) before arrival",
+            "linkTwo": "({job}) on a job.",
+            "youHave": "You have"
+          },
+          "descriptioxa": "You have <span class=\"text-brand-500\">({arrival}) before arrival</span> and <span class=\"text-brand-500\">({job}) on a job</span>",
+          "title": "Jobs filled"
+        }
+      },
+      "filters": {
+        "isApplication": "Is application",
+        "isApplicationAccepted": "Application accepted",
+        "isApplicationDeclined": "Application declined",
+        "isCaregiverInterest": "Caregiver interest",
+        "isConfirmation": "Is confirmation",
+        "isMatch": "Match",
+        "isNewCounterOffer": "New counter offer",
+        "isRequest": "Agency request"
+      },
+      "newestActivities": "Newest activities",
+      "overview": "Overview",
+      "status": {
+        "application_accepted": "Application accepted",
+        "application_declined": "Application declined",
+        "arrival_info": "Arrival info available",
+        "caregiver_interest": "Caregiver interest",
+        "confirmation_withdrawn": "Confirmation withdrawn",
+        "contract_available": "Contract available",
+        "departure_info": "Departure info available",
+        "new_application": "New application",
+        "new_counter_offer": "New counter offer",
+        "request": "Request",
+        "request_declined": "Request declined",
+        "match": "Match",
+        "invoice": "Invoice"
+      },
+      "summary": {
+        "linkOne": "{jobsCount} open jobs",
+        "linkTwo": "{matchesCount} matches over {percent}%",
+        "onThePlatform": "on the platform, of which",
+        "toYourCaregiver": "to your caregivers.",
+        "weCurrentlyHave": "We currently have"
+      },
+      "table": {
+        "headers": {
+          "agency": "Agency",
+          "caregiver": "Caregiver",
+          "customer": "Customer",
+          "date": "Date",
+          "jobID": "Job ID",
+          "status": "Status"
+        }
+      },
+      "welcomeBack": "Hello"
+    },
+    "caregiverDetails": {
+      "activeJob": "Active jobs",
+      "applications": "Applications",
+      "confirmYourBooking": "Confirm your Booking",
+      "history": "History",
+      "matchingJobs": "Matching jobs",
+      "noActiveJobs": "No active jobs available.. Here you will find all accepted jobs and all current jobs of the caregiver if she is on site.",
+      "noApplications": "No applications yet. If you have applied the caregiver for a job, you will find it here including all the details."
+    },
+    "caregiverDetailsFullProfile": {
+      "buttons": {
+        "deleteCaregiver": "Delete caregiver"
+      },
+      "modal": {
+        "delete": "Remove caregiver",
+        "message": "Are you sure you want to remove Caregiver?"
+      },
+      "table": {
+        "headers": {
+          "agency": "Agency",
+          "caregiverReview": "Caregiver review",
+          "customer": "Customer",
+          "customerReview": "Customer review",
+          "duration": "Duration",
+          "offer": "Offer",
+          "operatingTime": "Operating time",
+          "returnDesired": "Return desired?",
+          "returnWish": "Return wish?"
+        }
+      },
+      "tabs": {
+        "baseData": "Base data",
+        "jobHistory": "Job History"
+      },
+      "toasts": {
+        "deleted": "Caregiver deleted!"
+      }
+    },
+    "caregivers": {
+      "buttons": {
+        "createNewCaregiver": "Create new caregiver"
+      }
+    },
+    "cgVerify": {
+      "iDidNotReceiveACode": "I did not receive a code",
+      "showMatchingJobs": "Show matching  jobs",
+      "verificationCode": "Verification code",
+      "verificationCodeResent": "Verification code has been sent!",
+      "weHaveJustSentYou": "We have just sent you a confirmation code by SMS, please use it to verify yourself."
+    },
+    "companySettings": {
+      "cards": {
+        "first": {
+          "header": "Company Information",
+          "headers": {
+            "companyLogo": "Company logo",
+            "companyName": "Company name",
+            "companyVerificationDocuments": "Company Verification Documents",
+            "mamamiaContactPerson": "mamamia contact person",
+            "managingDirector": "Managing Director",
+            "officialOfficeAddress": "Offical office adress",
+            "registrationInformation": "Registration information"
+          },
+          "labels": {
+            "city": "City",
+            "commercialRegister": "Commercial register",
+            "country": "Country",
+            "email": "Email",
+            "fileUpload": "File Upload",
+            "firstName": "First name",
+            "lastName": "Last name",
+            "mainPhoneNumber": "Main Phone Number",
+            "phone": "Phone",
+            "pleaseUpload": "Please upload a document that legitimizes your company. E.g. a trade license.",
+            "postalCode": "Postal Code",
+            "salesTaxId": "Sales tax ID",
+            "salutation": "Salutation",
+            "street": "Street",
+            "subjectToVat": "Subject to VAT"
+          }
+        },
+        "second": {
+          "header": "Company Presentation",
+          "headers": {
+            "images": "Images"
+          },
+          "labels": {
+            "addNewEmployee": "Add new employee",
+            "chooseEmploye": "Choose Employee",
+            "companyLogo": "Company Logo",
+            "images": "Please select your main profile photo and your company logo.",
+            "profilePhoto": "Profile photo"
+          }
+        },
+        "third": {
+          "header": "Contact person for caregivers",
+          "headers": {
+            "contact": "Contact for inquiries and problems"
+          },
+          "labels": {
+            "contact": "Your contact when it comes to caregiver requests."
+          }
+        }
+      }
+    },
+    "customerDetailsJobs": {
+      "table": {
+        "headers": {
+          "cgCustomerReview": "Customer review",
+          "cgReturnWish": "CG return wish"
+        }
+      }
+    },
+    "employees": {
+      "buttons": {
+        "addNew": "Add new"
+      },
+      "contactPersons": "Contact persons",
+      "header": "Employees",
+      "headers": {
+        "date": "Date",
+        "email": "Email",
+        "forCaregiver": "For Caregiver",
+        "forCustomerServiceAgencies": "For Customer Service Agencies",
+        "name": "Name",
+        "phone": "Phone",
+        "role": "Role"
+      },
+      "labels": {
+        "chooseEmployee": "Choose Employee"
+      }
+    },
+    "fullProfile": {
+      "headers": {
+        "generalInformation": "General Information",
+        "generalInformations": {
+          "fifth": "What is your budget for care?",
+          "first": "Who should take advantage of the care",
+          "fourth": "When is care initially needed?",
+          "second": "What level of care is available",
+          "third": "Are there other people living in the household?"
+        },
+        "impression": "Impression",
+        "informationAboutLivingSituation": "Information about the living situation",
+        "patientInformation": "Patient Information",
+        "patientInformations": {
+          "first": "What is the physical condition?",
+          "fourth": "Further information and special features about the patient's condition:",
+          "second": "What tools are used?",
+          "third": "What is the psychological/mental state?"
+        },
+        "reliefSlashSupport": "Relief/support",
+        "tasksForTheCaregiver": "Tasks for the caregiver",
+        "wishesForTheCareStaff": "Wishes for the care staff",
+        "wishesForTheCareStaffs": {
+          "fifth": "Do you have any further requests for the carer?",
+          "first": "Desired gender?",
+          "fourth": "Is the caregiver allowed to smoke?",
+          "second": "Language skills",
+          "third": "Should the caregiver have a driver's license (often at an additional cost)?"
+        }
+      }
+    },
+    "jobDetails": {
+      "buttons": {
+        "applyForTheJob": "Apply",
+        "backToJob": "Back to job",
+        "hideAllJobDetails": "Hide all job details",
+        "matchingCaregivers": "Matching caregivers",
+        "sendMessage": "Send message",
+        "showAllJobDetails": "Show all job details",
+        "viewFullProfile": "View Full Profile"
+      },
+      "confirmFinally": "Confim finally",
+      "headers": {
+        "caregiverRequirements": {
+          "fifth": "Smoker",
+          "first": "Caregiver requirements",
+          "fourth": "Driving License",
+          "second": "Gender",
+          "third": "Language skills"
+        },
+        "patientSituation": {
+          "fifth": "Family near by",
+          "first": "Patient situation",
+          "fourth": "Other person in household",
+          "second": "Mobility of Patients",
+          "third": "Night operations"
+        }
+      },
+      "openCaregiver": "Open caregiver",
+      "reportProblem": "Report problem",
+      "shortDescription": "Short description",
+      "verified": "Verified customer"
+    },
+    "jobDetailsSATop": {
+      "buttons": {
+        "allJobs": "All Jobs",
+        "customerProfile": "Customer Profile"
+      }
+    },
+    "jobMarket": {
+      "badges": {
+        "matchingCaregivers": "Matching Caregivers",
+        "requestReceived": "Request Received",
+        "yourApplication": "Your Application"
+      },
+      "jobsCount": "open jobs",
+      "switches": {
+        "hideReserved": "Hide reserved",
+        "jobSent": "Job sent",
+        "myKnownJobs": "My known jobs",
+        "withoutApplications": "Without applications"
+      }
+    },
+    "login": {
+      "buttons": {
+        "facebook": "Continue with Facebook",
+        "google": "Continue with Google",
+        "login": "Login"
+      },
+      "form": {
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Enter your e-mail"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        }
+      },
+      "header": "Sign in"
+    },
+    "matchingCaregivers": {
+      "buttons": {
+        "addCaregiver": "Add Caregiver",
+        "onlyAppCG": "Only App CG"
+      },
+      "header": "Matching Caregivers",
+      "history": "History"
+    },
+    "myApplications": {
+      "header": "My Applications"
+    },
+    "priceAndContractSettings": {
+      "cards": {
+        "first": {
+          "headers": {
+            "generalBusinessSettings": "General business settings",
+            "sampleContract": "Sample contract"
+          },
+          "labels": {
+            "noticePeriod": "Notice period"
+          }
+        },
+        "second": {
+          "header": "Visibility for caregivers",
+          "headers": {
+            "holidaySurcharges": "Holiday surcharges",
+            "travelExpenses": "Travel expenses",
+            "vacationAssignments": "Vacation assignments",
+            "vacationDays": "Vacation days"
+          },
+          "labels": {
+            "addAnotherPosition": "Add another position",
+            "arrivalFee": "Arrival fee",
+            "calculationOfTravelDays": "Calculation of travel days",
+            "departureFee": "Departure fee",
+            "multiplierRate": "Multiplier (daily rate)",
+            "pricePerDay": "Price per day"
+          },
+          "tooltips": {
+            "multiplierRate": "A multiplier can be selected instead of a fixed daily rate. For example, if a customer pays 3,000 euros, 100 euros are normally charged per day. If you choose a multiplier of 2, you will be charged 200 euros per day."
+          }
+        }
+      }
+    },
+    "register": {
+      "buttons": {
+        "continue": "Continue with e-mail"
+      },
+      "form": {
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Enter your e-mail"
+        }
+      },
+      "header": "Sign up for free",
+      "points": {
+        "first": {
+          "description": "After login you will see directly all open jobs that are on the marketplace.",
+          "header": "See jobs immediately"
+        },
+        "second": {
+          "description": "Create or import your caregivers to see directly which jobs fit.",
+          "header": "Create caregivers"
+        },
+        "third": {
+          "description": "After your verification, you can immediately apply to jobs and receive requests.",
+          "header": "Apply for jobs"
+        }
+      },
+      "subheader": "100% free, directly test all functions."
+    },
+    "requestsReceived": {
+      "header": "Received Requests"
+    },
+    "serviceAgencyCaregivers": {
+      "switchers": {
+        "known": "Known",
+        "matchesJobs": "Matches Jobs",
+        "withoutActivity": "Without Activity"
+      }
+    },
+    "serviceAgencyDashboard": {
+      "abort": "Aborts",
+      "accepted": "Accepted",
+      "applications": "Applications",
+      "filter": {
+        "header": "Open job searches",
+        "item": {
+          "applicationAccepted": "Application Accepted",
+          "applicationDeclined": "Application Declined",
+          "arrivalInfoAvailable": "Arrival Info Available",
+          "caregiverInterest": "Caregiver Interest",
+          "contractAvailable": "Contract Available",
+          "departureInfoAvailable": "Departure Info Available",
+          "newApplication": "New Application",
+          "newCounterOffer": "New Counter Offer",
+          "newInvoice": "New Invoice",
+          "requestDeclined": "Request Declined"
+        },
+        "name": "Filter"
+      },
+      "openJobs": "Open jobs",
+      "status": {
+        "application_accepted": "Application accepted",
+        "application_declined": "Application declined",
+        "arrival_info": "Arrival info available",
+        "caregiver_interest": "Caregiver interest",
+        "confirmation_withdrawn": "Confirmation withdrawn",
+        "contract_available": "Contract available",
+        "departure_info": "Departure info available",
+        "new_application": "New application",
+        "new_counter_offer": "New counter offer",
+        "request": "Request declined",
+        "request_declined": "Request declined",
+        "match": "Match",
+        "invoice": "Invoice"
+      },
+      "tableTitle": "Newest activities"
+    },
+    "serviceAgencyJobs": {
+      "abortsAlert": "Abort jobs remain in this list for 7 days and then appear in the other tabs as normal.",
+      "header": "Jobs",
+      "headers": {
+        "activites": "Activites",
+        "agency": "Agency",
+        "arrival": "Arrival",
+        "budget": "Budget",
+        "caregiver": "Caregiver",
+        "contract": "Contract",
+        "departure": "Departure",
+        "id": "Id",
+        "location": "Location"
+      },
+      "newJob": "Create  new job",
+      "selectButton": {
+        "abort": "Aborts",
+        "accepted": "Accepted",
+        "all": "All",
+        "applications": "Applications",
+        "interest": "Interested",
+        "no_activity": "No activities",
+        "request": "Requested"
+      }
+    },
+    "serviceAgencyMyCustomers": {
+      "createNewCustomer": "Create new customer",
+      "customerListActive": "Active",
+      "customerListAll": "All",
+      "customerListArchive": "Archive",
+      "customerListDraft": "Draft"
+    },
+    "signIn": {
+      "form": {
+        "email": {
+          "placeholder": "Enter your e-mail"
+        },
+        "name": {
+          "label": "Name",
+          "placeholder": "Enter name"
+        },
+        "password": {
+          "label": "Password",
+          "placeholder": "Enter your password"
+        },
+        "passwordRepeat": {
+          "label": "Repeat password",
+          "placeholder": "Confirm your password "
+        }
+      },
+      "header": "Sign in",
+      "subheader": {
+        "first": "Thank you for confirming your email address.",
+        "second": "Please tell us your name and set a password to final create your account."
+      }
+    },
+    "signup": {
+      "header": "Sign up"
+    },
+    "userAccount": {
+      "cards": {
+        "first": {
+          "header": "Managing Director",
+          "headers": {
+            "accountLogin": "Account Login"
+          },
+          "labels": {
+            "email": "Email",
+            "forgotPassword": "Forgot password?",
+            "locale": "System language",
+            "password": "Password",
+            "setNewPassword": "Set new password"
+          }
+        },
+        "second": {
+          "header": "Personal data",
+          "headers": {
+            "whoYouAre": "Who you are?"
+          },
+          "labels": {
+            "firstName": "First name",
+            "lastName": "Last name",
+            "phoneNumber": "Phone Number",
+            "positionInTheCompany": "Position in the company",
+            "profileImage": "Profile Image ",
+            "salutation": "Salutation",
+            "title": "Title"
+          }
+        }
+      }
+    }
+  },
+  "customer": {
+    "contractInformations": "Contract informations",
+    "unprocessed": "Unprocessed",
+    "likesMe": "Likes me",
+    "iLike": "I like",
+    "jobSended": "Job sended",
+    "experience": "Experience",
+    "sheLikesYourJob": "She likes your job",
+    "availableTo": "Available to",
+    "yourTotalCosts": "Your total costs",
+    "mySkillsAndExperience": "My Skills and experience",
+    "requirementsAndWishes": "Requirements and wishes",
+    "match": "Match",
+    "availableFrom": "Available from",
+    "completeProfile": "Complete profile",
+    "introduction": "Introduction",
+    "acceptApplication": "Accept application",
+    "acceptTheApplication": "Accept the application",
+    "offerDetails": "Offer details",
+    "languageSkillsInGerman": "Language Skills In German",
+    "withdrawConfirmation": "Withdraw confirmation",
+    "filters": {
+      "unprocessed": "Unprocessed",
+      "isLike": "I like",
+      "likesMe": "Likes me"
+    },
+    "menu": {
+      "caregivers": "Caregivers",
+      "applications": "Applications",
+      "accepted": "Accepted"
+    },
+    "userMenu": {
+      "login": "Login",
+      "logout": "Logout",
+      "profile": "Profile"
+    },
+    "faq": {
+      "faqTitle1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqContent1": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqTitle2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqContent2": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqTitle3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqContent3": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqTitle4": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.",
+      "faqContent4": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam."
+    }
+  },
+  "departureDate": "Departure date"
+}

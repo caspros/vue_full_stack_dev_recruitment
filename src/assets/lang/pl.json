@@ -1,0 +1,2659 @@
+{
+  "1": 1,
+  "2": 2,
+  "3": 3,
+  "4": 4,
+  "5": 5,
+  "applyForJobModal": {
+    "confirmModalOptions": {
+      "continueApplication": "Kontynuuj aplikację",
+      "yesCancel": "Tak, anuluj"
+    }
+  },
+  "cg": {
+    "detailsJob": {
+      "anyOtherWishes": "Jakieś inne życzenia dla opiekuna?",
+      "likeJob": "Jak",
+      "thankYou": "Dziękuję",
+      "title": "Otwarte oferty pracy"
+    },
+    "filter": {
+      "Latest-possible-return": "Najpóźniejszy możliwy powrót?",
+      "acceptedDementia": "Akceptowana demencja do maks.",
+      "acceptedIncontinence": "Akceptowane nietrzymanie moczu",
+      "acceptedLift": "Akceptowane podnoszenie i przechowywanie",
+      "acceptedMobility": "Akceptowana mobilność",
+      "acceptedNight": "Akceptowane operacje nocne do maks.",
+      "animalsInHousehold": "Zwierzęta w gospodarstwie domowym",
+      "apply": "Zastosuj filtr",
+      "arivalDate": "Data przyjazdu z",
+      "clear": "Wyczyść",
+      "familiyNear": "Rodzina w pobliżu",
+      "gender": "Płeć pacjentów",
+      "jobLocation": "Lokalizacja pracy w pobliżu",
+      "latestDepartureDate": "Najpóźniejsza data odlotu",
+      "livingConditions": "Warunki życia",
+      "livingSituation": "Sytuacja życiowa",
+      "minSalary": "Jakie jest Twoje minimalne wynagrodzenie?",
+      "otherPerson": "Inna osoba w gospodarstwie domowym do maks.",
+      "patientNumber": "Liczba pacjentów",
+      "smokingHousehold": "Palące gospodarstwo domowe",
+      "sortBy": "Sortuj według",
+      "title": "Filtr",
+      "urbanisation": "Urbanizacja",
+      "whenWork": "Kiedy chcesz pracować?",
+      "work-from": "Mogę pracować z"
+    },
+    "jobDetails": {
+      "aboutTitle": "Opis",
+      "careFacility": "Czy pacjent uczęszcza do placówki opieki dziennej? (Jeśli tak, jak często)",
+      "careLevel": "Poziom opieki",
+      "caregiverSupport": "Ulga / wsparcie dla opiekuna",
+      "customerWantsFromYou": "Czego oczekuje od ciebie klient.",
+      "dailySchedule": "Jakie dokładnie zadania powinien podjąć opiekun (w oparciu o harmonogram dnia)?",
+      "dementia": "Demencja",
+      "equipment": "Wyposażenie zakwaterowania",
+      "famlyNear": "Rodzina w pobliżu",
+      "furtherAccomodationComments": "Dalsze uwagi dotyczące zakwaterowania",
+      "furtherInformation": "Więcej informacji",
+      "haveToShopping": "Czy opiekun musi robić zakupy?",
+      "houseHold": "Inne osoby mieszkające w gospodarstwie domowym?",
+      "howLiveTitle": "Jak będziesz żyć",
+      "id": "Job ID",
+      "incontinence": "Nietrzymanie moczu",
+      "liftingNecessary": "Czy podnoszenie jest konieczne?",
+      "mobility": "Mobilność",
+      "needHelp": "Potrzebujesz pomocy?",
+      "nightOperations": "Nocne operacje?",
+      "petsPresent": "Czy obecne są zwierzęta?",
+      "shopingDetails": "W jaki sposób będą robione zakupy (środek transportu, odległość)?",
+      "taskTakenByFamily": "Czy są jakieś zadania, które przejmuje rodzina, opieka, pomoc domowa itp.",
+      "toolsUsed": "Jakie narzędzia są używane?",
+      "whoCareTitle": "Kim będziesz się opiekować w szczegółach",
+      "yourTasks": "Twoje zadania w pracy"
+    },
+    "jobItem": {
+      "customerLikesYou": "Klient cię lubi",
+      "in": "w",
+      "jobFits": " Praca dopasowana do Ciebie",
+      "moreDetails": "Więcej szczegółów",
+      "patients": "pacjenci",
+      "verified": "zweryfikowany",
+      "youMatch": "Pasujesz"
+    },
+    "jobWishes": {
+      "Requirements": "Wymagania i życzenia dotyczące pracy",
+      "acceptedDementia": "Jaki najwyższy stopień demencji akceptujesz?",
+      "acceptedIncontinence": "Czy akceptujesz nietrzymanie moczu?",
+      "acceptedLift": "Czy podniosłabyś za dodatkowe wynagrodzenie?",
+      "acceptedMobility": "Jaką mobilność mogą mieć pacjenci?",
+      "acceptedNight": "Czy nadzorujesz nocne zmiany?",
+      "animalsInHousehold": "Czy to w porządku, jeśli w gospodarstwie domowym są zwierzęta?",
+      "availability": "Czy Twoja dostępność jest nadal aktualna?",
+      "doYouWantToWorkInHolidays": "Czy chcesz pracować w wakacje?",
+      "doYouWantToWorkInSummer": "Czy chcesz pracować latem?",
+      "familiyNear": "Czy to w porządku, jeśli rodzina jest w pobliżu?",
+      "gender": "Jaką płeć akceptujesz?",
+      "jobLocation": "Preferujesz pracę w pobliżu konkretnego miasta?",
+      "livingConditions": "Czy wolisz warunki życia?",
+      "minSalary": "Ile przynajmniej chciałbyś zarabiać?",
+      "otherPerson": "Inna osoba w gospodarstwie domowym do maksimum?",
+      "otherWishes": "Jakieś inne życzenia dotyczące pracy?",
+      "patientNumber": "Jaka jest maksymalna liczba pacjentów, którymi chciałbyś się opiekować?",
+      "requirementsHouseSituation": "",
+      "smokingHousehold": "Czy palenie w domu jest dla Ciebie w porządku?",
+      "tellUsWhenYouGenerallyWantToWorkAndWhenYouDont": "Powiedz nam, kiedy zazwyczaj chcesz pracować, a kiedy nie.",
+      "urbanisation": "Czy podoba Ci się każda urbanizacja?"
+    },
+    "jobs": {
+      "empty": "Nie znaleziono żadnych ofert pracy. Spróbuj zmodyfikować filtry, aby rozszerzyć zakres wyszukiwania.",
+      "tab": "miejsca pracy",
+      "title": "miejsca pracy"
+    },
+    "likedJobs": {
+      "title": "Praca, którą lubię"
+    },
+    "needHelp": {
+      "call": "Zadzwoń",
+      "support": "Wsparcie i serwis",
+      "whatsapp": "Whatsapp"
+    },
+    "patients": "pacjenci",
+    "personalInfo": {
+      "LastVaccination": "Ostatnie szczepienie",
+      "MobilphoneNumber": "Numer telefonu komórkowego",
+      "MoreLanguage": "Więcej umiejętności językowych?",
+      "NursingProfession": "Wyuczony zawód pielęgniarki?",
+      "PESEL-ID": "IDENTYFIKATOR PESEL",
+      "PersonalCharacteristics": "Cechy osobiste",
+      "UploadedFiles": "Przesłane pliki",
+      "VaccinationStatus": "Status szczepienia",
+      "WeightRange": "Zakres wagi (w kg)",
+      "about": "Opisz siebie w kilku zdaniach",
+      "drivingLicence": "Czy masz prawo jazdy z doświadczeniem?",
+      "expirenceInGerman": "Ile masz lat doświadczenia jako opiekun w Niemczech?",
+      "firstName": "Imię",
+      "genderLabel": "Jakiej jesteś płci?",
+      "heightRanges": "Zakres wysokości (w cm)",
+      "hobbies": "Hobby",
+      "lastName": "Nazwisko",
+      "morePictures": "Więcej zdjęć",
+      "nationality": "Narodowość",
+      "publicPicture": "Publiczne zdjęcie profilowe",
+      "schoolDegrees": "Jakie jest Twoje najwyższe wykształcenie?",
+      "smoking": "Czy palisz papierosy?",
+      "tellAboutQualifications": "Opowiedz nam o swoich kwalifikacjach",
+      "yourGerman": "Jak dobry jest twój niemiecki?"
+    },
+    "personalInformation": {
+      "profile": "Profil",
+      "title": "Dane osobowe"
+    },
+    "profile": {
+      "jobWishes": "Życzenia dotyczące pracy",
+      "personalInfo": "Informacje osobiste"
+    },
+    "requesta": {
+      "title": "Żądania"
+    },
+    "requests": {
+      "description": "Tutaj znajdziesz oferty pracy, którymi klient wyraził bezpośrednie zainteresowanie. Szanse na otrzymanie jednej z tych ofert są bardzo wysokie, jeśli spodoba ci się jedna z nich.",
+      "likedJobs": "Lubiane oferty pracy",
+      "tab": "Żądania"
+    },
+    "userMenu": {
+      "logout": "Wylogowanie",
+      "profile": "Profil"
+    }
+  },
+  "components": {
+    "JobCardCGAActiveJobDetailsContractInfo": {
+      "patient": "Pacjent (partner umowny)"
+    },
+    "accountDetails": {
+      "enterFirstName": "Wprowadź imię",
+      "enterLastName": "Wprowadź nazwisko",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "next": "Następny",
+      "salutation": "Pozdrowienia",
+      "title": "Tytuł"
+    },
+    "applicationJobModal": {
+      "toasts": {
+        "counterOfferStored": "Kontr-oferta zapisana!"
+      }
+    },
+    "applicationJobModalOffer": {
+      "accept": "Akceptuj",
+      "counterOffer": "Oferta wzajemna",
+      "decline": "Spadek",
+      "rejectApplication": "Odrzuć aplikację",
+      "toasts": {
+        "acceptApplicationStored": "Kontr-oferta została zaakceptowana! Czekamy na rezerwację!"
+      }
+    },
+    "applicationOfferForm": {
+      "arrival": "Przybycie",
+      "arrivalFee": "Opłata za przyjazd",
+      "calculationArrival": "Obliczanie dni przyjazdu/wyjazdu",
+      "calculationPerMonth": "Podgląd kalkulacji na miesiąc",
+      "careBudget": "Budżet opieki",
+      "christmasNewYear": "Boże Narodzenie, Nowy Rok",
+      "confirmCheckbox": "Potwierdzam, że zapoznałem się z ogólnymi warunkami.",
+      "contractInfo": "Ogólne informacje o umowie",
+      "customerBudget": "Budżet klienta",
+      "departure": "Odlot",
+      "departureFee": "Opłata za wyjazd",
+      "documentsDesc": "Jeśli tak, możesz dodać do aplikacji dokumenty takie jak CV, referencje lub inne dokumenty",
+      "holidaySurcharge": "Dopłata wakacyjna",
+      "invoicePreview": "Podgląd faktury",
+      "jobDetails": "Szczegóły pracy",
+      "juliAugust": "Lipiec, sierpień",
+      "mamamiaFee": "opłata mamamia",
+      "messageToAgency": "Wiadomość do agencji",
+      "noticePeriod": "Okres wypowiedzenia (w dniach)",
+      "serviceFee": "Opłata za usługę",
+      "summerCharge": "Opłata letnia",
+      "visibleCaregiverSalary": "Wynagrodzenie widocznego opiekuna",
+      "visibleCaregiverSalaryTooltip": "Opiekun widzi tylko tę cenę za pracę. Wszystkie inne ceny nie są widoczne. Jeśli wyślesz pracę do opiekuna, zobaczy on tę cenę jako swoje wynagrodzenie.",
+      "yourGeneralInfo": "Informacje ogólne",
+      "yourOffer": "Oferta aplikacji"
+    },
+    "applicationOfferJobModal": {
+      "buttons": {
+        "sendNewApplication": "Wyślij nową aplikację"
+      },
+      "changeOffer": "Zmień ofertę",
+      "header": "Szczegóły do aplikacji"
+    },
+    "applicationReject": {
+      "label": {
+        "comments": "Komentarze",
+        "optional": "Opcjonalnie",
+        "reason": "Powód"
+      },
+      "rejectSuccess": "Twoja aplikacja została pomyślnie odrzucona.",
+      "submit": "Odrzucenie wniosku",
+      "success": "Sukces",
+      "title": "Odrzucenie wniosku"
+    },
+    "applicationRejectButton": {
+      "description": "Nie jesteś już zainteresowany pracą lub opiekun nie jest już dostępny? Po prostu zakończ negocjacje.",
+      "subtitle": "Odrzuć aplikację",
+      "title": "Opcje oferty"
+    },
+    "applyForJobModal": {
+      "addNewCaregiver": "Dodaj nowego opiekuna",
+      "applicationSent": "Aplikacja wysłana!",
+      "applicationSentDescription": "Twoja aplikacja została pomyślnie wysłana. Wszystkie szczegóły dotyczące aplikacji znajdziesz w profilu pielęgniarki, który został utworzony automatycznie. Zapoznaj się z nim tutaj.",
+      "applyForJob": "Aplikuj o pracę",
+      "checkProfileData": "Check profile data ",
+      "choseOrAdd": "Choose or add a caregiver",
+      "createApplication": "Create application",
+      "myCaregivers": "My caregivers",
+      "sendNewApplication": "Wyślij nową aplikację",
+      "toTheCaregiver": "Idź do opiekuna",
+      "toTheJob": "Idź do pracy"
+    },
+    "applyForJobModalNoResults": {
+      "button": "Utwórz opiekuna już teraz",
+      "description": "Musisz utworzyć opiekunów, aby móc ubiegać się o pracę. Można to zrobić za pomocą API/importu lub ręcznie w następnym kroku. W trybie ręcznym można również użyć naszego czytnika profili PDF.",
+      "header": "Nie masz jeszcze pasującego opiekuna, stwórz go teraz!"
+    },
+    "arrivalDataModal": {
+      "arrivalData": "Dane przyjazdu",
+      "arrivalInformation": "Informacje o przyjeździe",
+      "contractTransportCompany": "Kontakt z firmą transportową",
+      "date": "Data",
+      "jobInformation": "Informacje o pracy",
+      "messageToAgency": "Wiadomość do agencji",
+      "periodOfTime": "Okres czasu",
+      "sendArrivalData": "Wyślij dane przyjazdu"
+    },
+    "authLayout": {
+      "dontHaveAccount": "Nie masz jeszcze konta?",
+      "signup": "Zarejestruj się"
+    },
+    "badgeLevel": {
+      "1": "Poziom 1",
+      "2": "Poziom 2",
+      "3": "Poziom 3",
+      "demo": "Demo"
+    },
+    "badgeReturnWish": {
+      "return": "Powrót"
+    },
+    "buttonRate": {
+      "rateNow": "Oceń teraz"
+    },
+    "buttonRequest": {
+      "success": "Złożono wniosek pomyślnie!"
+    },
+    "buttonWithdrawRequest": {
+      "success": "Wycofaj się pomyślnie!",
+      "text": "Żądanie wycofania"
+    },
+    "caregiverAvailability": {
+      "duration": "Czas trwania",
+      "from": "Od",
+      "nextAvailability": "Następna dostępność",
+      "systemCalculated": "System obliczył ostatnią potwierdzoną wartość",
+      "to": "Do"
+    },
+    "caregiverBooking": {
+      "confirm": "Potwierdzam, że moje potwierdzenie zgłoszenia jest wiążące. Agencja sporządzi umowę i poinformuje opiekuna o podróży.",
+      "confirmAndAccept": "Potwierdź i zaakceptuj wiązanie",
+      "confirmContractDataDesc": "Aby agencja mogła sporządzić umowę, należy wypełnić i potwierdzić następujące dane dotyczące umowy o pracę.",
+      "confirmContractDataHeader": "Potwierdzenie danych umowy",
+      "message": "Wiadomość dotycząca potwierdzenia"
+    },
+    "caregiverCard": {
+      "badges": {
+        "applied": "Stosowany",
+        "matching": "Dopasowanie",
+        "requested": "Wymagane"
+      },
+      "buttons": {
+        "addNote": "Dodaj uwagę",
+        "hideLogEntries": "Ukryj wpisy dziennika",
+        "rejectApplication": "Odrzucenie wniosku",
+        "sendJobToCaregiver": "Wyślij zadanie do opiekuna",
+        "showLogEntries": "Pokaż wpisy dziennika"
+      },
+      "jobActivities": "Działania związane z pracą",
+      "lastContact": "Ostatni kontakt",
+      "lastUpdate": "Ostatnia aktualizacja profilu",
+      "matching": "Dopasowanie",
+      "options": {
+        "adjustOffer": "Dostosuj ofertę",
+        "applyDirectlyForJob": "Aplikuj bezpośrednio o pracę",
+        "jobDoesntFitCaregiver": "Praca nie pasuje do opiekuna",
+        "rejectApplication": "Odrzucenie wniosku"
+      }
+    },
+    "caregiverCardLastUpdate": {
+      "lastProfileUpdate": "Ostatnia aktualizacja profilu"
+    },
+    "caregiverCardLogger": {
+      "availability": {
+        "updateAvailability": "Dostępność aktualizacji"
+      },
+      "errors": {
+        "datesOverlaps": "Daty pokrywają się z potwierdzonymi zadaniami"
+      },
+      "note": {
+        "message": "Wiadomość",
+        "options": {
+          "contactNotSuccessfully": "Kontakt nie powiódł się",
+          "contactSuccessfully": "Udany kontakt",
+          "noteOnly": "Tylko uwaga"
+        }
+      }
+    },
+    "caregiverCardLogs": {
+      "header": "Dzienniki",
+      "titles": {
+        "application": "Nowe podanie o pracę",
+        "application_reject": "Podanie o pracę odrzucone",
+        "confirmation": "{cg} został przyjęty do pracy",
+        "confirmationDates": "od {arrival_date} - {departure_date}",
+        "counter_offer": "Nowe żądanie zmiany od {sa} dla zadania",
+        "interest": "{cg} jest zainteresowany pracą",
+        "request": "Nowe żądanie od {sa} dotyczące zadania"
+      }
+    },
+    "caregiverCardSimple": {
+      "badges": {
+        "applications": "Zastosowania",
+        "confirmations": "Potwierdzenia",
+        "matchingJobs": "Dopasowywanie ofert pracy",
+        "requests": "Żądania"
+      },
+      "buttons": {
+        "openCaregiver": "Otwarty opiekun"
+      },
+      "tooltips": {
+        "arrival": "Przybycie",
+        "contract": "Umowa",
+        "departure": "Odlot",
+        "documents": "Dokumenty",
+        "invoice": "Faktura"
+      }
+    },
+    "caregiverDetails": {
+      "AcceptedGenders": "Akceptowana płeć pacjenta",
+      "AcceptedMobility": "Akceptowana mobilność",
+      "Accepteddementia": "Akceptowana demencja",
+      "Acceptedlift": "Akceptowana winda lub magazyn",
+      "Acceptednightoperations": "Akceptowane operacje nocne",
+      "Animalsinhousehold": "Zwierzęta w gospodarstwie domowym",
+      "DrivingLicense": "Prawo jazdy",
+      "Familynear": "Rodzina w pobliżu",
+      "Gender": "Płeć",
+      "Height": "Wysokość",
+      "Hobbies": "Hobby",
+      "Housing": "Obudowa",
+      "Jobrequirements": "Wymagania dotyczące pracy",
+      "Jobsdone": "Wykonane zadania",
+      "LanguageSkills": "Umiejętności językowe",
+      "LastUpdate": "Ostatnia aktualizacja",
+      "Nationality": "Narodowość",
+      "NumberofPatients": "Liczba pacjentów",
+      "Nursingexperienceyears": "Doświadczenie pielęgniarskie w latach",
+      "Nursingprofessionlearned": "Wyuczony zawód pielęgniarki?",
+      "OtherPerson": "Inna osoba w gospodarstwie domowym",
+      "Otherlanguage": "Inne umiejętności językowe",
+      "Personality": "Charakterystyka osobowości",
+      "Preferencefor": "Preferowane najbliższe miasto",
+      "Profile": "Profil",
+      "Skills": "Umiejętności",
+      "Smoker": "Palacz",
+      "Smokinghousehold": "Palące gospodarstwo domowe",
+      "Urbanisation": "Urbanizacja",
+      "Weight": "Waga",
+      "YearofBirth": "Rok urodzenia",
+      "aboutme": "O mnie",
+      "availability": "Dostępność",
+      "customerReviews": "opinie klientów",
+      "from": "z",
+      "information": {
+        "availabilityInformation": "Informacje o dostępności",
+        "availabilityIsEstimated": "Dostępność jest szacowana przez system na jeden dzień po aktywnym zadaniu.",
+        "confirmed7daysUp": "Informacje o dostępności są starsze niż 7 dni.",
+        "hasOtherActiveApplications": "Ten opiekun ma inne aktywne aplikacje. Dostępność może zatem ulec zmianie.",
+        "outdated": "Podana dostępność jest większa niż 30 dni w przeszłości."
+      },
+      "jobsDone": "wykonane zadania",
+      "lastUpdate": "Ostatnia aktualizacja",
+      "matching": "Dopasowanie do stanowiska",
+      "notgood": "Niedobrze",
+      "other": "inne",
+      "pdf": "Profil PDF",
+      "profile": "Profil",
+      "tooltips": {
+        "olderThan7Days": "Informacje o dostępności są starsze niż 7 dni",
+        "updatedTheirAvailability": "Opiekun zaktualizował swoją dostępność {days}."
+      },
+      "yearsExperience": "lat doświadczenia"
+    },
+    "caregiverDetailsAlerts": {
+      "acceptedForJob": "Przyjęty do pracy",
+      "applicationFor": "Podanie o pracę",
+      "exclusiveApplicationFor": "Ekskluzywna aplikacja o pracę"
+    },
+    "caregiverDetailsFullProfile": {
+      "profileCompleteness": "Kompletność profilu"
+    },
+    "caregiverDetailsSidebar": {
+      "application": "Zastosowanie",
+      "applicationDetails": "Szczegóły aplikacji",
+      "changeRequest": "Żądanie zmiany",
+      "rejestApplication": "Odrzucenie wniosku",
+      "requestForJob": "Wniosek o pracę",
+      "requestForJobDescription": "Twój wniosek nie jest jeszcze wiążący. Agencja może wysłać aplikację w odpowiedzi na Twój wniosek, tylko wtedy akceptacja jest wiążąca.",
+      "requested": "Wymagane"
+    },
+    "caregiverDetailsSidebarApplicationDetails": {
+      "arrivalCosts": "Koszty przyjazdu",
+      "arrivalDate": "Data przyjazdu",
+      "calculationOfTravelDays": "Liczba dni podróży",
+      "careCost": "Miesięczne koszty opieki",
+      "departureCosts": "Koszty wyjazdu",
+      "departureDate": "Data wyjazdu",
+      "holidaySurcharge": "Dopłata wakacyjna",
+      "message": "Wiadomość od agencji",
+      "noticePeriod": "Okres wypowiedzenia",
+      "sampleContract": "Przykładowa umowa"
+    },
+    "caregiverDetailsSidebarButtons": {
+      "changeRequestRejected": "Żądanie zmiany zostało pomyślnie odrzucone!",
+      "continueToBooking": "Kontynuacja rezerwacji",
+      "rejectChangeRequest": "Odrzuć żądanie zmiany"
+    },
+    "caregiverFormAlert": {
+      "checkCaregiverProfile": "Check caregiver profile",
+      "requiredForApplication": "Required for an application",
+      "toCreateCaregiverProfile": "To create a caregiver profile, you must complete the fields marked in",
+      "toSendAnApplication": "To send an application, you must complete the fields marked in"
+    },
+    "caregiverFormAvailability": {
+      "header": "Dostępność",
+      "labels": {
+        "nextAvailability": "Następna dostępność",
+        "workInHoliday": "Praca w święta",
+        "workInSummer": "Praca w lecie"
+      }
+    },
+    "caregiverFormBasicProfileData": {
+      "header": "Basic profile data",
+      "labels": {
+        "aboutThePerson": "About the person",
+        "firstName": "First name",
+        "gender": "Gender",
+        "heightRange": "Height range (in cm)",
+        "hobbies": "Hobbies",
+        "lastName": "Last name",
+        "lastVaccination": "Last vaccination",
+        "nationality": "Nationality",
+        "personalityCharacteristics": "Personality characteristics",
+        "vaccinationStatus": "Vaccination status",
+        "weightRange": "Weight range (in Kg)",
+        "yearOfBirth": "Year of birth"
+      }
+    },
+    "caregiverFormCareCertificates": {
+      "header": "Certyfikaty opieki"
+    },
+    "caregiverFormCareSituation": {
+      "header": "Sytuacja w zakresie opieki",
+      "labels": {
+        "acceptedDementia": "Akceptowana demencja (najwyższy stopień)",
+        "acceptedGender": "Akceptowana płeć",
+        "acceptedIncontinence": "Akceptowane nietrzymanie moczu",
+        "acceptedLiftAndStore": "Akceptowane podnoszenie i przechowywanie",
+        "acceptedMobility": "Akceptowana mobilność",
+        "acceptedNightOperations": "Akceptowane operacje nocne (maksimum)",
+        "minimumCustomerBudget": "Minimalny budżet klienta",
+        "numberOfPatients": "Liczba pacjentów"
+      }
+    },
+    "caregiverFormHousingSituation": {
+      "header": "Sytuacja mieszkaniowa",
+      "labels": {
+        "animalsInHousehold": "Zwierzęta w gospodarstwie domowym",
+        "familyNearBy": "Rodzina w pobliżu",
+        "livingConditions": "Warunki życia",
+        "otherPersonsInHousehold": "Inna osoba w gospodarstwie domowym?",
+        "otherWishes": "Inne życzenia",
+        "preferencesForNearestCity": "Preferowane najbliższe miasto (promień 30 km)",
+        "smokingHousehold": "Palące gospodarstwo domowe",
+        "urbanisation": "Urbanizacja"
+      }
+    },
+    "caregiverFormOptionalInformation": {
+      "header": "Informacje opcjonalne",
+      "labels": {
+        "furtherInformations": "Further Informations",
+        "id": "ID (identyfikator wewnętrzny/ PESEL)",
+        "mobilePhoneNumber": "Numer telefonu komórkowego",
+        "notification_type": "Typ powiadomienia",
+        "otherPhoneNumber": "Inny numer telefonu"
+      },
+      "verificationDocument": "Verification document"
+    },
+    "caregiverFormPictures": {
+      "morePictures": "Więcej zdjęć",
+      "publicProfilePicture": "Zdjęcie profilu publicznego"
+    },
+    "caregiverFormQualifications": {
+      "header": "Kwalifikacje",
+      "labels": {
+        "drivingLicense": "Prawo jazdy",
+        "highestSchoolDegree": "Najwyższy stopień szkolny",
+        "languageSkillsGerman": "Umiejętności językowe (niemiecki)",
+        "moreLanguageSkills": "Więcej umiejętności językowych",
+        "nursingExperienceInYears": "Doświadczenie pielęgniarskie w latach",
+        "nursingProfessionLearned": "Wyuczony zawód pielęgniarki?",
+        "smoker": "Palacz"
+      }
+    },
+    "caregiverFormSystem": {
+      "toasts": {
+        "invitationSent": "Zaproszenie wysłane!"
+      }
+    },
+    "caregiverFormSystemSettings": {
+      "buttons": {
+        "sendInvitation": "Wyślij zaproszenie"
+      },
+      "header": "Ustawienia systemowe",
+      "labels": {
+        "activityStatus": "Status aktywności",
+        "choseEmployee": "Wybierz pracownika",
+        "mayApplyForAJob": "Może samodzielnie ubiegać się o pracę",
+        "numberOfJobsDone": "Liczba wykonanych zadań",
+        "systemAccess": "Dostęp do systemu",
+        "systemLanguageForUser": "Język systemu dla użytkownika"
+      },
+      "responsibleEmployee": "Odpowiedzialny pracownik"
+    },
+    "caregiverMatching": {
+      "header": "Dopasowanie do stanowiska",
+      "notGood": "Niedobrze",
+      "perfect": "Idealny"
+    },
+    "caregiverPreviewModal": {
+      "header": "Podgląd profilu"
+    },
+    "caregiversList": {
+      "createCaregiverAlert": {
+        "caregiversAll": {
+          "description": "Dla lepszego zrozumienia stworzyliśmy przykład opiekuna. Zapoznaj się z profilem, aby zrozumieć, jak wygląda pełnoetatowy opiekun. Kiedy będziesz gotowy, sam stwórz swojego pierwszego opiekuna. Wszystkie informacje na temat masowego importu i API można znaleźć tutaj.",
+          "header": "Znajdź swoich opiekunów tutaj!"
+        },
+        "caregiversCGInterest": {
+          "description": "Tutaj możesz zobaczyć wszystkie oferty pracy, które polubili Twoi opiekunowie. Szybko przekształć je w aplikację, ponieważ Twój opiekun jest bardzo zainteresowany.",
+          "header": "Praca, którą polubili Twoi opiekunowie"
+        },
+        "caregiversNoActivity": {
+          "description": "Brak aktywności oznacza, że dla tego opiekuna nie otrzymałeś żadnych próśb, żadne aplikacje nie są w toku, a opiekun nie polubił żadnej pracy.",
+          "header": "Opiekunowie bez aktywności!"
+        }
+      }
+    },
+    "changeApplicationRequestGrid": {
+      "comments": "Komentarze"
+    },
+    "changeApplicationRequestModal": {
+      "applicationOffer": "Oferta aplikacji",
+      "created": "Utworzono żądanie zmiany!",
+      "formHeader": "Żądanie zmiany",
+      "yourChangeRequest": "Żądanie zmiany"
+    },
+    "companyDetails": {
+      "city": "Miasto",
+      "company": "Firma",
+      "companyName": "Nazwa firmy",
+      "country": "Kraj",
+      "dataCompleted": "Dane zostały uzupełnione",
+      "enterFirstName": "Wprowadź imię",
+      "enterLastName": "Wprowadź nazwisko",
+      "finish": "Zakończenie",
+      "firstName": "Imię",
+      "lastName": "Nazwisko",
+      "managingDirector": "Dyrektor zarządzający",
+      "officialCompanyAdress": "Oficjalny adres firmy",
+      "phoneNumber": "Numer telefonu",
+      "pleaseEnter": "Wprowadź",
+      "postalCode": "Kod pocztowy",
+      "saluation": "Wycena",
+      "street": "ul.",
+      "success": "Sukces"
+    },
+    "contactCaregiverViaSMSModal": {
+      "attention": "Po kliknięciu przycisku Wyślij wiadomość SMS jest wysyłana bezpośrednio do pielęgniarki i nie można jej przywołać.",
+      "header": "Kontakt z opiekunem za pośrednictwem wiadomości SMS",
+      "labels": {
+        "message": "Wiadomość",
+        "template": "Szablon"
+      },
+      "placeholders": {
+        "message": "Wpisz tutaj swoją wiadomość."
+      },
+      "send": "Wyślij SMS"
+    },
+    "contractInformationCard": {
+      "contactPerson": "Osoba kontaktowa",
+      "contractInformation": "Informacje o umowie",
+      "costs": "Koszty",
+      "header": "Informacje o umowie",
+      "patientInformation": "Informacje dla pacjenta"
+    },
+    "createCaregiverAlert": {
+      "button": "Rozpocznij tworzenie opiekuna"
+    },
+    "createNewJobModal": {
+      "chooseYourCustomer": "Wybierz swojego klienta",
+      "createNewCustomer": "Tworzenie nowego klienta",
+      "header": "Dodaj nowe zadanie",
+      "ifYouWant": "Aby utworzyć zadanie dla nowego klienta, należy najpierw utworzyć klienta.",
+      "startFromExistingCustomer": "Zacznij od istniejącego klienta"
+    },
+    "createNewJobModalForm": {
+      "allCustomerJobs": "Wszystkie zadania klienta",
+      "labels": {
+        "arrivalFrom": "Przyjazd z",
+        "departure": "Odlot",
+        "visibility": "Widoczność",
+        "visibleAgencies": "Lista dostawców dla ograniczonej widoczności"
+      },
+      "mainSearchParameters": "Główne parametry wyszukiwania"
+    },
+    "customFileButton": {
+      "fileDestroyed": "Plik został pomyślnie zniszczony!"
+    },
+    "customFormFiles": {
+      "warningAttachment": "Nie przesłano jeszcze żadnego załącznika",
+      "warningImages": "Nie przesłano jeszcze żadnego zdjęcia"
+    },
+    "customInputFile": {
+      "placeholder": {
+        "first": "Kliknij, aby przesłać",
+        "second": "lub przeciągnij i upuść"
+      }
+    },
+    "customerAddNew": {
+      "steps": {
+        "careSituation": "Sytuacja opieki",
+        "locationOfCare": "Lokalizacja opieki",
+        "patients": "Pacjenci"
+      }
+    },
+    "customerAddNewFinalize": {
+      "createJob": "Utwórz zadanie",
+      "customerCreated": "Customer created. Publish job now!",
+      "jobDetails": "Szczegóły pracy",
+      "labels": {
+        "arrivalFrom": "Przyjazd z",
+        "bonus": "Bonus",
+        "customerCareBudget": "Budżet na obsługę klienta (miesięcznie)",
+        "jobTitleForPublicJobLists": "Nazwa stanowiska dla publicznych list stanowisk (generowana automatycznie z opisu stanowiska/klienta, ale edytowalna)",
+        "specificJobDescriptionOrWishes": "Konkretny opis stanowiska lub życzenia?",
+        "yourCommission": "Twoja prowizja (dodatkowa)"
+      },
+      "placeholders": {
+        "jobTitleForPublicJobLists": "Czy istnieje konkretny opis lub życzenia tylko dla tego stanowiska? W przeciwnym razie główny opis pochodzi z profilu.",
+        "specificJobDescriptionOrWishes": "Czy istnieje konkretny opis lub życzenia tylko dla tego stanowiska? W przeciwnym razie główny opis pochodzi z profilu."
+      },
+      "publishJobNow": "Opublikuj zadanie teraz",
+      "specificJobDescription": "Nazwa stanowiska"
+    },
+    "customerAddNewFirst": {
+      "buttons": {
+        "discard": "Odrzucenie",
+        "removeCustomer": "Usuń klienta"
+      },
+      "header": "Dodawanie nowego klienta",
+      "labels": {
+        "arrival_at": "Od",
+        "commisionForAgents": "Prowizja dla agentów",
+        "departure_at": "Do",
+        "firstName": "Imię",
+        "lastName": "Wewnętrzny identyfikator",
+        "location": "Lokalizacja opieki",
+        "monthlyBudget": "Budżet miesięczny",
+        "numberOfPatients": "Liczba pacjentów",
+        "pesel": "Wewnętrzny identyfikator użytkownika",
+        "responsibility": "Odpowiedzialność",
+        "yourCareBudget": "Budżet na opiekę (komisja budżetowa)"
+      },
+      "locationOfCare": {
+        "description": "Wprowadź tutaj lokalizację, w tym głównego pacjenta/partnera umowy.",
+        "header": "Lokalizacja opieki"
+      },
+      "placeholders": {
+        "location": "Wprowadź kod pocztowy lub miejscowość, aby wyszukać"
+      },
+      "whenIsCustomer": {
+        "description": "Jaka jest maksymalna kwota, którą klient chce zapłacić, w tym prowizja dla agentów.",
+        "header": "Jaki jest maksymalny budżet klienta?"
+      },
+      "whenIsSupport": {
+        "description": "Kiedy powinno rozpocząć się pierwsze wdrożenie? Pierwsze wyszukiwanie pracy dla klienta zostanie utworzone w tym dniu.",
+        "header": "Kiedy początkowo wymagane jest wsparcie?"
+      },
+      "whoIsResponsible": {
+        "description": "Tutaj możesz przydzielić zadanie sobie lub jednemu ze swoich partnerów.",
+        "header": "Kto jest odpowiedzialny za klienta?"
+      }
+    },
+    "customerAddNewPatient": {
+      "description": "Aby opublikować ofertę pracy publicznie, należy wypełnić zaznaczone pola.",
+      "header": "Główny pacjent (partner umowy)",
+      "headerPatient": "Pacjent",
+      "labels": {
+        "dementia": "Demencja?",
+        "furtherInformation": "Dalsze informacje i szczególne cechy stanu pacjenta",
+        "gender": "Płeć",
+        "height": "Wysokość",
+        "incontinence": "Nietrzymanie moczu?",
+        "liftingNecessary": "Czy podnoszenie jest konieczne?",
+        "mobility": "Mobilność",
+        "nightOperationsNecessary": "Konieczne są operacje nocne?",
+        "shortJobSummary": "Krótkie podsumowanie pracy",
+        "weight": "Waga",
+        "whatLevelOfCareIsAvailable": "Jaki poziom opieki jest dostępny (dostępny lub wnioskowany)?",
+        "whatToolsAreUsed": "Jakie narzędzia są używane?",
+        "yearOfBirth": "Rok urodzenia"
+      }
+    },
+    "customerAddNewSecond": {
+      "labels": {
+        "accommodationOfTheCaregiver": "Zakwaterowanie opiekuna",
+        "arePetsPresent": "Czy obecne są zwierzęta domowe (jakie)?",
+        "areThereAnyTasks": "Czy są jakieś zadania, które przejmuje rodzina, opieka, pomoc domowa itp.",
+        "areThereOtherPeople": "Czy w gospodarstwie domowym mieszkają inne osoby?",
+        "descriptionOfPets": "Czy obecne są zwierzęta domowe (jakie)?",
+        "desiredGender": "Pożądana płeć?",
+        "doYouHaveAnyOtherWishes": "Czy masz jakieś inne życzenia dla opiekuna?",
+        "doesTheCaregiverHaveToDoShopping": "Czy opiekun musi robić zakupy?",
+        "doesThePatient": "Czy pacjent uczęszcza do placówki opieki dziennej? (Jeśli tak, jak często)",
+        "equipmentOfTheAccommodation": "Wyposażenie zakwaterowania",
+        "familyNearby": "Rodzina w pobliżu (do 20 km)",
+        "furtherCommentsOnTheAccommodation": "Dalsze uwagi dotyczące zakwaterowania:",
+        "howWillTheShoppingBeDone": "W jaki sposób będą robione zakupy (środek transportu, odległość)?",
+        "internetConnectionAvailable": "Dostępne połączenie internetowe",
+        "isTheCaregiverAllowedToSmoke": "Czy opiekun może palić papierosy?",
+        "languageSkills": "Umiejętności językowe (niemiecki)",
+        "nightOperationsWhatTasksAreInvolved": "Operacje nocne: Jakie zadania są wykonywane i jak często w ciągu nocy?",
+        "numberOfPets": "Liczba zwierząt domowych",
+        "salutation": "Pozdrowienia",
+        "shouldTheCaregiver": "Czy opiekun powinien mieć prawo jazdy (często za dodatkową opłatą)?",
+        "title": "Tytuł",
+        "urbanization": "Urbanizacja",
+        "whatExactTasks": "Jakie dokładnie zadania powinien podjąć opiekun (w oparciu o harmonogram dnia)?"
+      }
+    },
+    "customerAddNewStepSecond": {
+      "describeYourJob": {
+        "header": "Opisz swoją pracę w zrozumiały sposób"
+      },
+      "numberOfPatients": {
+        "description": "Wybierz tutaj liczbę pacjentów",
+        "header": "Liczba pacjentów"
+      }
+    },
+    "customerAddNewStepThird": {
+      "labels": {
+        "email": "E-mail",
+        "lastName": "Nazwisko",
+        "phone": "Telefon",
+        "streetNumber": "Ulica i numer",
+        "town": "Miasto",
+        "zipCode": "Kod pocztowy"
+      }
+    },
+    "customerDetailsContractAndSystem": {
+      "modal": {
+        "delete": "Usuń klienta",
+        "message": "Czy na pewno chcesz usunąć klienta?"
+      },
+      "toasts": {
+        "deleted": "Klient został pomyślnie usunięty"
+      }
+    },
+    "customerFormContactPersons": {
+      "addAnotherContactPerson": "Dodaj kolejną osobę kontaktową"
+    },
+    "customerFormGeneralJobSearchSettings": {
+      "dueToTheVat": "Ze względu na zwolnienie z VAT na usługi opiekuńcze w niektórych krajach (Polska), VAT nie jest traktowany jako pozycja przejściowa, ale jako koszt, a zatem może zmniejszyć budżet.",
+      "labels": {
+        "customerBudget": "Budżet klienta",
+        "generalVisibility": "Ogólna widoczność nowej pracy",
+        "listOfProviders": "Lista dostawców dla ograniczonej widoczności",
+        "yourCommision": "Twoja prowizja"
+      }
+    },
+    "customerFormImportPDF": {
+      "button": "Prześlij plik PDF",
+      "text": "Importuj dane klienta z pliku PDF lub wypełnij je ręcznie."
+    },
+    "customerFormNumberOfPatients": {
+      "addPatient": "Dodaj pacjenta",
+      "description": "Jeśli utworzono więcej niż jednego pacjenta, można ich usunąć bezpośrednio w danych pacjenta.",
+      "labels": {
+        "numberOfPatients": "Liczba pacjentów"
+      }
+    },
+    "customerFormSettings": {
+      "labels": {
+        "caregiverAReview": "Czy klient może wystawić opiekunowi opinię?",
+        "deleteCustomer": "Usuń klienta",
+        "pesel": "Wewnętrzny identyfikator użytkownika",
+        "requestACaregiver": "Czy klient może poprosić o opiekuna?",
+        "systemLanguageForCustomer": "Język systemu dla klienta",
+        "whoIsInvoiceParty": "Kto jest stroną wystawiającą fakturę?"
+      }
+    },
+    "customersList": {
+      "header": "klienci",
+      "headers": {
+        "activeJob": "Aktywna praca",
+        "customer": "Klient",
+        "followUpJob": "Zadanie uzupełniające",
+        "id": "ID",
+        "partner": "Partner",
+        "status": "Status"
+      },
+      "table": {
+        "statuses": {
+          "active": "Aktywny",
+          "draft": "Wersja robocza"
+        }
+      }
+    },
+    "details": {
+      "step1": {
+        "description": "Aby utworzyć konto, potrzebujemy kilku dodatkowych informacji.",
+        "label": "Szczegóły konta",
+        "title": "Witamy w mamamia"
+      },
+      "step2": {
+        "description": "Na koniec musimy przypisać twoje konto do firmy. Jaką firmę reprezentujesz?",
+        "label": "Szczegóły firmy",
+        "title": "Witamy w mamamia"
+      },
+      "step3": {
+        "label": "Zakończenie"
+      }
+    },
+    "employeesAddNewModal": {
+      "alert": "Po utworzeniu pracownika zostanie wysłana wiadomość e-mail w celu weryfikacji i utworzenia hasła.",
+      "buttons": {
+        "sendInvitation": "Wyślij zaproszenie",
+        "updateEmployee": "Zaktualizuj pracownika"
+      },
+      "header": "Dodaj nowego pracownika",
+      "headerEdit": "Edytuj pracownika",
+      "labels": {
+        "email": "Adres e-mail",
+        "firstName": "Imię",
+        "lastName": "Nazwisko",
+        "phone": "Numer telefonu"
+      }
+    },
+    "fileModal": {
+      "header": "Dodaj plik"
+    },
+    "jobActivitiesCard": {
+      "headers": {
+        "application": "Złożono podanie o pracę",
+        "confirmation": "Potwierdzenie",
+        "request": "Nowe żądanie"
+      },
+      "newRequest": "Nowe żądanie",
+      "receivedMessage": "Odebrana wiadomość",
+      "requestRejected": "Żądanie odrzucone",
+      "smsSend": "Wysyłanie SMS"
+    },
+    "jobCard": {
+      "caregiversWantsBack": "Opiekun chce wrócić",
+      "options": {
+        "goToJob": "Idź do pracy",
+        "jobDoesntFit": "Praca nie pasuje",
+        "rejectApplication": "Odrzuć aplikację",
+        "showJobSummary": "Pokaż podsumowanie pracy"
+      },
+      "requestReturnTrip": "Żądanie podróży powrotnej",
+      "tooltips": {
+        "agencyRequests": "Wniosek agencji",
+        "caregiverInterest": "Zainteresowanie opiekuna",
+        "myApplications": "Moje aplikacje"
+      }
+    },
+    "jobCardBottomMarket": {
+      "activeApplicationsTooltip": "Aktywne aplikacje na to stanowisko",
+      "myCaregiversTooltip": "Liczba opiekunów spełniających wymagania"
+    },
+    "jobCardButtonsLikeDislike": {
+      "tooltips": {
+        "dislike": "Ukryj na razie",
+        "like": "Dodaj do listy obserwowanych"
+      }
+    },
+    "jobCardButtonsMatched": {
+      "badges": {
+        "agencyRequest": "Wniosek agencji"
+      }
+    },
+    "jobCardButtonsSubmitted": {
+      "badges": {
+        "accepted": "Zaakceptowany"
+      },
+      "buttons": {
+        "applyFinal": "Zastosowanie końcowe"
+      }
+    },
+    "jobCardCGAActiveJobDetails": {
+      "fullJobProfile": "Pełny profil zawodowy"
+    },
+    "jobCardCGAActiveJobDetailsArrivalInformation": {
+      "arrival": {
+        "date": "Data przyjazdu",
+        "expected": "Przewidywany okres",
+        "note": "Uwagi dotyczące przybycia",
+        "type": "Rodzaj przybycia"
+      },
+      "created": "Informacje o przyjeździe są zapisywane!",
+      "labels": {
+        "arrival_at": "Data przyjazdu",
+        "arrival_type_id": "Rodzaj przybycia",
+        "expectedTime": "Przewidywany okres",
+        "note": "Opcjonalne uwagi dotyczące przyjazdu",
+        "saveAndSendToAgency": "Zapisz i wyślij do agencji"
+      }
+    },
+    "jobCardCGAActiveJobDetailsContractInfo": {
+      "agreedCost": {
+        "arrCosts": "Koszty przyjazdu",
+        "depCosts": "Koszty wyjazdu",
+        "holidaySurcharge": "Dopłata wakacyjna",
+        "noticePeriod": "Okres wypowiedzenia",
+        "otherSurcharge": "Inna dopłata",
+        "rate": "Stawka dzienna/miesięczna"
+      },
+      "agreedCosts": "Uzgodnione koszty",
+      "contactPerson": "Osoba kontaktowa (w nagłych przypadkach)",
+      "contractInformation": "Informacje o umowie",
+      "serviceAgency": "Agencja usługowa"
+    },
+    "jobCardCGAActiveJobDetailsDepartureInfoShow": {
+      "date": "Data wyjazdu",
+      "expected": "Przewidywany okres",
+      "note": "Uwagi dotyczące przybycia"
+    },
+    "jobCardCGAActiveJobDetailsDepartureInformation": {
+      "created": "Informacje o wyjeździe zostały pomyślnie zapisane i wysłane do agencji.",
+      "labels": {
+        "departure_at": "Data wyjazdu"
+      }
+    },
+    "jobCardCGAActiveJobDetailsTasks": {
+      "alert": {
+        "description": "Aby zrealizować zamówienie, należy wykonać kilka czynności. Prześlij umowę, aby druga strona mogła ją podpisać i odesłać do Ciebie. Wprowadź daty przyjazdu i późniejszego wyjazdu oraz prześlij wszystkie faktury.",
+        "header": "Gratulacje {name} został przyjęty!"
+      },
+      "empty": {
+        "noStatus": "Brak statusu",
+        "notYetEntered": "Jeszcze nie wprowadzono",
+        "notYetUploaded": "Jeszcze nie przesłano"
+      },
+      "headers": {
+        "enterArrival": "Wprowadź informacje o przybyciu",
+        "enterDeparture": "Wprowadź informacje o odlocie",
+        "upload": "Prześlij swoją umowę o pracę",
+        "uploadInvoices": "Prześlij swoje faktury tutaj w sposób ciągły"
+      },
+      "signedSigned": "Umowa została podpisana i przesłana przez agencję.",
+      "signedWaiting": "Oczekiwanie na podpisanie umowy",
+      "toasts": {
+        "contractUploaded": "Umowa została pomyślnie załadowana i przesłana do agencji."
+      },
+      "yourJobTasks": "Zadania związane z pracą"
+    },
+    "jobCardSATopJobDetails": {
+      "visibilityChanged": "Widoczność została pomyślnie zmieniona"
+    },
+    "jobCardSATopJobDetailsConfirmed": {
+      "reportChange": "Zgłoś zmianę"
+    },
+    "jobCardTopCaregiverActive": {
+      "reportProblem": "Zgłoś problem",
+      "sendMessageToAgency": "Wyślij wiadomość do agencji"
+    },
+    "jobCardTopCaregiverHistory": {
+      "details": "Szczegóły"
+    },
+    "jobDetailsData": {
+      "caregiverWishes": "Caregiver wishes",
+      "driverLicense": "Driver license",
+      "gender": "Gender",
+      "generalJobHistory": "Ogólna historia zatrudnienia",
+      "germanSkill": "German skill",
+      "jobPublishedOnMamamia": "Job published on mamamia",
+      "keyData": "Key data",
+      "otherWishes": "Other wishes",
+      "patients": "Patients",
+      "smoking": "Smoking"
+    },
+    "jobDetailsDataLivingSituation": {
+      "header": "Informacje o sytuacji życiowej",
+      "labels": {
+        "equipmentOfAccommodation": "Wyposażenie zakwaterowania",
+        "familyNearBy": "Rodzina w pobliżu",
+        "furtherNotes": "Dodatkowe informacje na temat zakwaterowania",
+        "internetAvailable": "Dostępne połączenie internetowe",
+        "otherPersonInHousehold": "Inna osoba w gospodarstwie domowym",
+        "petsInHouse": "Czy obecne są zwierzęta domowe (jakie)?",
+        "typeOfHousing": "Typ mieszkania",
+        "urbanization": "Urbanizacja"
+      }
+    },
+    "jobDetailsDataPatients": {
+      "headers": {
+        "patientOne": "Pacjent 1",
+        "patientTwo": "Pacjent 2"
+      },
+      "labels": {
+        "aboutThePatient": "Informacje o pacjencie",
+        "dementia": "Demencja",
+        "further": "Dalsze informacje i szczególne cechy stanu pacjenta",
+        "incontinence": "Nietrzymanie moczu",
+        "liftingNecessary": "Niezbędne podnoszenie",
+        "mobility": "Mobilność",
+        "nightOperations": "Operacje nocne",
+        "whatLevelCare": "Jaki poziom opieki jest dostępny",
+        "whatTools": "Jakie narzędzia są używane"
+      }
+    },
+    "jobDetailsDataSupportForCaregiver": {
+      "header": "Odciążenie/wsparcie dla opiekuna",
+      "labels": {
+        "first": "Czy są jakieś zadania, które przejmuje rodzina?",
+        "fourth": "Czy pacjent uczęszcza do placówki opieki dziennej? (Jeśli tak, jak często)",
+        "second": "Czy są jakieś zadania, które są przejmowane przez usługi opiekuńcze?",
+        "third": "Czy są jakieś zadania wykonywane przez pomoc domową?"
+      }
+    },
+    "jobDetailsDataTasksForCaregiver": {
+      "header": "Zadania dla opiekuna",
+      "labels": {
+        "first": "Jakie dokładnie zadania powinien podjąć opiekun (w oparciu o harmonogram dnia)?",
+        "fourth": "W jaki sposób będą robione zakupy (środek transportu, odległość)?",
+        "second": "Operacje nocne: Jakie zadania są wykonywane i jak często w ciągu nocy?",
+        "third": "Czy opiekun musi robić zakupy?"
+      }
+    },
+    "jobDetailsList": {
+      "filters": {
+        "isRequested": "Is requested"
+      },
+      "history": "History",
+      "historyEmptyAlert": "Nie masz jeszcze żadnych aktywności.",
+      "matchings": "Matchings"
+    },
+    "jobDetailsListApplications": {
+      "applications": "Applications",
+      "jobFullyOccupied": {
+        "contentLineOne": "The job is full with {count} applications. You can apply again from {date} or as soon as an application is rejected.",
+        "contentLineTwo": "If you want, create a reminder and we will send you an email as soon as the job is open.",
+        "header": "Job fully occupied"
+      },
+      "tipDescription": "Każdy może zobaczyć Twoją pracę i ubiegać się o nią. Aby rozpocząć, warto poprosić o pasujących opiekunów z twojego punktu widzenia. Wystarczy spojrzeć na poniższą listę, aby zobaczyć, który z nich pasuje do Twojej pracy.",
+      "tipHeader": "Wskazówka",
+      "youDontHaveAnyActivitiesYet": "Nie masz jeszcze żadnych aktywności. Tutaj zobaczysz otrzymane aplikacje na dane stanowisko.",
+      "youDontHaveAnyActivitiesYetCg": "You don't have any activities on the job yet. Here you will see the applications you have made and requests you have received for a caregiver."
+    },
+    "jobDetailsPriceCalculationModal": {
+      "careBudget": "Budżet opieki",
+      "customerBudget": "Budżet klienta",
+      "header": "Kalkulacja ceny",
+      "serviceAgencyFee": "Opłata agencyjna bez VAT",
+      "visibleSalary": "Widoczna cena wynagrodzenia dla opiekunów aplikacji",
+      "yourCommission": "Prowizja (bez VAT)",
+      "yourTotalFee": "Całkowita opłata"
+    },
+    "jobDetailsSAConfirmed": {
+      "alertJobFilled": {
+        "description": "Na tej stronie znajdziesz wszystkie niezbędne informacje o swojej pracy. Zostaniesz natychmiast powiadomiony e-mailem, gdy pojawi się coś nowego. Jeśli masz jakieś pytania, skontaktuj się z agencją za pośrednictwem czatu.",
+        "header": "Stanowisko zostało pomyślnie obsadzone"
+      },
+      "arrivalInformation": "Informacje o przyjeździe",
+      "contractDataTransmitted": "Dane umowy przesłane do agencji. Oczekiwanie na umowę...",
+      "departureInformation": "Informacje o wyjeździe",
+      "invoices": "Faktury",
+      "jobsDone": "Jobs done",
+      "memberSince": "Member since",
+      "noDataAvailable": "Brak dostępnych danych",
+      "noInvoice": "Nie ma jeszcze faktury. Wszystkie faktury za pracę będą na bieżąco archiwizowane w tym miejscu.",
+      "noStatus": "Brak statusu",
+      "rateTheCaregiver": "Rate the caregiver",
+      "serviceContract": "Umowa o świadczenie usług",
+      "serviceContractTitle": "Umowa o świadczenie usług od agencji",
+      "signedContractTitle": "Prześlij podpisaną umowę tutaj",
+      "signedContractToast": "Podpisana umowa została pomyślnie przesłana do agencji.",
+      "status": "Status",
+      "travelDates": "Daty podróży"
+    },
+    "jobDetailsSATop": {
+      "alerts": {
+        "confirmationWithdrawn": "Uwaga. Twoje potwierdzenie zostało wycofane. Twoje stanowisko zostało automatycznie ponownie otwarte i udostępnione do wyszukiwania. Obecnie nie ma żadnych zgłoszeń.",
+        "editJobDetails": "Edytuj szczegóły zadania",
+        "endsTomorrow": "Twoja praca kończy się jutro! Wybierz opcję dalszego postępowania."
+      }
+    },
+    "jobDetailsWelcome": {
+      "description": "W prawym górnym rogu możesz ubiegać się o pracę z odpowiednim opiekunem. Jak tylko złożysz podanie, zobaczysz je tutaj. Jeśli masz prośbę o opiekuna, pojawi się ona również tutaj.",
+      "header": "Witamy na stronie szczegółów oferty pracy!"
+    },
+    "jobInformation": {
+      "arrival": "Przybycie",
+      "caregiver": "Opiekun",
+      "departure": "Odlot",
+      "jobDetails": "Szczegóły pracy",
+      "name": "Nazwa"
+    },
+    "jobMarketFilters": {
+      "animalsInHousehold": "Zwierzęta w gospodarstwie domowym",
+      "arrivalDate": "Data przyjazdu",
+      "arrivalPeriod": "Okres przyjazdu",
+      "budget": "Budget",
+      "caregiverWishes": "Życzenia opiekuna",
+      "dementia": "Demencja",
+      "departureDate": "Data wyjazdu",
+      "desiredGender": "Pożądana płeć",
+      "familyNearby": "Rodzina w pobliżu",
+      "genderOfPatients": "Płeć pacjentów",
+      "incontinence": "Nietrzymanie moczu",
+      "isTheCaregiverAllowedToSmoke": "Czy opiekun może palić papierosy?",
+      "languageSkills": "Umiejętności językowe",
+      "liftAndStore": "Podnoszenie i przechowywanie",
+      "livingSituation": "Sytuacja życiowa",
+      "locationOfTheJob": "Lokalizacja pracy",
+      "mobility": "Mobilność",
+      "nightOperations": "Operacje nocne",
+      "numberOfPatients": "Liczba pacjentów",
+      "otherPersonInHouseholdUpToMax": "Inna osoba w gospodarstwie domowym do maks.",
+      "patientRelated": "Patient-related",
+      "shouldTheCaregiverHaveADriversLicense": "Czy opiekun powinien mieć prawo jazdy?",
+      "urbanisation": "Urbanizacja"
+    },
+    "jobMarketWelcome": {
+      "description": "Na tej stronie można zobaczyć wszystkie oferty pracy. Możesz filtrować i wyświetlać oferty pracy zgodnie z własnymi preferencjami oraz wyświetlać wszystkie szczegóły oferty, klikając na nią. Aby ubiegać się o pracę, należy zaimportować swoich opiekunów, połączyć ich za pośrednictwem interfejsu API lub utworzyć ich ręcznie.",
+      "header": "Witamy w mamamia!"
+    },
+    "jobModalEdit": {
+      "info": {
+        "description": "Jeśli dostosujesz te parametry wyszukiwania, wpłynie to na wszystkich dostępnych opiekunów. Już zamówieni i zgłoszeni opiekunowie zostaną powiadomieni o zmianie na czacie.",
+        "title": "Co się stanie, jeśli coś tu zmienię?"
+      }
+    },
+    "jobModalForm": {
+      "addNewJob": "Dodaj nowe zadanie",
+      "confirm": {
+        "message": "Czy na pewno chcesz usunąć to zadanie?",
+        "reject": "Usuń zadanie"
+      },
+      "deleteJob": "Usuń zadanie",
+      "resetChanges": "Resetowanie zmian",
+      "toasts": {
+        "deleted": "Zadanie usunięte pomyślnie!"
+      },
+      "updateJob": "Zaktualizuj wyszukiwanie pracy"
+    },
+    "jobTasks": {
+      "arrival": "Przybycie",
+      "contract": "Umowa",
+      "departure": "Odlot",
+      "documents": "Dokumenty",
+      "header": "Zadania",
+      "invoice": "Faktura",
+      "send": "Wyślij wiadomość",
+      "verifiedCustomer": "Zweryfikowany klient"
+    },
+    "listToolbarFiltersModal": {
+      "clearAllFilters": "Clear all filters",
+      "header": "Filtr wyszukiwania",
+      "showJobs": "Show jobs"
+    },
+    "matchingPreviewFits": {
+      "fit": "Pasuje idealnie",
+      "notFit": "Nie pasuje zbyt dobrze"
+    },
+    "matchingPreviewModal": {
+      "alertDescription": "To tylko niektóre z czynników, które są brane pod uwagę przy dopasowywaniu. Aby zobaczyć wszystkie czynniki, zapoznaj się z pełnym profilem stanowiska.",
+      "alertHeader": "Dopasowanie",
+      "header": "Dopasowanie",
+      "labels": {
+        "additional_persons": "Dodatkowe osoby",
+        "dementia": "Demencja",
+        "driving_license": "Prawo jazdy",
+        "gender": "Płeć",
+        "gender_of_patients": "Płeć pacjentów",
+        "incontinence": "Nietrzymanie moczu",
+        "language": "Język",
+        "lift": "Podnoszenie",
+        "location": "Lokalizacja",
+        "night_operations": "Operacje nocne",
+        "number_of_patients": "Liczba pacjentów",
+        "salary": "Salary",
+        "smoking": "Palenie"
+      }
+    },
+    "priceAndContractSettingsVisibilityForCaregivers": {
+      "headers": {
+        "caregiverAccessAndSenderOptions": "Dostęp dla opiekunów",
+        "whatPrice": "Jaką cenę powinien zobaczyć CG?"
+      },
+      "howIsJobStructure": "W jaki sposób cena zadania jest skonstruowana i widoczna?",
+      "labels": {
+        "careBudget": "Budżet opieki pomniejszony o moje koszty w wysokości",
+        "doYouWant": "Czy chcesz, aby Twój opiekun miał dostęp do systemu i ofert pracy?",
+        "shouldOther": "Czy inni opiekunowie powinni wybrać Ciebie jako nadawcę?"
+      },
+      "sampleCalculation": "Przykładowe obliczenia",
+      "theMamamiaFeeIs": "Opłata za korzystanie z mamamii wynosi 5 euro za dzień.",
+      "whenMakingCalculation": "Dokonując obliczeń, należy wziąć pod uwagę ewentualne koszty podatku VAT na fakturze agenta oraz opłatę mamamia w wysokości 5 EUR/dzień.",
+      "youCanGrant": " Możesz przyznać swoim przełożonym dostęp do systemu i w ten sposób zoptymalizować komunikację. CG może wtedy zobaczyć i polubić zadania, a także bezpośrednio uzyskać informacje, takie jak umowy, adres, dane dotyczące przybycia itp.",
+      "yourAndAffiliated": "Twoi i powiązani opiekunowie mogą ubiegać się o pracę i wybrać Cię jako nadawcę. Jest to możliwe tylko wtedy, gdy można wyświetlać im ceny. Tutaj możesz zdefiniować swoje potrącenia. Poniżej znajduje się przykładowa kalkulacja."
+    },
+    "primeVueMultiselect": {
+      "filterPlaceholder": "Wpisz, aby wyszukać"
+    },
+    "rateModal": {
+      "header": "Recenzja",
+      "sendCaregiverReview": "Recenzje są przechowywane! Dziękujemy!"
+    },
+    "rateModalCaregiverRating": {
+      "labels": {
+        "appearance": "Wygląd",
+        "dealingWithThePatients": "Postępowanie z pacjentem",
+        "empathy": "Empatia",
+        "giveYourReviewDescription": "Opisz swoją recenzję",
+        "householdActivities": "Działalność gospodarstwa domowego",
+        "nursingSkills": "Umiejętności pielęgniarskie",
+        "reliability": "Niezawodność"
+      },
+      "youReviewFor": "Twoja recenzja dla",
+      "yourRating": "Twoja ocena"
+    },
+    "rateModalInformation": {
+      "agency": "Agencja",
+      "caregiverReview": "Recenzja opiekuna",
+      "customer": "Klient",
+      "operatingTime": "Czas pracy"
+    },
+    "rateModalReturnWish": {
+      "returnWish": "Życzenie powrotu",
+      "wouldYouLike": "Czy chciałbyś, aby opiekun ponownie odwiedził tego klienta?"
+    },
+    "rejectApplicationModal": {
+      "header": "Reject application modal"
+    },
+    "rejectRequestModal": {
+      "radios": {
+        "first": "Ta praca w ogóle nie pasuje",
+        "second": "Ta praca nie pasuje w tym momencie"
+      },
+      "reasonForRejection": "Powód odrzucenia",
+      "reject": "Odrzuć żądanie",
+      "rejectRequest": "Odrzuć wniosek o"
+    },
+    "reportChangeModal": {
+      "dangerAlertMessage": "Jeśli zakończysz pracę w tym miejscu, agencja zostanie o tym bezpośrednio powiadomiona.",
+      "dangerAlertTitle": " Co się stanie, jeśli odejdę z pracy?",
+      "modals": {
+        "Otherissues": {
+          "description": "Inne problemy lub pytania dotyczące pracy",
+          "otherissues": "Inne kwestie",
+          "title": "Zmiana miejsca przybycia"
+        },
+        "Quitthejob": {
+          "Quitjob": "Rzucić pracę",
+          "Sendquitrequest": "Wyślij żądanie zakończenia",
+          "confirm": "Potwierdzam, że chcę nieodwołalnie zakończyć pracę.",
+          "description": "Praca powinna zostać zakończona tak szybko, jak to możliwe ze względu na twarde fakty?",
+          "requesteddeparturedate": "Żądana data odlotu",
+          "title": "Rzucić pracę"
+        },
+        "changeArrival": {
+          "Arrivalfrom": "Przyjazd z",
+          "Changearrival": "Zmiana miejsca przybycia",
+          "description": "Podróż uległa zmianie, wprowadź ją tutaj.",
+          "originallyplannedfor": "Przyjazd był pierwotnie planowany na:",
+          "title": "Zmiana miejsca przybycia"
+        },
+        "comments": "Komentarze",
+        "financialAdjustments": {
+          "description": "Opiekun nie odpowiada opisowi lub występują inne problemy z usługą?",
+          "financialadjustments": "Korekty finansowe",
+          "title": "Korekty finansowe"
+        },
+        "optional": "(Opcjonalnie)",
+        "shortenStay": {
+          "Departureon": "Odlot w dniu",
+          "description": "Czy chcesz, aby opiekun został dłużej lub zmienił pracę wcześniej?",
+          "originallyplannedfor": "Odlot był pierwotnie planowany na:",
+          "subtitle": "Skrócenie/wydłużenie pobytu",
+          "title": "Skrócenie/wydłużenie pobytu"
+        }
+      },
+      "reason": "Powód",
+      "sendRequest": "Wyślij żądanie zmiany",
+      "sendmessage": "Wyślij wiadomość",
+      "warningAlertMessage": "Agencja zostanie natychmiast powiadomiona o zmianie. Dane zostaną wprowadzone wszędzie i zmienione, gdy tylko agencja zaakceptuje i potwierdzi zmianę.",
+      "warningAlertTitle": "Co się stanie, jeśli coś tu zmienię?"
+    },
+    "reportJobModal": {
+      "alert": {
+        "content": "Twoja wiadomość zostanie wysłana do agencji, która skontaktuje się z Tobą.",
+        "header": "Co się stanie, jeśli wyślę zgłoszenie tutaj?"
+      },
+      "sendMessage": "Wyślij wiadomość"
+    },
+    "requestJobModal": {
+      "createNewCustomer": "Tworzenie nowego klienta",
+      "header": "Wniosek o pracę"
+    },
+    "resetPassword": {
+      "backToSignIn": "Powrót do logowania",
+      "description": "Wprowadź swój adres e-mail poniżej, a my wyślemy Ci link do ustawienia nowego hasła.",
+      "passwordReset": "Resetowanie hasła",
+      "resetLinkSend": "Link do resetowania hasła został wysłany",
+      "sendLink": "Wyślij link",
+      "success": "Sukces",
+      "title": "Resetowanie hasła"
+    },
+    "reviewsCard": {
+      "count": "Z {count} recenzji",
+      "description": "Nasze recenzje pochodzą z prawdziwych misji zarezerwowanych przez Mamamia. Wszystkie recenzje są pisane bezpośrednio przez rodziny lub krewnych."
+    },
+    "sendJobModal": {
+      "alert": {
+        "content": "Opiekun otrzymuje wiadomość tekstową z linkiem do pracy, gdzie może zobaczyć wszystkie informacje o pracy, swoje wynagrodzenie i może LIKWIDOWAĆ pracę. Informujemy o każdej akcji.",
+        "header": "Info",
+        "messagePlaceholder": "Twoja wiadomość tutaj..."
+      },
+      "jobDetails": "Szczegóły pracy",
+      "messageToCaregiver": "Wiadomość dla opiekuna",
+      "sendJob": "Wyślij zadanie",
+      "sent": "Wiadomość wysłana!",
+      "table": {
+        "careBudget": "Budżet opieki",
+        "caregiverSalary": "Wynagrodzenie opiekuna [wynagrodzenie]",
+        "customer": "Klient",
+        "jobPeriod": "Okres zadania [okres zadania]",
+        "town": "Miasto [miasto]"
+      }
+    },
+    "setPassword": {
+      "backToSignIn": "Powrót do logowania",
+      "createNewPassword": "Utwórz nowe hasło",
+      "description": "Utwórz nowe hasło do swojego konta poniżej, a następnie zaloguj się ponownie.",
+      "title": "Ustaw nowe hasło"
+    },
+    "signIn": {
+      "error": {
+        "message": "Nieprawidłowy adres e-mail lub hasło",
+        "title": "Błąd"
+      },
+      "frogotPassword": "Zapomniałeś hasła?",
+      "or": "lub"
+    },
+    "signUp": {
+      "alreadyHaveAccout": "Masz już konto?",
+      "or": "lub",
+      "signIn": "Zaloguj się",
+      "signUp": "Zarejestruj się",
+      "success": "Sukces",
+      "successText": "Twoje konto zostało utworzone"
+    },
+    "tickList": {
+      "description": "Zaledwie 2 minuty do największej giełdy pracy dla całodobowej opieki.",
+      "item1": {
+        "description": "Po zarejestrowaniu się zobaczysz bezpośrednio wszystkie otwarte oferty pracy, które są na rynku.",
+        "title": "Zobacz oferty pracy natychmiast"
+      },
+      "item2": {
+        "description": "Utwórz lub zaimportuj swoich opiekunów, aby bezpośrednio zobaczyć, które oferty pracy pasują.",
+        "title": "Tworzenie opiekunów"
+      },
+      "item3": {
+        "description": "Po weryfikacji możesz od razu aplikować na oferty pracy i otrzymywać zapytania.",
+        "title": "Aplikuj o pracę"
+      }
+    },
+    "verificationCode": {
+      "button": "Wyślij",
+      "cancel": "Anulowanie rejestracji",
+      "cancelSuccess": "Anuluj rejestrację, Twoje konto zostanie usunięte",
+      "codeNotWorking": "Kod nie działa?",
+      "codeSent": "Kod wysłany",
+      "error": "Błąd",
+      "numberValid": "Wklejany tekst nie jest liczbą",
+      "sendAgain": "Wyślij ponownie",
+      "somethingWrong": "Coś poszło nie tak. Spróbuj ponownie później.",
+      "succesVerification": "Twój adres e-mail został zweryfikowany",
+      "success": "Sukces",
+      "successText": "Kod został wysłany na Twój adres e-mail",
+      "title": "Zweryfikuj swój adres e-mail",
+      "verify": "Weryfikacja"
+    }
+  },
+  "empty": "",
+  "form": {
+    "errors": {
+      "dateOverlapFree": "Zadanie już utworzone dla tej daty",
+      "patternMismatch": "Niezgodność wzorca",
+      "somethingWrong": "Coś poszło nie tak. Spróbuj ponownie później.",
+      "title": "Błąd",
+      "tooLong": "Zbyt długo",
+      "tooShort": "Zbyt krótki",
+      "typeMismatch": "Niezgodność typu",
+      "valueMissing": "Brak wartości"
+    }
+  },
+  "global": {
+    "accept": "Akceptuj",
+    "accepted": "Zaakceptowany",
+    "accommodations": {
+      "apartment": "Apartament",
+      "multi_family_house": "Dom wielorodzinny",
+      "other": "Inne",
+      "single_family_house": "Dom jednorodzinny"
+    },
+    "active": "Aktywny",
+    "activities": "Działania",
+    "add": "Dodaj",
+    "addInvoice": "Dodaj fakturę",
+    "agency": "Agencja",
+    "agencyRequest": "Wniosek agencji",
+    "all": "Wszystkie",
+    "any": "Dowolny",
+    "applied": "Stosowany",
+    "apply": "Zastosuj",
+    "applyForTheJob": "Zastosuj",
+    "arrival": "Przybycie",
+    "arrivalTypeOptions": {
+      "airplane": "Samolot",
+      "bus": "Autobus",
+      "large_bus": "Duży autobus",
+      "minibus": "Minibus"
+    },
+    "attention": "Uwaga",
+    "availabilityUnknown": "Dostępność nieznana",
+    "back": "Powrót",
+    "bestPrice": "Najlepsza cena",
+    "budget": "Budżet",
+    "cancel": "Anuluj",
+    "caregiver": "Opiekun",
+    "caregiverDetailsSidebarApplication": {
+      "showAllDetails": "Pokaż wszystkie szczegóły"
+    },
+    "caregiverInterested": "Zainteresowany opiekun",
+    "caregivers": "Opiekunowie",
+    "change": "Zmiana",
+    "changeApplicationRequestGrid": {
+      "arrival": "Przybycie",
+      "careBudget": "Budżet na opiekę",
+      "departure": "Odlot",
+      "sendChangeRequest": "Wyślij żądanie zmiany"
+    },
+    "changeOffer": "Zmień ofertę",
+    "choose": "Wybierz",
+    "chooseOption": "Wybierz opcję",
+    "clearAllFilters": "Wyczyść wszystkie filtry",
+    "completed": "Zakończono",
+    "components": {
+      "badgeMatchingJobs": {
+        "label": "Dopasowywanie ofert pracy"
+      }
+    },
+    "confirmed": "Potwierdzono",
+    "copy": "Kopia",
+    "countries": {
+      "albania": "Albania",
+      "andorra": "Andora",
+      "armenia": "Armenia",
+      "austria": "Austria",
+      "azerbaijan": "Azerbejdżan",
+      "belarus": "Białoruś",
+      "belgium": "Belgia",
+      "bosnia_and_herzegovina": "Bośnia i Hercegowina",
+      "bulgaria": "Bułgaria",
+      "croatia": "Chorwacja",
+      "cyprus": "Cypr",
+      "czech_republic": "Republika Czeska",
+      "denmark": "Dania",
+      "estonia": "Estonia",
+      "finland": "Finlandia",
+      "france": "Francja",
+      "georgia": "Gruzja",
+      "germany": "Niemcy",
+      "greece": "Grecja",
+      "hungary": "Węgry",
+      "iceland": "Islandia",
+      "ireland": "Irlandia",
+      "italy": "Włochy",
+      "kazakhstan": "Kazachstan",
+      "kosovo": "Kosowo",
+      "latvia": "Łotwa",
+      "liechtenstein": "Liechtenstein",
+      "lithuania": "Litwa",
+      "luxembourg": "Luksemburg",
+      "malta": "Malta",
+      "moldova": "Mołdawia",
+      "monaco": "Monako",
+      "montenegro": "Czarnogóra",
+      "netherlands": "Holandia",
+      "north_macedonia": "Macedonia Północna",
+      "norway": "Norwegia",
+      "poland": "Polska",
+      "portugal": "Portugalia",
+      "romania": "Rumunia",
+      "russia": "Rosja",
+      "san_marino": "San Marino",
+      "serbia": "Serbia",
+      "slovakia": "Słowacja",
+      "slovenia": "Słowenia",
+      "spain": "Hiszpania",
+      "sweden": "Szwecja",
+      "switzerland": "Szwajcaria",
+      "turkey": "Turcja",
+      "ukraine": "Ukraina",
+      "united_kingdom": "Wielka Brytania",
+      "vatican_city": "Watykan"
+    },
+    "customer": "Klient",
+    "customerAddNewStepThird": {
+      "contactPerson": "Osoba kontaktowa (w nagłych przypadkach)",
+      "informationAbout": "Informacje o sytuacji życiowej",
+      "mainPatient": "Główny pacjent (partner umowny)",
+      "optionalInformation": {
+        "description": "Jeśli chcesz, możesz dodać informacje o umowie teraz lub zrobić to później w procesie aplikacji",
+        "header": "Informacje opcjonalne"
+      },
+      "pictures": "Zdjęcia",
+      "reliefSupportForTheCaregiver": "Odciążenie/wsparcie dla opiekuna",
+      "tasksForTheCaregiver": "Zadania dla opiekuna",
+      "wishesForTheCaregiver": "Życzenia dla opiekuna"
+    },
+    "customerDetailsProfile": {
+      "reviews": "Recenzje",
+      "whatHaveSaid": "Opinie opiekunów na temat pracy i pacjentów"
+    },
+    "customerFormGeneralJobSearchSettings": {
+      "header": "Ogólne ustawienia zadania",
+      "whatIsTheDescription": "Jaka jest maksymalna kwota, którą klient chce zapłacić, w tym prowizja dla agentów.",
+      "whatIsTheHeader": "Jaki jest maksymalny budżet klienta?"
+    },
+    "customerFormSettings": {
+      "header": "Ustawienia"
+    },
+    "day": "Dzień",
+    "days": "Dni",
+    "daysAgo": "Dni temu",
+    "decline": "Spadek",
+    "declined": "Odrzucono",
+    "delete": "Usuń",
+    "departure": "Odlot",
+    "describe": "Opisać",
+    "details": "Szczegóły",
+    "download": "Pobierz",
+    "drivingLicense": {
+      "automatic": "Tak, automatyczny",
+      "manual": "Tak, ręczna skrzynia biegów"
+    },
+    "drivingLicenseOptions": {
+      "no": "Nie",
+      "notImportant": "Nieważne",
+      "not_important": "Nieważne",
+      "yes_automatic": "Tak, automatyczny",
+      "yes_automatic_manual": "Tak, automatyczny + ręczny",
+      "yes_manual": "Tak, ręczny"
+    },
+    "duration": "Czas trwania",
+    "edit": "Edytuj",
+    "educationOptions": {
+      "general": "Ogólne",
+      "high_school": "Szkoła średnia",
+      "professional": "Profesjonalny",
+      "studies": "Badania"
+    },
+    "email": "E-mail",
+    "enterInformation": "Wprowadź informacje",
+    "enterText": "Wprowadź tekst",
+    "equipments": {
+      "bathroom": "Łazienka",
+      "free_internet": "Darmowy internet",
+      "furnished_room": "Umeblowany pokój",
+      "lockable": "Zamykany",
+      "own_bathroom": "Własna łazienka",
+      "own_kitchen": "Własna kuchnia",
+      "own_tv": "Własna telewizja",
+      "own_wc": "Własne WC",
+      "tv": "TV"
+    },
+    "estimated": "Szacowany",
+    "everyOptionIsOk": "Każda opcja jest w porządku",
+    "exclusiveUntil": "Exclusive until",
+    "false": "Nie",
+    "female": "Kobieta",
+    "filters": "Filtry",
+    "from": "Od",
+    "full": "Pełny",
+    "genders": {
+      "all": "Wszystkie",
+      "female": "Kobieta",
+      "male": "Mężczyzna",
+      "notImportant": "Nieważne",
+      "not_important": "Nieważne"
+    },
+    "general": "ogólny",
+    "group": "Grupa",
+    "half": "Połowa",
+    "hideAllJobDetails": "Ukryj szczegóły zadania",
+    "high_school": "liceum",
+    "id": "ID",
+    "incontinenceOptions": {
+      "false": "Nie",
+      "true": "Tak"
+    },
+    "internetTypeOptions": {
+      "no": "Nie",
+      "not_possible": "Niemożliwe",
+      "on_arrival": "W dniu przyjazdu",
+      "yes": "Tak"
+    },
+    "invoiceParties": {
+      "mainContract": "Główny pracownik kontraktowy",
+      "patient": "Pacjent"
+    },
+    "irrelevant": "Nieistotne",
+    "jobs": "miejsca pracy",
+    "known": "Znany",
+    "languageGermanOptions": {
+      "level_0": "Poziom 0 (brak wiedzy)",
+      "level_1": "Poziom 1 (podstawowa wiedza)",
+      "level_2": "Poziom 2 (wiedza średniozaawansowana)",
+      "level_3": "Poziom 3 (zaawansowana wiedza)",
+      "level_4": "Poziom 4 (dobra znajomość)"
+    },
+    "languageGermanOptionsShort": {
+      "level_0": "Poziom 0",
+      "level_1": "Poziom 1",
+      "level_2": "Poziom 2",
+      "level_3": "Poziom 3",
+      "level_4": "Poziom 4"
+    },
+    "languageOptions": {
+      "al": "Albański",
+      "bg": "Bułgarski",
+      "by": "Białoruski",
+      "cz": "Czech",
+      "de": "Niemiecki",
+      "dk": "Duński",
+      "ee": "Estoński",
+      "en": "Angielski",
+      "es": "Hiszpański",
+      "fi": "Fiński",
+      "fr": "Francuski",
+      "gr": "Grecki",
+      "hr": "Chorwacki",
+      "hu": "Węgierski",
+      "is": "Islandzki",
+      "it": "Włoski",
+      "lt": "Litewski",
+      "lv": "Łotewski",
+      "md": "Mołdawia",
+      "me": "Czarnogóra",
+      "mk": "Macedoński",
+      "mt": "Maltański",
+      "nl": "Holenderski",
+      "no": "Norweski",
+      "pl": "Polski",
+      "pt": "Portugalski",
+      "ro": "Rumuński",
+      "rs": "Serbski",
+      "ru": "Rosyjski",
+      "se": "Szwedzki",
+      "si": "Słoweński",
+      "sk": "Słowacki",
+      "ua": "Ukraiński"
+    },
+    "languages": {
+      "de": "Niemiecki",
+      "en": "Angielski",
+      "pl": "Polski"
+    },
+    "lastUpdate": "Ostatnia aktualizacja",
+    "less": "Mniej",
+    "lifts": {
+      "no": "Nie",
+      "with_patient": "Z pacjentem",
+      "yes": "Tak",
+      "yes_with_patient_help": "Tak, z pomocą pacjenta"
+    },
+    "livingConditionOptions": {
+      "apartament": "Apartament",
+      "apartment": "Apartament",
+      "house": "Dom"
+    },
+    "loadMore": "Załaduj więcej",
+    "male": "Mężczyzna",
+    "match": "Mecz",
+    "matching": "Dopasowanie",
+    "max": "Max",
+    "message": "Wiadomość",
+    "min1": "Min. 1",
+    "min2": "Min. 2",
+    "min3": "Min. 3",
+    "min4": "Min. 4",
+    "min5": "Min. 5",
+    "mobilities": {
+      "bed": "Łóżko",
+      "walk": "Spacer"
+    },
+    "month": "Miesiąc",
+    "months": "Miesiące",
+    "monthsOptions": {
+      "august": "Sierpień",
+      "july": "Lipiec"
+    },
+    "more": "Więcej",
+    "moreInfo": "Więcej informacji",
+    "nationalities": {
+      "albanian": "Albania",
+      "andorran": "Andora",
+      "armenian": "Armenia",
+      "austrian": "Austria",
+      "azerbaijani": "Azerbejdżan",
+      "belarusian": "Białoruś",
+      "belgian": "Belgia",
+      "bosnian": "Bośnia i Hercegowina",
+      "bulgarian": "Bułgaria",
+      "croatian": "Chorwacja",
+      "cypriot": "Cypr",
+      "czech": "Republika Czeska",
+      "danish": "Dania",
+      "dutch": "Holandia",
+      "england": "Anglia",
+      "english": "Anglia",
+      "estonian": "Estonia",
+      "finnish": "Finlandia",
+      "french": "Francja",
+      "georgian": "Gruzja",
+      "german": "Niemcy",
+      "greek": "Grecja",
+      "hungarian": "Węgry",
+      "icelandic": "Islandia",
+      "irish": "Irlandia",
+      "italian": "Włochy",
+      "kazakhstani": "Kazachstan",
+      "kosovar": "Kosowo",
+      "latvian": "Łotwa",
+      "liechtensteiner": "Liechtenstein",
+      "lithuanian": "Litwa",
+      "luxembourger": "Luksemburg",
+      "macedonian": "Macedonia Północna",
+      "maltese": "Malta",
+      "moldovan": "Mołdawia",
+      "monegasque": "Monako",
+      "montenegrin": "Czarnogóra",
+      "norwegian": "Norwegia",
+      "polish": "Polska",
+      "portuguese": "Portugalia",
+      "romanian": "Rumunia",
+      "russian": "Rosja",
+      "sammarinese": "San Marino",
+      "scotish": "Szkocja",
+      "scottish": "Szkocja",
+      "serbian": "Serbia",
+      "slovak": "Słowacja",
+      "slovenian": "Słowenia",
+      "spanish": "Hiszpania",
+      "swedish": "Szwecja",
+      "swiss": "Szwajcaria",
+      "turkish": "Turcja",
+      "ukrainian": "Ukraina",
+      "vatican": "Watykan",
+      "welsh": "Walia"
+    },
+    "new": "Nowość",
+    "newest": "Najnowszy",
+    "next": "Następny",
+    "nightOperationsOptions": {
+      "1_2_times": "1-2 razy",
+      "more_than_2": "Więcej niż 2",
+      "no": "Nie",
+      "up_to_1_time": "Do 1 razu"
+    },
+    "no": "Nie",
+    "noActivities": "No activities",
+    "noResults": "Brak wyników",
+    "none": "Brak",
+    "notActive": "Nieaktywny",
+    "not_important": "Nieważne",
+    "openEnd": "Otwarty koniec",
+    "openEnded": "Otwarty",
+    "operationDate": "Data operacji",
+    "optional": "Opcjonalnie",
+    "or": "lub",
+    "orange": "Orange",
+    "otherPeopleInHouse": {
+      "alone": "Sam",
+      "no": "Nie",
+      "with_family": "Z rodziną",
+      "with_spouse": "Z małżonkiem"
+    },
+    "otherPersonsInHouseholdOptions": {
+      "max_1": "Maks. 1",
+      "max_2": "Maks. 2",
+      "max_3": "Maks. 3",
+      "max_4": "Maks. 4",
+      "max_5": "Maks. 5",
+      "no": "Nie"
+    },
+    "outdated": "Nieaktualne",
+    "patientsDementiaOptions": {
+      "hard": "Twardy",
+      "low": "Niski",
+      "medium": "Średni",
+      "no": "Nie"
+    },
+    "patientsMobilityOptions": {
+      "bed": "Łóżko",
+      "bedridden": "Przykuty do łóżka",
+      "mobile": "Mobilny",
+      "rollator": "Rollator",
+      "walk": "Spacer",
+      "walker": "Walker",
+      "walking_stick": "Laska",
+      "wheelchair": "Wózek inwalidzki"
+    },
+    "pets": {
+      "cat": "Kot",
+      "dog": "Pies"
+    },
+    "petsOptions": {
+      "max_1": "Maks. 1",
+      "max_2": "Maks. 2",
+      "no": "Nie"
+    },
+    "phone": "Telefon",
+    "pleaseChoose": "Wybierz",
+    "pleaseEnter": "Wprowadź",
+    "premiumMember": "Premium member",
+    "preview": "Podgląd",
+    "previous": "Previous",
+    "professional": "profesjonalny",
+    "profile": "Profil",
+    "ranks": {
+      "no_level": "No level",
+      "trainee": "Trainee"
+    },
+    "red": "Red",
+    "refreshData": "Odświeżanie danych",
+    "rejected": "Odrzucono",
+    "remindMe": "Remind me",
+    "reply": "Odpowiedź",
+    "report": "Raport",
+    "request": "Żądanie",
+    "requested": "Wymagane",
+    "reviews": {
+      "caregiverTasks": "Zadania opiekuna",
+      "livingSituation": "Sytuacja życiowa",
+      "patients": "Pacjenci",
+      "residentialArea": "Obszar mieszkalny"
+    },
+    "salutations": {
+      "mr": "Pan.",
+      "mrs": "Pani."
+    },
+    "save": "Zapisz",
+    "saveAndCreate": "Zapisywanie i tworzenie",
+    "saveAndNext": "Zapisz i następny",
+    "saveChanges": "Zapisz zmiany",
+    "search": "Wyszukiwanie",
+    "sendJobToCaregiver": "Wyślij zadanie do opiekuna",
+    "sendMessage": "Wyślij wiadomość",
+    "sendSms": "Wyślij SMS",
+    "sended": "Wysłane",
+    "set": "Zestaw",
+    "showAllJobDetails": "Pokaż wszystkie szczegóły zadania",
+    "since": "Since",
+    "smoking": {
+      "no": "Nie",
+      "not_important": "Nieważne",
+      "yes": "Tak",
+      "yes_outside": "Tak, na zewnątrz"
+    },
+    "sortBy": "",
+    "sortOptions": {
+      "bestMatching": "Najlepsze dopasowanie",
+      "bestPrice": "Najlepsza cena",
+      "newest": "Najnowszy",
+      "oldest": "Najstarszy",
+      "startJob": "Rozpoczęcie pracy"
+    },
+    "studies": "badania",
+    "summer": "Brzęczyk",
+    "titles": {
+      "dr": "Dr",
+      "mgr": "Mgr"
+    },
+    "to": "Do",
+    "today": "Dzisiaj",
+    "toolsOptions": {
+      "care_bed": "Łóżko pielęgnacyjne",
+      "others": "Inne",
+      "patient_hoist": "Podnośnik pacjenta",
+      "rollator": "Rollator",
+      "stair_hoist": "Podnośnik gwiazdowy",
+      "walking_stick": "Laska",
+      "wheelchair": "Wózek inwalidzki"
+    },
+    "true": "Tak",
+    "typeAndHitEnter": "wpisz i naciśnij enter",
+    "typeToSearch": "Type to search",
+    "until": "Do",
+    "update": "Aktualizacja",
+    "upload": "Przesyłanie",
+    "urbanizationOptions": {
+      "big_city": "Duże miasto",
+      "city": "Miasto",
+      "village": "Wioska"
+    },
+    "vaccinationStatuses": {
+      "min_1": "Min. 1",
+      "min_2": "Min. 2",
+      "min_3": "Min. 3",
+      "min_4": "Min. 4",
+      "no": "Nie"
+    },
+    "verified": "Zweryfikowano",
+    "visibilities": {
+      "hide": "Ukryj",
+      "public": "Publiczny",
+      "public_limited": "Ograniczony publiczny"
+    },
+    "week": "Tydzień",
+    "weeks": "Tygodnie",
+    "with_patient": "Z pacjentem",
+    "workInHolidayOptions": {
+      "1_may": "1 może",
+      "ascension_of_christ": "Wniebowstąpienie Chrystusa",
+      "christmas": "Boże Narodzenie",
+      "easter": "Wielkanoc",
+      "new_year": "Nowy Rok",
+      "pentecost": "Zesłanie Ducha Świętego"
+    },
+    "years": "Lata",
+    "yearsOld": "lat",
+    "yes": "Tak"
+  },
+  "glogal": {
+    "drivingLicenseOptions": {
+      "not_important": "Nieważne"
+    }
+  },
+  "languages": {
+    "codes": {
+      "de": "Niemiecki",
+      "en": "Angielski",
+      "pl": "Polski"
+    }
+  },
+  "layouts": {
+    "applicationLayout": {
+      "dropdown": {
+        "options": {
+          "accountSettings": "Ustawienia konta",
+          "accounting": "Księgowość",
+          "logout": "Wylogowanie"
+        }
+      }
+    }
+  },
+  "main": {
+    "title": "Cześć!"
+  },
+  "options": {
+    "holidaysOptions": {
+      "all_saints_day_in_germany": "Dzień Wszystkich Świętych w Niemczech",
+      "ascension_day_in_germany": "Dzień Wniebowstąpienia w Niemczech",
+      "christmas_in_germany(christmas_eve,_first_and_second_christmas_day)": "Boże Narodzenie w Niemczech (Wigilia, pierwszy i drugi dzień Bożego Narodzenia)",
+      "easter_in_germany(good_friday,_easter_sunday,_easter_monday)": "Wielkanoc w Niemczech (Wielki Piątek, Niedziela Wielkanocna, Poniedziałek Wielkanocny)",
+      "may_1": "1 maja",
+      "new_year_in_germany": "Nowy rok w Niemczech",
+      "pentecost_in_germany(whit_sunday,_whit_monday)": "Zielone Świątki w Niemczech (z niedzielą, z poniedziałkiem)"
+    }
+  },
+  "personalInfo": {
+    "aboutPlaceholder": "Co jest w tobie wspaniałego?"
+  },
+  "routes": {
+    "accountSettings": "Konto",
+    "caregiverAddNew": "Dodaj nowego opiekuna",
+    "caregiverDetails": "Szczegóły dotyczące opiekuna",
+    "caregivers": "Opiekunowie",
+    "caregiversAccepted": "Zaakceptowany",
+    "caregiversAgencyRequests": "Wnioski agencji",
+    "caregiversAll": "Wszystkie",
+    "caregiversCGInterest": "Odsetki CG",
+    "caregiversMyApplications": "Moje aplikacje",
+    "caregiversNoActivity": "Brak aktywności",
+    "caregiversOnTheJob": "W pracy",
+    "caregiversRequests": "Żądania agencji",
+    "companyInformation": "Informacje o firmie",
+    "customerDetailsContractAndSystem": "Umowa i system",
+    "customerDetailsJobs": "miejsca pracy",
+    "customerDetailsProfile": "Profil",
+    "dashboard": "Pulpit nawigacyjny",
+    "employees": "Pracownicy",
+    "finalConfirmation": "Ostateczne potwierdzenie",
+    "fullProfile": "Pełny profil",
+    "jobDetailsApplyForJob": "Szczegóły pracy",
+    "jobDetailsJobActivities": "Działania związane z pracą",
+    "jobDetailsMyCaregivers": "Moi opiekunowie",
+    "jobMarket": "Rynek pracy",
+    "jobs": "miejsca pracy",
+    "matchingCaregivers": "Dopasowanie opiekunów",
+    "matchingJobs": "Dopasowywanie ofert pracy",
+    "messages": "Wiadomości",
+    "myApplications": "Moje aplikacje",
+    "myCustomers": "Moi klienci",
+    "overview": "Przegląd",
+    "priceAndContractSettings": "Cena i umowa",
+    "requestsReceived": "Otrzymane wnioski",
+    "userAccount": "Konto użytkownika"
+  },
+  "rules": {
+    "thisFieldIsRequired": "To pole jest wymagane"
+  },
+  "view": {
+    "customerAddNewFinalize": {
+      "confirmDelete": "Czy na pewno chcesz usunąć ofertę pracy? Tego działania nie można cofnąć!",
+      "toasts": {
+        "created": "Twoja praca została pomyślnie opublikowana!",
+        "updated": "Oferta pracy zaktualizowana pomyślnie!"
+      }
+    },
+    "customerAddNewStepFirst": {
+      "information": {
+        "first": "Wszystkie pola oznaczone",
+        "second": "czerwony",
+        "third": "są wymagane do utworzenia klienta/zadania."
+      },
+      "toasts": {
+        "created": "Klient {last_name} z {location} został pomyślnie utworzony. Od teraz można go znaleźć na liście klientów na koncie.",
+        "updated": "Klient {last_name} z {location} został pomyślnie zaktualizowany."
+      },
+      "wantToImport": "Chcesz zaimportować więcej klientów jednocześnie?"
+    },
+    "customerAddNewStepSecond": {
+      "toasts": {
+        "created": "Pacjenci są tworzeni"
+      }
+    },
+    "customerAddNewStepThird": {
+      "toasts": {
+        "created": "Tworzona jest sytuacja opieki"
+      }
+    }
+  },
+  "views": {
+    "accountSettings": {
+      "metrics": {
+        "activeJobs": "Aktywne miejsca pracy",
+        "caregivers": "Opiekunowie",
+        "jobsDone": "Wykonane zadania"
+      }
+    },
+    "caregiverAddNew": {
+      "buttons": {
+        "backToCaregivers": "Powrót do opiekunów",
+        "orCreateManually": "Lub utworzyć ręcznie"
+      },
+      "pdfCard": {
+        "subtitle": "To magia. Prześlij profil PDF, my go odczytamy, a Ty musisz tylko sprawdzić dane.",
+        "title": "Prześlij plik PDF z profilem, a my zajmiemy się resztą!"
+      }
+    },
+    "caregiverAgencyDashboard": {
+      "badges": {
+        "applicationAccepted": "Wniosek przyjęty",
+        "applicationDeclined": "Wniosek odrzucony",
+        "confirmationArrival": "Dodano dane przylotu",
+        "confirmationDeparture": "Dodano dane dotyczące odlotów",
+        "file": "Dodano umowę",
+        "newCounterOffer": "Nowa kontroferta"
+      },
+      "blocks": {
+        "allOpenJobs": {
+          "description": {
+            "linkOne": "{active} aktywne żądania",
+            "notYetProcessed": "nie zostały jeszcze przetworzone.",
+            "youHave": "Masz"
+          },
+          "title": "Wszystkie otwarte oferty pracy"
+        },
+        "inNegotiation": {
+          "description": {
+            "byCustomer": "przez klienta.",
+            "linkOne": "{applications} aplikacje",
+            "linkTwo": "{confirmed} zostały potwierdzone",
+            "ofWhich": "w tym",
+            "youHave": "Zrobiłeś"
+          },
+          "title": "W negocjacjach"
+        },
+        "jobsFilled": {
+          "description": {
+            "and": "oraz",
+            "linkOne": "({arrival}) przed przybyciem",
+            "linkTwo": "({job}) w pracy.",
+            "youHave": "Masz"
+          },
+          "descriptioxa": "Masz <span class=\"text-brand-500\">({arrival}) przed przyjazdem</span> i <span class=\"text-brand-500\">({job}) w pracy</span>.",
+          "title": "Obsadzone stanowiska"
+        }
+      },
+      "filters": {
+        "isApplication": "Is application",
+        "isApplicationAccepted": "Wniosek przyjęty",
+        "isApplicationDeclined": "Wniosek odrzucony",
+        "isCaregiverInterest": "Zainteresowanie opiekuna",
+        "isConfirmation": "Is confirmation",
+        "isMatch": "Mecz",
+        "isNewCounterOffer": "Nowa kontroferta",
+        "isRequest": "Wniosek agencji"
+      },
+      "newestActivities": "Najnowsze działania",
+      "overview": "Przegląd",
+      "status": {
+        "application_accepted": "Wniosek przyjęty",
+        "application_declined": "Wniosek odrzucony",
+        "arrival_info": "Dostępne informacje o przyjeździe",
+        "caregiver_interest": "Zainteresowanie opiekuna",
+        "confirmation_withdrawn": "Potwierdzenie wycofane",
+        "contract_available": "Dostępna umowa",
+        "departure_info": "Dostępne informacje o odlocie",
+        "new_application": "Nowa aplikacja",
+        "new_counter_offer": "Nowa kontroferta",
+        "request": "Żądanie",
+        "request_declined": "Wniosek odrzucony",
+        "match": "Dopasowanie"
+      },
+      "summary": {
+        "linkOne": "{jobsCount} otwarte oferty pracy",
+        "linkTwo": "{matchesCount} pasuje do {percent}%",
+        "onThePlatform": "na platformie, z czego",
+        "toYourCaregiver": "swoim opiekunom.",
+        "weCurrentlyHave": "Obecnie posiadamy"
+      },
+      "table": {
+        "headers": {
+          "agency": "Agencja",
+          "caregiver": "Opiekun",
+          "customer": "Klient",
+          "date": "Data",
+          "jobID": "Job ID",
+          "status": "Status"
+        }
+      },
+      "welcomeBack": "Witam"
+    },
+    "caregiverDetails": {
+      "activeJob": "Aktywne miejsca pracy",
+      "applications": "Zastosowania",
+      "confirmYourBooking": "Potwierdź rezerwację",
+      "history": "Historia",
+      "matchingJobs": "Pasujące oferty pracy",
+      "noActiveJobs": "Brak aktywnych ofert pracy. Tutaj znajdziesz wszystkie zaakceptowane oferty pracy i wszystkie aktualne oferty pracy opiekunki, jeśli jest na miejscu.",
+      "noApplications": "Nie ma jeszcze zgłoszeń. Jeśli złożyłeś podanie o pracę opiekuna, znajdziesz je tutaj wraz ze wszystkimi szczegółami."
+    },
+    "caregiverDetailsFullProfile": {
+      "buttons": {
+        "deleteCaregiver": "Usuń opiekuna"
+      },
+      "modal": {
+        "delete": "Usunąć opiekuna",
+        "message": "Czy na pewno chcesz usunąć Caregiver?"
+      },
+      "table": {
+        "headers": {
+          "agency": "Agencja",
+          "caregiverReview": "Recenzja opiekuna",
+          "customer": "Klient",
+          "customerReview": "Opinia klienta",
+          "duration": "Czas trwania",
+          "offer": "Oferta",
+          "operatingTime": "Czas pracy",
+          "returnDesired": "Czy zwrot jest pożądany?",
+          "returnWish": "Życzenie powrotu?"
+        }
+      },
+      "tabs": {
+        "baseData": "Dane podstawowe",
+        "jobHistory": "Historia pracy"
+      },
+      "toasts": {
+        "deleted": "Opiekun usunięty!"
+      }
+    },
+    "caregivers": {
+      "buttons": {
+        "createNewCaregiver": "Utwórz nowego opiekuna"
+      }
+    },
+    "cgVerify": {
+      "iDidNotReceiveACode": "Nie otrzymałem kodu",
+      "showMatchingJobs": "Pokaż pasujące oferty pracy",
+      "verificationCode": "Kod weryfikacyjny",
+      "weHaveJustSentYou": "Właśnie wysłaliśmy Ci kod potwierdzający SMS-em, użyj go, aby się zweryfikować."
+    },
+    "companySettings": {
+      "cards": {
+        "first": {
+          "header": "Informacje o firmie",
+          "headers": {
+            "companyLogo": "Logo firmy",
+            "companyName": "Nazwa firmy",
+            "companyVerificationDocuments": "Dokumenty weryfikacyjne firmy",
+            "mamamiaContactPerson": "osoba kontaktowa mamamia",
+            "managingDirector": "Dyrektor zarządzający",
+            "officialOfficeAddress": "Oficjalny adres biura",
+            "registrationInformation": "Informacje dotyczące rejestracji"
+          },
+          "labels": {
+            "city": "Miasto",
+            "commercialRegister": "Rejestr handlowy",
+            "country": "Kraj",
+            "email": "E-mail",
+            "fileUpload": "Przesyłanie plików",
+            "firstName": "Imię",
+            "lastName": "Nazwisko",
+            "mainPhoneNumber": "Główny numer telefonu",
+            "phone": "Telefon",
+            "pleaseUpload": "Prosimy o przesłanie dokumentu potwierdzającego legalność firmy. Np. licencję handlową.",
+            "postalCode": "Kod pocztowy",
+            "salesTaxId": "Identyfikator podatkowy sprzedaży",
+            "salutation": "Pozdrowienia",
+            "street": "ul.",
+            "subjectToVat": "Podlega opodatkowaniu podatkiem VAT"
+          }
+        },
+        "second": {
+          "header": "Prezentacja firmy",
+          "headers": {
+            "images": "Obrazy"
+          },
+          "labels": {
+            "addNewEmployee": "Dodaj nowego pracownika",
+            "chooseEmploye": "Wybierz pracownika",
+            "companyLogo": "Logo firmy",
+            "images": "Wybierz swoje główne zdjęcie profilowe i logo firmy.",
+            "profilePhoto": "Zdjęcie profilowe"
+          }
+        },
+        "third": {
+          "header": "Osoba kontaktowa dla opiekunów",
+          "headers": {
+            "contact": "Kontakt w przypadku pytań i problemów"
+          },
+          "labels": {
+            "contact": "Twój kontakt, jeśli chodzi o prośby opiekunów."
+          }
+        }
+      }
+    },
+    "customerDetailsJobs": {
+      "table": {
+        "headers": {
+          "cgCustomerReview": "Opinia klienta",
+          "cgReturnWish": "Życzenie powrotu CG"
+        }
+      }
+    },
+    "employees": {
+      "buttons": {
+        "addNew": "Dodaj nowy"
+      },
+      "contactPersons": "Osoby kontaktowe",
+      "header": "Pracownicy",
+      "headers": {
+        "date": "Data",
+        "email": "E-mail",
+        "forCaregiver": "Dla opiekuna",
+        "forCustomerServiceAgencies": "Dla agencji obsługi klienta",
+        "name": "Nazwa",
+        "phone": "Telefon",
+        "role": "Rola"
+      },
+      "labels": {
+        "chooseEmployee": "Wybierz pracownika"
+      }
+    },
+    "fullProfile": {
+      "headers": {
+        "generalInformation": "Informacje ogólne",
+        "generalInformations": {
+          "fifth": "Jaki jest Twój budżet na opiekę?",
+          "first": "Kto powinien skorzystać z opieki",
+          "fourth": "Kiedy początkowo potrzebna jest opieka?",
+          "second": "Jaki poziom opieki jest dostępny",
+          "third": "Czy w gospodarstwie domowym mieszkają inne osoby?"
+        },
+        "impression": "Wrażenie",
+        "informationAboutLivingSituation": "Informacje o sytuacji życiowej",
+        "patientInformation": "Informacje dla pacjenta",
+        "patientInformations": {
+          "first": "Jaka jest kondycja fizyczna?",
+          "fourth": "Dalsze informacje i cechy szczególne dotyczące stanu pacjenta:",
+          "second": "Jakie narzędzia są używane?",
+          "third": "Jaki jest stan psychiczny/umysłowy?"
+        },
+        "reliefSlashSupport": "Pomoc/wsparcie",
+        "tasksForTheCaregiver": "Zadania dla opiekuna",
+        "wishesForTheCareStaff": "Życzenia dla personelu opiekuńczego",
+        "wishesForTheCareStaffs": {
+          "fifth": "Czy masz jeszcze jakieś prośby do opiekuna?",
+          "first": "Pożądana płeć?",
+          "fourth": "Czy opiekun może palić papierosy?",
+          "second": "Umiejętności językowe",
+          "third": "Czy opiekun powinien posiadać prawo jazdy (często za dodatkową opłatą)?"
+        }
+      }
+    },
+    "jobDetails": {
+      "buttons": {
+        "applyForTheJob": "Zastosuj",
+        "backToJob": "Powrót do pracy",
+        "hideAllJobDetails": "Ukryj wszystkie szczegóły zadania",
+        "matchingCaregivers": "Matching caregivers",
+        "sendMessage": "Wyślij wiadomość",
+        "showAllJobDetails": "Pokaż wszystkie szczegóły zadania",
+        "viewFullProfile": "Wyświetl pełny profil"
+      },
+      "confirmFinally": "Confim w końcu",
+      "headers": {
+        "caregiverRequirements": {
+          "fifth": "Palacz",
+          "first": "Wymagania dotyczące opiekuna",
+          "fourth": "Prawo jazdy",
+          "second": "Płeć",
+          "third": "Umiejętności językowe"
+        },
+        "patientSituation": {
+          "fifth": "Rodzina w pobliżu",
+          "first": "Sytuacja pacjenta",
+          "fourth": "Inna osoba w gospodarstwie domowym",
+          "second": "Mobilność pacjentów",
+          "third": "Operacje nocne"
+        }
+      },
+      "openCaregiver": "Otwarty opiekun",
+      "reportProblem": "Zgłoś problem",
+      "shortDescription": "Krótki opis",
+      "verified": "Zweryfikowany klient"
+    },
+    "jobDetailsSATop": {
+      "buttons": {
+        "allJobs": "Wszystkie oferty pracy",
+        "customerProfile": "Profil klienta"
+      }
+    },
+    "jobMarket": {
+      "badges": {
+        "matchingCaregivers": "Dopasowanie opiekunów",
+        "requestReceived": "Otrzymane żądanie",
+        "yourApplication": "Twoja aplikacja"
+      },
+      "jobsCount": "otwarte oferty pracy",
+      "switches": {
+        "hideReserved": "Ukryj zastrzeżone",
+        "jobSent": "Praca wysłana",
+        "myKnownJobs": "Moje znane miejsca pracy",
+        "withoutApplications": "Bez aplikacji"
+      }
+    },
+    "login": {
+      "buttons": {
+        "facebook": "Kontynuuj z Facebookiem",
+        "google": "Kontynuuj z Google",
+        "login": "Login"
+      },
+      "form": {
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Wprowadź swój adres e-mail"
+        },
+        "password": {
+          "label": "Hasło",
+          "placeholder": "Wprowadź hasło"
+        }
+      },
+      "header": "Zaloguj się"
+    },
+    "matchingCaregivers": {
+      "buttons": {
+        "addCaregiver": "Dodaj opiekuna",
+        "onlyAppCG": "Tylko aplikacja CG"
+      },
+      "header": "Dopasowanie opiekunów",
+      "history": "Historia"
+    },
+    "myApplications": {
+      "header": "Moje aplikacje"
+    },
+    "priceAndContractSettings": {
+      "cards": {
+        "first": {
+          "headers": {
+            "generalBusinessSettings": "Ogólne ustawienia biznesowe",
+            "sampleContract": "Przykładowa umowa"
+          },
+          "labels": {
+            "noticePeriod": "Okres wypowiedzenia"
+          }
+        },
+        "second": {
+          "header": "Widoczność dla opiekunów",
+          "headers": {
+            "holidaySurcharges": "Dopłaty wakacyjne",
+            "travelExpenses": "Koszty podróży",
+            "vacationAssignments": "Przydziały urlopowe",
+            "vacationDays": "Dni urlopu"
+          },
+          "labels": {
+            "addAnotherPosition": "Dodaj kolejną pozycję",
+            "arrivalFee": "Opłata za przyjazd",
+            "calculationOfTravelDays": "Obliczanie dni podróży",
+            "departureFee": "Opłata za wyjazd",
+            "multiplierRate": "Mnożnik (stawka dzienna)",
+            "pricePerDay": "Cena za dzień"
+          },
+          "tooltips": {
+            "multiplierRate": "Zamiast stałej stawki dziennej można wybrać mnożnik. Na przykład, jeśli klient płaci 3000 euro, normalnie naliczane jest 100 euro dziennie. Jeśli wybierzesz mnożnik 2, zostaniesz obciążony kwotą 200 euro dziennie."
+          }
+        }
+      }
+    },
+    "register": {
+      "buttons": {
+        "continue": "Kontynuuj wysyłanie wiadomości e-mail"
+      },
+      "form": {
+        "email": {
+          "label": "E-mail",
+          "placeholder": "Wprowadź swój adres e-mail"
+        }
+      },
+      "header": "Zarejestruj się za darmo",
+      "points": {
+        "first": {
+          "description": "Po zalogowaniu zobaczysz bezpośrednio wszystkie otwarte oferty pracy, które znajdują się na rynku.",
+          "header": "Zobacz oferty pracy natychmiast"
+        },
+        "second": {
+          "description": "Utwórz lub zaimportuj swoich opiekunów, aby bezpośrednio zobaczyć, które oferty pracy pasują.",
+          "header": "Tworzenie opiekunów"
+        },
+        "third": {
+          "description": "Po weryfikacji możesz od razu aplikować na oferty pracy i otrzymywać zapytania.",
+          "header": "Aplikuj o pracę"
+        }
+      },
+      "subheader": "100% za darmo, bezpośrednio przetestuj wszystkie funkcje."
+    },
+    "requestsReceived": {
+      "header": "Otrzymane żądania"
+    },
+    "serviceAgencyCaregivers": {
+      "switchers": {
+        "known": "Znany",
+        "matchesJobs": "Dopasowania ofert pracy",
+        "withoutActivity": "Bez aktywności"
+      }
+    },
+    "serviceAgencyDashboard": {
+      "abort": "Przerwania",
+      "accepted": "Zaakceptowany",
+      "applications": "Zastosowania",
+      "filter": {
+        "header": "Otwarte wyszukiwania ofert pracy",
+        "item": {
+          "applicationAccepted": "Aplikacja zaakceptowana",
+          "applicationDeclined": "Wniosek odrzucony",
+          "arrivalInfoAvailable": "Dostępne informacje o przyjeździe",
+          "caregiverInterest": "Zainteresowanie opiekuna",
+          "contractAvailable": "Dostępny kontrakt",
+          "departureInfoAvailable": "Dostępne informacje o odlocie",
+          "newApplication": "Nowa aplikacja",
+          "newCounterOffer": "Nowa oferta licznika",
+          "newInvoice": "Nowa faktura",
+          "requestDeclined": "Wniosek odrzucony"
+        },
+        "name": "Filtr"
+      },
+      "openJobs": "Otwarte oferty pracy",
+      "status": {
+        "application_accepted": "Wniosek przyjęty",
+        "application_declined": "Wniosek odrzucony",
+        "arrival_info": "Dostępne informacje o przyjeździe",
+        "caregiver_interest": "Zainteresowanie opiekuna",
+        "confirmation_withdrawn": "Potwierdzenie wycofane",
+        "contract_available": "Dostępna umowa",
+        "departure_info": "Dostępne informacje o odlocie",
+        "new_application": "Nowa aplikacja",
+        "new_counter_offer": "Nowa kontroferta",
+        "request": "Wniosek odrzucony",
+        "request_declined": "Wniosek odrzucony"
+      },
+      "tableTitle": "Najnowsze działania"
+    },
+    "serviceAgencyJobs": {
+      "abortsAlert": "Przerwane zadania pozostają na tej liście przez 7 dni, a następnie pojawiają się na innych kartach w normalny sposób.",
+      "header": "miejsca pracy",
+      "headers": {
+        "activites": "Działania",
+        "agency": "Agencja",
+        "arrival": "Przybycie",
+        "budget": "Budżet",
+        "caregiver": "Opiekun",
+        "contract": "Umowa",
+        "departure": "Odlot",
+        "id": "Id",
+        "location": "Lokalizacja"
+      },
+      "newJob": "Utwórz nowe zadanie",
+      "selectButton": {
+        "abort": "Przerwania",
+        "accepted": "Zaakceptowany",
+        "all": "Wszystkie",
+        "applications": "Zastosowania",
+        "interest": "Zainteresowany",
+        "no_activity": "Brak działań",
+        "request": "Wymagane"
+      }
+    },
+    "serviceAgencyMyCustomers": {
+      "createNewCustomer": "Tworzenie nowego klienta",
+      "customerListActive": "Aktywny",
+      "customerListAll": "Wszystkie",
+      "customerListArchive": "Archiwum",
+      "customerListDraft": "Wersja robocza"
+    },
+    "signIn": {
+      "form": {
+        "email": {
+          "placeholder": "Wprowadź swój adres e-mail"
+        },
+        "name": {
+          "label": "Nazwa",
+          "placeholder": "Wprowadź nazwę"
+        },
+        "password": {
+          "label": "Hasło",
+          "placeholder": "Wprowadź hasło"
+        },
+        "passwordRepeat": {
+          "label": "Powtórz hasło",
+          "placeholder": "Potwierdź hasło"
+        }
+      },
+      "header": "Zaloguj się",
+      "subheader": {
+        "first": "Dziękujemy za potwierdzenie adresu e-mail.",
+        "second": "Podaj nam swoją nazwę i ustaw hasło, aby ostatecznie utworzyć konto."
+      }
+    },
+    "signup": {
+      "header": "Zarejestruj się"
+    },
+    "userAccount": {
+      "cards": {
+        "first": {
+          "header": "Dyrektor zarządzający",
+          "headers": {
+            "accountLogin": "Logowanie do konta"
+          },
+          "labels": {
+            "email": "E-mail",
+            "forgotPassword": "Zapomniałeś hasła?",
+            "locale": "Język systemu",
+            "password": "Hasło",
+            "setNewPassword": "Ustaw nowe hasło"
+          }
+        },
+        "second": {
+          "header": "Dane osobowe",
+          "headers": {
+            "whoYouAre": "Kim jesteś?"
+          },
+          "labels": {
+            "firstName": "Imię",
+            "lastName": "Nazwisko",
+            "phoneNumber": "Numer telefonu",
+            "positionInTheCompany": "Stanowisko w firmie",
+            "profileImage": "Obraz profilu",
+            "salutation": "Pozdrowienia",
+            "title": "Tytuł"
+          }
+        }
+      }
+    }
+  }
+}
