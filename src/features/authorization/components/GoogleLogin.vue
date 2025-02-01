@@ -28,14 +28,18 @@ const { getHref } = useAuthProviderLink();
       })
     "
   >
-    <CustomButton size="xl" variant="secondary-gray" class="grid grid-cols-3">
+    <CustomButton
+      size="xl"
+      variant="secondary-gray"
+      class="!rounded-full !px-0 md:grid md:grid-cols-3 md:rounded-lg md:!px-8"
+    >
       <CustomIcon
         name="google"
         class="justify-self-start"
         width="24"
         height="24"
       />
-      <span class="min-w-max justify-self-center">
+      <span class="hidden min-w-max justify-self-center md:inline-block">
         {{ $t("views.login.buttons.google") }}
       </span>
     </CustomButton>

@@ -97,7 +97,7 @@ useQueryClient().clear();
 <template>
   <CustomForm
     v-model:valid="isValid"
-    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-12"
+    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-6 md:gap-12"
     @submit="
       login({
         email: form.email,
@@ -156,7 +156,7 @@ useQueryClient().clear();
     </RouterLink>
 
     <DividerWithText> {{ $t("components.signIn.or") }}</DividerWithText>
-    <div class="flex flex-col gap-6">
+    <div class="mb-4 flex flex-row justify-center gap-4 md:mb-0 md:flex-col">
       <FacebookLogin mode="login" />
       <GoogleLogin mode="login" />
     </div>

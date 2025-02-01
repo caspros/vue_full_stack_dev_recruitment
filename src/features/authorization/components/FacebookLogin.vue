@@ -28,14 +28,18 @@ const { getHref } = useAuthProviderLink();
       })
     "
   >
-    <CustomButton size="xl" variant="blue" class="grid grid-cols-3">
+    <CustomButton
+      size="xl"
+      variant="blue"
+      class="!rounded-full !px-0 md:grid md:grid-cols-3 md:rounded-lg md:!px-8"
+    >
       <CustomIcon
         name="facebook"
         class="justify-self-start"
         width="25"
         height="24"
       />
-      <span class="min-w-max justify-self-center">
+      <span class="hidden min-w-max justify-self-center md:inline-block">
         {{ $t("views.login.buttons.facebook") }}
       </span>
     </CustomButton>

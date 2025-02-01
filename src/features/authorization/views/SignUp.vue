@@ -160,7 +160,7 @@ const { isPhoneNumber, emailInput, phoneInput, countryPrefix } =
     </CustomButton>
 
     <DividerWithText> {{ $t("components.signIn.or") }}</DividerWithText>
-    <div class="flex flex-col gap-6">
+    <div class="mb-4 flex flex-row justify-center gap-4 md:mb-0 md:flex-col">
       <FacebookLogin mode="register" />
       <GoogleLogin mode="register" />
     </div>

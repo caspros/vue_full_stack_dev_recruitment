@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-center">
+  <div class="my-24 flex items-center justify-center md:my-0">
     <div class="grow">
       <hr class="border-gray-200" />
     </div>
