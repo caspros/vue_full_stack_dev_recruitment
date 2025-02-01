@@ -32,33 +32,35 @@ const resetInactivityTimeout = () => {
 };
 
 const setupActivityListeners = () => {
-  window.addEventListener("mousemove", resetInactivityTimeout);
-  window.addEventListener("keydown", resetInactivityTimeout);
-  window.addEventListener("scroll", resetInactivityTimeout);
-  window.addEventListener("click", resetInactivityTimeout);
+  const events = ["mousemove", "keydown", "scroll", "click"];
+  events.forEach(event => {
+    window.addEventListener(event, resetInactivityTimeout);
+  });
 };
 
 const removeActivityListeners = () => {
-  window.removeEventListener("mousemove", resetInactivityTimeout);
-  window.removeEventListener("keydown", resetInactivityTimeout);
-  window.removeEventListener("scroll", resetInactivityTimeout);
-  window.removeEventListener("click", resetInactivityTimeout);
+  const events = ["mousemove", "keydown", "scroll", "click"];
+  events.forEach(event => {
+    window.removeEventListener(event, resetInactivityTimeout);
+  });
 };
 
 onMounted(async () => {
   setupActivityListeners();
   resetInactivityTimeout();
-  await nextTick();
-  const contentCheckInterval = setInterval(() => {
+
+  // Use MutationObserver to hide the spinner once the content is loaded
+  const spinner = document.getElementById("spinner-container");
+
+  const observer = new MutationObserver(() => {
     const content = document.querySelector(".flex");
-    if (content) {
-      const spinner = document.getElementById("spinner-container");
-      if (spinner) {
-        spinner.style.display = "none";
-      }
-      clearInterval(contentCheckInterval);
+    if (content && spinner) {
+      spinner.style.display = "none"; // Hide spinner
+      observer.disconnect(); // Stop observing after content is loaded
     }
-  }, 300);
+  });
+
+  observer.observe(document.body, { childList: true, subtree: true });
 });
 
 onBeforeUnmount(() => {
@@ -69,29 +71,11 @@ onBeforeUnmount(() => {
 });
 
 const route = useRoute();
-
-const caregiver = computed(() => {
-  const { userData } = useAuthorizationStore();
-  return userData?.current_roleable?.roleable_type === "caregiver"
-    ? userData?.current_roleable?.roleable
-    : null;
-});
-
-const user = computed(() => {
-  return useAuthorizationStore().userData;
-});
-
-watch(
-  () => user.value,
-  v => {
-    if (v) {
-      primevue.config.locale = primeVueLocales[v.locale];
-    }
-  },
-  {
-    immediate: true,
-    deep: true,
-  },
+const user = computed(() => useAuthorizationStore().userData);
+const caregiver = computed(() =>
+  user.value?.current_roleable?.roleable_type === "caregiver"
+    ? user.value?.current_roleable?.roleable
+    : null,
 );
 
 const { watchCaregiverMatching, caregiverMatchingInProgress } =
@@ -99,6 +83,15 @@ const { watchCaregiverMatching, caregiverMatchingInProgress } =
 watchCaregiverMatching({ caregiver });
 
 provide("caregiverMatchingInProgress", caregiverMatchingInProgress);
+
+const setPrimeVueLocale = computed(() => primeVueLocales[user.value?.locale]);
+watch(
+  setPrimeVueLocale,
+  newLocale => {
+    primevue.config.locale = newLocale;
+  },
+  { immediate: true },
+);
 </script>
 
 <template>

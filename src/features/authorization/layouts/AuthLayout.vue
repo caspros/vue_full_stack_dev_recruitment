@@ -3,10 +3,10 @@ import { RouterLink, useRoute } from "vue-router";
 import ApplicationLogo from "@/src/features/shared/components/ApplicationLogo.vue";
 import AuthSlogan from "@/src/features/authorization/components/AuthSlogan.vue";
 import TickList from "@/src/features/authorization/components/TickList.vue";
-import LinkWithText from "@/src/features/authorization/components/LinkWithText.vue";
 import { productFruits } from "product-fruits";
 import { onMounted } from "vue";
 import i18n from "@/src/assets/config.js";
+import AuthLinkWithTextWrapper from "@/src/features/authorization/components/AuthLinkWithTextWrapper.vue";
 
 const route = useRoute();
 
@@ -53,41 +53,42 @@ onMounted(() => {
     </div>
 
     <div class="min-h-screen w-full bg-white px-10 pt-8 lg:flex lg:flex-col">
-      <slot name="top-right">
-        <LinkWithText
-          v-if="route.name === 'SignUp'"
-          class="mb-6 px-14 text-center lg:mb-0 lg:text-right"
-          to="/login"
-        >
-          <template #text>
-            {{ $t("components.signUp.alreadyHaveAccout") }}
-          </template>
-          <template #link> {{ $t("components.signUp.signIn") }} </template>
-        </LinkWithText>
-        <LinkWithText
-          v-else-if="route.name === 'Login'"
-          class="mb-6 px-14 text-center lg:mb-0 lg:text-right"
-          to="/sign-up"
-        >
-          <template #text>
-            {{ $t("components.authLayout.dontHaveAccount") }}
-          </template>
-          <template #link> {{ $t("components.authLayout.signup") }}</template>
-        </LinkWithText>
-      </slot>
-      <div class="lg:flex lg:grow lg:flex-col lg:justify-start">
+      <div class="hidden md:block">
+        <slot name="top-right">
+          <AuthLinkWithTextWrapper />
+        </slot>
+      </div>
+      <div class="mt-32 md:mt-0 lg:flex lg:grow lg:flex-col lg:justify-start">
         <RouterLink to="/">
           <ApplicationLogo class="mt-0 w-full text-brand-500 lg:mb-[120px]" />
         </RouterLink>
+        <div
+          v-if="route.name === 'SignUp'"
+          class="mx-auto mt-24 block max-w-[300px] p-4 text-center text-lg text-gray-900 md:hidden"
+        >
+          {{ $t("views.register.mobileHeaderDescription.firstPart") }}
+          <span class="text-purple-600">
+            {{
+              $t("views.register.mobileHeaderDescription.jobsCount", [1.367])
+            }}
+          </span>
+          {{ $t("views.register.mobileHeaderDescription.lastPart") }}
+        </div>
+
         <div>
           <h1
             v-if="route.meta.title"
-            class="mb-30 mt-30 text-center text-display-lg font-light text-gray-600"
+            class="mb-20 mt-20 text-center text-display-lg font-bold text-gray-600 md:mb-30 md:mt-30 md:font-light"
           >
             {{ $t(route.meta.title) }}
           </h1>
 
           <slot></slot>
+        </div>
+        <div class="block md:hidden">
+          <slot name="bottom-middle">
+            <AuthLinkWithTextWrapper />
+          </slot>
         </div>
       </div>
     </div>

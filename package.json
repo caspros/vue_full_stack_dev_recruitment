@@ -62,7 +62,8 @@
     "vue-virtual-scroller": "^2.0.0-beta.8",
     "vue3-cookies": "^1.0.6",
     "vue3-lottie": "^3.3.0",
-    "vue3-snackbar": "^2.2.0"
+    "vue3-snackbar": "^2.2.0",
+    "yup": "^1.6.1"
   },
   "devDependencies": {
     "@vitejs/plugin-basic-ssl": "^1.1.0",

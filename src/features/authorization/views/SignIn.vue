@@ -7,6 +7,8 @@ import { useI18n } from "vue-i18n";
 import { useMutation } from "@vue/apollo-composable";
 import { useQueryClient } from "@tanstack/vue-query";
 import { useToast } from "primevue/usetoast";
+import { useForm, useField } from "vee-validate";
+import * as yup from "yup";
 
 import { RouterLink } from "vue-router";
 
@@ -33,6 +35,17 @@ const route = useRoute();
 
 useProvidersErrorHandler();
 
+const schema = yup.object({
+  email: yup
+    .string()
+    .required(t("components.signIn.validation.emailRequired"))
+    .email(t("components.signIn.validation.invalidEmail")),
+  password: yup
+    .string()
+    .required(t("components.signIn.validation.passwordRequired"))
+    .min(4, t("components.signIn.validation.passwordMinLength")),
+});
+
 const LOGIN_MUTATION = gql`
   mutation Login($email: String!, $password: String!, $remember: Boolean!) {
     Login(email: $email, password: $password, remember: $remember) {
@@ -57,9 +70,22 @@ const { onDone, mutate: login } = useMutation(LOGIN_MUTATION, {
   clientId: "auth",
 });
 
+const { handleSubmit, errors, isSubmitting } = useForm({
+  validationSchema: schema,
+});
+
+const { value: emailValue, errorMessage: emailError } = useField("email");
+const { value: passwordValue, errorMessage: passwordError } =
+  useField("password");
+
 function submitForm() {
   isLoading.value = true;
-  login();
+  login({
+    email: form.value.email,
+    password: form.value.password,
+    remember: form.value.remember,
+    phone_country_id: isPhoneNumber.value ? countryPrefix.value.id : null,
+  });
 }
 
 onDone(async result => {
@@ -97,17 +123,9 @@ useQueryClient().clear();
 <template>
   <CustomForm
     v-model:valid="isValid"
-    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-12"
-    @submit="
-      login({
-        email: form.email,
-        password: form.password,
-        remember: form.remember,
-        phone_country_id: isPhoneNumber ? countryPrefix.id : null,
-      })
-    "
+    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-6 md:gap-12"
+    @submit="handleSubmit(submitForm)"
   >
-    <!--    <Transition name="slide-down" mode="out-in">-->
     <PhoneNumberInput
       v-if="isPhoneNumber"
       ref="phoneInput"
@@ -128,8 +146,8 @@ useQueryClient().clear();
       <template #iconLeft>
         <CustomIcon name="mail" />
       </template>
+      <span v-if="emailError" class="text-red-500">{{ emailError }}</span>
     </CustomInputText>
-    <!--    </Transition>-->
 
     <CustomInputText
       v-model="form.password"
@@ -142,6 +160,7 @@ useQueryClient().clear();
       <template #iconLeft>
         <CustomIcon name="password" />
       </template>
+      <span v-if="passwordError" class="text-red-500">{{ passwordError }}</span>
     </CustomInputText>
 
     <CustomButton :disabled="!isValid || isLoading" size="xl" type="submit">
@@ -156,7 +175,7 @@ useQueryClient().clear();
     </RouterLink>
 
     <DividerWithText> {{ $t("components.signIn.or") }}</DividerWithText>
-    <div class="flex flex-col gap-6">
+    <div class="mb-4 flex flex-row justify-center gap-4 md:mb-0 md:flex-col">
       <FacebookLogin mode="login" />
       <GoogleLogin mode="login" />
     </div>

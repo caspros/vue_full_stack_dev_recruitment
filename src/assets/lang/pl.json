@@ -2516,7 +2516,12 @@
           "header": "Aplikuj o pracę"
         }
       },
-      "subheader": "100% za darmo, bezpośrednio przetestuj wszystkie funkcje."
+      "subheader": "100% za darmo, bezpośrednio przetestuj wszystkie funkcje.",
+      "mobileHeaderDescription": {
+        "firstPart": "Zdobądź jedno z ",
+        "jobsCount": "{0} stanowisk pracy ",
+        "lastPart": "które dokładnie pasuje do Ciebie i Twoich życzeń!"
+      }
     },
     "requestsReceived": {
       "header": "Otrzymane żądania"
