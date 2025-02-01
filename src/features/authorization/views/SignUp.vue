@@ -1,11 +1,13 @@
 <script setup>
 import { ref } from "vue";
 
+import * as yup from "yup";
 import gql from "graphql-tag";
 import { useI18n } from "vue-i18n";
 import { useMutation } from "@vue/apollo-composable";
 import { useRouter } from "vue-router";
 import { useToast } from "primevue/usetoast";
+import { useForm, useField } from "vee-validate";
 
 import CustomButton from "@/src/features/shared/components/CustomButton.vue";
 import CustomForm from "@/src/features/shared/components/CustomForm.vue";
@@ -23,6 +25,23 @@ import { useEmailOrPhoneInput } from "@/src/features/authorization/composables/u
 import { useProvidersErrorHandler } from "@/src/features/authorization/composables/useProvidersErrorHandler.js";
 
 useProvidersErrorHandler();
+
+const { t } = useI18n();
+const toast = useToast();
+const isLoading = ref(false);
+
+const schema = yup.object({
+  first_name: yup.string().required(t("views.signIn.form.firstName.required")),
+  last_name: yup.string().required(t("views.signIn.form.lastName.required")),
+  phone: yup
+    .string()
+    .required(t("views.signIn.form.phone.required"))
+    .matches(/^\+?\d{10,15}$/, t("views.signIn.form.phone.invalid")),
+  password: yup
+    .string()
+    .required(t("views.signIn.form.password.required"))
+    .min(4, t("views.signIn.form.password.minLength")),
+});
 
 const CGRegister_MUTATION = gql`
   mutation RegisterCaregiver(
@@ -44,29 +63,23 @@ const CGRegister_MUTATION = gql`
   }
 `;
 
-const { t } = useI18n();
-const toast = useToast();
-const isLoading = ref(false);
-const isDisabled = ref(false);
-const form = ref({
-  phone: "",
-  phone_country_id: 37,
-  password: "",
+const { handleSubmit, setErrors, isSubmitting, isValid, errors } = useForm({
+  validationSchema: schema,
 });
 
-function clearForm() {
-  form.value = {
-    phone: "",
-    password: "",
-    phone_country_id: 37,
-  };
-}
+const { value: firstName } = useField("first_name");
+const { value: lastName } = useField("last_name");
+const { value: phone } = useField("phone");
+const { value: password } = useField("password");
+
+const { mutate: registerMutate } = useMutation(CGRegister_MUTATION, {
+  clientId: "auth",
+});
 
 const router = useRouter();
 const authorizationStore = useAuthorizationStore();
-async function handleRegister(token) {
-  // localStorage.setItem("token", token);
 
+async function handleRegister(token) {
   await authorizationStore.fetchUserData();
 
   pushToast({
@@ -80,19 +93,19 @@ async function handleRegister(token) {
   router.push({ name: "CgJobs" });
 }
 
-const { mutate: registerMutate } = useMutation(CGRegister_MUTATION, {
-  variables: form.value,
-  clientId: "auth",
-});
-async function register() {
+const register = handleSubmit(async values => {
   try {
     isLoading.value = true;
-
     const response = await registerMutate({
-      variables: form.value,
+      variables: {
+        first_name: values.first_name,
+        last_name: values.last_name,
+        phone: values.phone,
+        password: values.password,
+        phone_country_id: 37,
+      },
     });
 
-    clearForm();
     await handleRegister(response.data.RegisterCaregiver.token);
   } catch (error) {
     pushToast({
@@ -102,62 +115,57 @@ async function register() {
   } finally {
     isLoading.value = false;
   }
-}
-
-const { isPhoneNumber, emailInput, phoneInput, countryPrefix } =
-  useEmailOrPhoneInput(form);
+});
 </script>
 
 <template>
   <CustomForm
-    v-model:valid="isDisabled"
+    v-model:valid="isValid"
     class="mx-auto mt-19 flex max-w-[376px] flex-col gap-6 md:gap-12"
     @submit="register"
   >
     <CustomInputText
-      v-model="form.first_name"
+      v-model="firstName"
       :placeholder="$t('views.signIn.form.firstName.placeholder')"
       type="text"
       name="first_name"
+      :error="errors.first_name"
       required
       class="hidden md:block"
     />
 
     <CustomInputText
-      v-model="form.last_name"
+      v-model="lastName"
       :placeholder="$t('views.signIn.form.lastName.placeholder')"
       type="text"
       name="last_name"
+      :error="errors.last_name"
       class="hidden md:block"
       required
     />
 
     <PhoneNumberInput
-      ref="phoneInput"
-      v-model.number="form.phone"
-      v-model:country="countryPrefix"
+      v-model.number="phone"
       name="phone"
-      @update:country="
-        v => {
-          form.phone_country_id = v.id;
-        }
-      "
+      :error="errors.phone"
     />
 
     <CustomInputText
-      v-model="form.password"
+      v-model="password"
       :placeholder="$t('views.signIn.form.password.placeholder')"
       type="password"
       minlength="4"
       name="password"
+      :error="errors.password"
       required
     >
+      {{ errors.password }}
       <template #iconLeft>
         <CustomIcon name="password" />
       </template>
     </CustomInputText>
 
-    <CustomButton type="submit" :disabled="!isDisabled" :loading="isLoading">
+    <CustomButton type="submit" :disabled="!isValid" :loading="isLoading">
       {{ $t("components.signUp.signUp") }}
     </CustomButton>
 
