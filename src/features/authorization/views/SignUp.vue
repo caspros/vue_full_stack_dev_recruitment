@@ -111,7 +111,7 @@ const { isPhoneNumber, emailInput, phoneInput, countryPrefix } =
 <template>
   <CustomForm
     v-model:valid="isDisabled"
-    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-12"
+    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-6 md:gap-12"
     @submit="register"
   >
     <CustomInputText
@@ -120,6 +120,7 @@ const { isPhoneNumber, emailInput, phoneInput, countryPrefix } =
       type="text"
       name="first_name"
       required
+      class="hidden md:block"
     />
 
     <CustomInputText
@@ -127,6 +128,7 @@ const { isPhoneNumber, emailInput, phoneInput, countryPrefix } =
       :placeholder="$t('views.signIn.form.lastName.placeholder')"
       type="text"
       name="last_name"
+      class="hidden md:block"
       required
     />
 

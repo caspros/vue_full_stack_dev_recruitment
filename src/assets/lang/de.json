@@ -2518,7 +2518,12 @@
           "header": "Für Jobs bewerben"
         }
       },
-      "subheader": "100% kostenlos, direkt alle Funktionen testen."
+      "subheader": "100% kostenlos, direkt alle Funktionen testen.",
+      "mobileHeaderDescription": {
+        "firstPart": "Finde einen von ",
+        "jobsCount": "{0} Jobs ",
+        "lastPart": "Das passt heute genau zu Dir und Deinen Wünschen!"
+      }
     },
     "requestsReceived": {
       "header": "Erhaltene Anfragen"

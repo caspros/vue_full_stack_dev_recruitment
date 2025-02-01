@@ -2771,7 +2771,12 @@
           "header": "Apply for jobs"
         }
       },
-      "subheader": "100% free, directly test all functions."
+      "subheader": "100% free, directly test all functions.",
+      "mobileHeaderDescription": {
+        "firstPart": "Find one of ",
+        "jobsCount": "{0} jobs",
+        "lastPart": "today that exactly matches you and your wishes!"
+      }
     },
     "requestsReceived": {
       "header": "Received Requests"

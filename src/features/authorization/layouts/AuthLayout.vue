@@ -62,10 +62,23 @@ onMounted(() => {
         <RouterLink to="/">
           <ApplicationLogo class="mt-0 w-full text-brand-500 lg:mb-[120px]" />
         </RouterLink>
+        <div
+          v-if="route.name === 'SignUp'"
+          class="mx-auto mt-24 block max-w-[300px] p-4 text-center text-lg text-gray-900 md:hidden"
+        >
+          {{ $t("views.register.mobileHeaderDescription.firstPart") }}
+          <span class="text-purple-600">
+            {{
+              $t("views.register.mobileHeaderDescription.jobsCount", [1.367])
+            }}
+          </span>
+          {{ $t("views.register.mobileHeaderDescription.lastPart") }}
+        </div>
+
         <div>
           <h1
             v-if="route.meta.title"
-            class="mb-30 mt-30 text-center text-display-lg font-light text-gray-600"
+            class="mb-20 mt-20 text-center text-display-lg font-bold text-gray-600 md:mb-30 md:mt-30 md:font-light"
           >
             {{ $t(route.meta.title) }}
           </h1>
