@@ -2606,13 +2606,25 @@
         "email": {
           "placeholder": "Wprowadź swój adres e-mail"
         },
-        "name": {
-          "label": "Nazwa",
-          "placeholder": "Wprowadź nazwę"
+        "firstName": {
+          "label": "Imię",
+          "placeholder": "Wprowadź imię",
+          "required": "Imię jest wymagane"
+        },
+        "lastName": {
+          "label": "Nazwisko",
+          "placeholder": "Wprowadź nazwisko",
+          "required": "Nazwisko jest wymagane"
+        },
+        "phone": {
+          "invalid": "Nieprawidłowy format numeru telefonu",
+          "required": "Numer telefonu jest wymagany"
         },
         "password": {
           "label": "Hasło",
-          "placeholder": "Wprowadź hasło"
+          "placeholder": "Wprowadź hasło",
+          "required": "Hasło jest wymagane",
+          "minLength": "Hasło powinno się składać minimum z 4 znaków"
         },
         "passwordRepeat": {
           "label": "Powtórz hasło",
