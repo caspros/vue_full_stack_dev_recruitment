@@ -121,7 +121,7 @@ const register = handleSubmit(async values => {
 <template>
   <CustomForm
     v-model:valid="isValid"
-    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-6 md:gap-12"
+    class="mx-auto mt-19 flex max-w-[376px] flex-col gap-16 md:gap-12"
     @submit="register"
   >
     <CustomInputText
@@ -131,7 +131,6 @@ const register = handleSubmit(async values => {
       name="first_name"
       :error="errors.first_name"
       required
-      class="hidden md:block"
     />
 
     <CustomInputText
@@ -140,7 +139,6 @@ const register = handleSubmit(async values => {
       type="text"
       name="last_name"
       :error="errors.last_name"
-      class="hidden md:block"
       required
     />
 
@@ -170,7 +168,7 @@ const register = handleSubmit(async values => {
     </CustomButton>
 
     <DividerWithText> {{ $t("components.signIn.or") }}</DividerWithText>
-    <div class="mb-4 flex flex-row justify-center gap-4 md:mb-0 md:flex-col">
+    <div class="flex flex-row justify-center gap-4 md:flex-col">
       <FacebookLogin mode="register" />
       <GoogleLogin mode="register" />
     </div>

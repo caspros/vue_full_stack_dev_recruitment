@@ -346,6 +346,9 @@ defineExpose({
         },
       ]"
     >
+      <div v-if="error" class="p-1 text-red-300">
+        {{ error }}
+      </div>
       <Transition :name="false ? 'slide-up-only' : ''">
         <div
           v-if="errors && errors[name] && errors[name].length > 0"
