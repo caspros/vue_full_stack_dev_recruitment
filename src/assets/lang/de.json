@@ -2608,25 +2608,37 @@
     "signIn": {
       "form": {
         "email": {
-          "placeholder": "Geben Sie Ihre E-Mail ein"
+          "placeholder": "Geben Sie Ihre E-Mail-Adresse ein"
         },
-        "name": {
-          "label": "Name",
-          "placeholder": "Gib deinen Namen ein"
+        "firstName": {
+          "label": "Vorname",
+          "placeholder": "Vornamen eingeben",
+          "required": "Vorname ist erforderlich"
+        },
+        "lastName": {
+          "label": "Nachname",
+          "placeholder": "Nachnamen eingeben",
+          "required": "Nachname ist erforderlich"
+        },
+        "phone": {
+          "invalid": "Telefonnummer ist ungültig",
+          "required": "Telefonnummer ist erforderlich"
         },
         "password": {
           "label": "Passwort",
-          "placeholder": "Gib dein Passwort ein"
+          "placeholder": "Passwort eingeben",
+          "required": "Passwort ist erforderlich",
+          "minLength": "Das Passwort muss mindestens 4 Zeichen lang sein"
         },
         "passwordRepeat": {
           "label": "Passwort wiederholen",
-          "placeholder": "Gib dein Passwort ein "
+          "placeholder": "Passwort bestätigen"
         }
       },
-      "header": "Eintragen",
+      "header": "Anmelden",
       "subheader": {
-        "first": "Danke, dass du deine E-Mail-Adresse bestätigt hast.",
-        "second": "Bitte nenne uns deinen Namen und gib ein Passwort ein, um dein Konto endgültig zu erstellen."
+        "first": "Vielen Dank für die Bestätigung Ihrer E-Mail-Adresse.",
+        "second": "Geben Sie bitte Ihren Namen an und setzen Sie ein Passwort, um die Kontoerstellung abzuschließen."
       }
     },
     "signup": {

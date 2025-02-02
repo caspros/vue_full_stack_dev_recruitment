@@ -64,7 +64,7 @@ onMounted(() => {
         </RouterLink>
         <div
           v-if="route.name === 'SignUp'"
-          class="mx-auto mt-24 block max-w-[300px] p-4 text-center text-lg text-gray-900 md:hidden"
+          class="mx-auto mt-12 block max-w-[300px] p-4 text-center text-lg text-gray-900 md:hidden"
         >
           {{ $t("views.register.mobileHeaderDescription.firstPart") }}
           <span class="text-purple-600">
@@ -78,7 +78,7 @@ onMounted(() => {
         <div>
           <h1
             v-if="route.meta.title"
-            class="mb-20 mt-20 text-center text-display-lg font-bold text-gray-600 md:mb-30 md:mt-30 md:font-light"
+            class="mb-20 mt-10 text-center text-display-lg font-bold text-gray-600 md:mb-30 md:mt-30 md:font-light"
           >
             {{ $t(route.meta.title) }}
           </h1>

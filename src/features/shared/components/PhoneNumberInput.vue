@@ -51,6 +51,10 @@ const props = defineProps({
     type: Boolean,
     default: false,
   },
+  error: {
+    type: [Boolean, String],
+    default: false,
+  },
 });
 
 const emit = defineEmits(["update:modelValue", "update:country"]);
@@ -129,6 +133,7 @@ defineExpose({
     numeric
     :disabled="disabled"
     :name="name"
+    :error="error"
     inputmode="numeric"
     :required="required"
     :error-on-invalid="errorOnInvalid"
@@ -178,6 +183,11 @@ defineExpose({
           </div>
         </template>
       </CustomPrimeDropdown>
+    </template>
+    <template v-if="error" #error>
+      <div class="relative top-[-0.5rem] h-0 p-1 text-red-300">
+        {{ error }}
+      </div>
     </template>
   </CustomPrimeInputText>
 </template>

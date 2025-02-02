@@ -139,7 +139,7 @@ defineExpose({
 </script>
 
 <template>
-  <div class="flex flex-col gap-4">
+  <div class="relative flex flex-col gap-4">
     <label v-if="$slots.label" class="mb-3 text-sm font-medium text-gray-700">
       <slot name="label"></slot>
     </label>
@@ -210,6 +210,7 @@ defineExpose({
         />
       </div>
     </div>
+    <slot name="error"></slot>
   </div>
 </template>
 

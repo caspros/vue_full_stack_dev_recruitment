@@ -2861,25 +2861,37 @@
     "signIn": {
       "form": {
         "email": {
-          "placeholder": "Enter your e-mail"
+          "placeholder": "Enter your email address"
         },
-        "name": {
-          "label": "Name",
-          "placeholder": "Enter name"
+        "firstName": {
+          "label": "First Name",
+          "placeholder": "Enter first name",
+          "required": "First name is required"
+        },
+        "lastName": {
+          "label": "Last Name",
+          "placeholder": "Enter last name",
+          "required": "Last name is required"
+        },
+        "phone": {
+          "invalid": "Phone number is invalid",
+          "required": "Phone number is required"
         },
         "password": {
           "label": "Password",
-          "placeholder": "Enter your password"
+          "placeholder": "Enter password",
+          "required": "Password is required",
+          "minLength": "Password should be at least 4 characters long"
         },
         "passwordRepeat": {
-          "label": "Repeat password",
-          "placeholder": "Confirm your password "
+          "label": "Repeat Password",
+          "placeholder": "Confirm password"
         }
       },
-      "header": "Sign in",
+      "header": "Sign In",
       "subheader": {
         "first": "Thank you for confirming your email address.",
-        "second": "Please tell us your name and set a password to final create your account."
+        "second": "Please provide your name and set a password to complete account creation."
       }
     },
     "signup": {
